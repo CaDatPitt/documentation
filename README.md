@@ -4,6 +4,7 @@
 
 * introduction
   * principles and objectives of this work
+  * requirements / what you need
   * for more about the project...
 
 * creating a baselayer
