@@ -5,6 +5,7 @@
 * introduction
   * principles and objectives of this work
     * why enrichment layers? What can be done with them?
+    * example: enrichment layer as a means to create data viz
   * requirements / what you need
   * for more about the project...
 
