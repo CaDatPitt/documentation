@@ -1,10 +1,10 @@
 # documentation
 
 01. [Princples and Objectives](01-principles-and-objectives.md)
-- Target Audiences
-- Collections
-- Data Layers
-- Instructional Modules
+    - Target Audiences
+    - Collections
+    - Data Layers
+    - Instructional Modules
 
 * creating a baselayer
   * from an existing collection
