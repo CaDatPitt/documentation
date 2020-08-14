@@ -1,6 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 #theme: jekyll-theme-slate
-footer_content: "This content is available under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 Unported (CC BY-NC 4.0)</a> which provides users the right to "copy and redistribute the material in any medium or format" or "remix, transform, and build upon the material" and "remix, transform, and build upon the material," provided that the usage gives appropriate credit, provides a link to the license, and indicates if changes were made. The NonCommercial aspect of this license means that you may not use the material for any commercial purposes."
+footer_content: "This content is available under the <a href=\"https://creativecommons.org/licenses/by-nc/4.0/\">Attribution-NonCommercial 4.0 Unported (CC BY-NC 4.0)</a> which provides users the right to \"copy and redistribute the material in any medium or format\" or \"remix, transform, and build upon the material,\"  provided that the usage gives appropriate credit, provides a link to the license, and indicates if changes were made. The NonCommercial aspect of this license means that you may not use the material for any commercial purposes."
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
