@@ -7,14 +7,14 @@ nav_order: 2
 ### [From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice](http://cadatpitt.github.io)
 # Principles and Objectives
 
-The CaD @ Pitt project is based in the University of Pittsburgh Library System and aims to increase the visibility and discoverability of library collections, make library collections data accessible for computational use, and enable scholars to extend/enrich collections data with critical, research-driven layers of additional data.
+The CaD@Pitt project is based in the University of Pittsburgh Library System and aims to increase the visibility and discoverability of library collections, make library collections data accessible for computational use, and enable scholars to extend/enrich collections data with critical, research-driven layers of additional data.
 
 ## Target Audiences
 
 This project was developed by and for library workers, scholars (students and instructors), and the public. Accordingly, we have these audiences and their various use cases in mind: 
 - Libraries and information professionals seeking to…  
   - use this project as an implementation model for a similar endeavor at their own institution
-  - collaborate with the CaD @ Project Team to develop a cross-institutional collections data platform
+  - collaborate with the CaD@Project Team to develop a cross-institutional collections data platform
 - Scholars and community members seeking to...
   - acquire metadata describing library collections at Pitt for research projects
   - create scholarly and interpretive datasets for library collections
@@ -24,7 +24,7 @@ This project was developed by and for library workers, scholars (students and in
 
 ## Collections
 
-The collections in the CaD @ Pitt project currently include a) (items from) archival collections that have been at least partially digitized, stored in the Library’s digital repository (Islandora 7), and published on one of the Library’s digital collection sites (i.e., Historic Pittsburgh, Documenting Pitt, ULS Digital Collections); and b) catalog items in the Library’s general, special, and distinctive collections. 
+The collections in the CaD@Pitt project currently include a) (items from) archival collections that have been at least partially digitized, stored in the Library’s digital repository (Islandora 7), and published on one of the Library’s digital collection sites (i.e., Historic Pittsburgh, Documenting Pitt, ULS Digital Collections); and b) catalog items in the Library’s general, special, and distinctive collections. 
 
 While our project is intended to support any and all library collections, it has prioritized those reflecting the perspectives of underrepresented groups,  which are often given inadequate attention for structural or systemic reasons. These collections have strong potential to tell as-yet untold stories and can increase institutional commitment to bringing underrepresented histories to light.
 
@@ -34,13 +34,13 @@ Our target collections feature the following:
 
 Serials and ephemera are foregrounded in this project because, historically, the conditions of their production and reception often made serials and ephemera more desirable venues for specific counterpublics than monograph publication. 
 
-In addition to collections developed by the Library, the CaD @ Pitt project includes collections developed by researchers. Researchers  can curate new collections by selecting items from the Library’s  general, archival, special, and/or distinctive collections.
+In addition to collections developed by the Library, the CaD@Pitt project includes collections developed by researchers. Researchers  can curate new collections by selecting items from the Library’s  general, archival, special, and/or distinctive collections.
 
-A list of collections for which the CaD @ Pitt repository contains datasets can be viewed here. This list continues to grow as scholars request access to data for existing library collections or develop their own collections. 
+A list of collections for which the CaD@Pitt repository contains datasets can be viewed here. This list continues to grow as scholars request access to data for existing library collections or develop their own collections. 
 
 ## Data Layers
 
-Our project takes a “data layers” approach, which diverges from a monolithic data model (i.e.,  singular, non-interpretive, and exhaustive). Instead, it presents an interface made up of data from multiple sources that vary in encoding scheme, granularity of description, and completeness/richness. This approach liberates data creation and curation from the expectation of perfection or singularity of authority, and it allows data to be enriched, augmented and interpreted incrementally over time through a layering process. It also provides a practical and low-barrier entry point for scholars to create datasets, or data layers, based on their research priorities and to share those layers. The CaD @ Pitt repository houses three [3] types of data layers: 
+Our project takes a “data layers” approach, which diverges from a monolithic data model (i.e.,  singular, non-interpretive, and exhaustive). Instead, it presents an interface made up of data from multiple sources that vary in encoding scheme, granularity of description, and completeness/richness. This approach liberates data creation and curation from the expectation of perfection or singularity of authority, and it allows data to be enriched, augmented and interpreted incrementally over time through a layering process. It also provides a practical and low-barrier entry point for scholars to create datasets, or data layers, based on their research priorities and to share those layers. The CaD@Pitt repository houses three [3] types of data layers: 
 - **source data**: snapshots of library collections metadata files in their original source format (e.g., MARC 21, EAD, DC, MODS, RELS-EXT, RELS-INT, FITS);
 - **base layers**: curated datasets (CSV files) derived and simplified from the source data layers, defined and described by the data dictionary and application profiles; 
 - **extension layers**: scholar-created data(sets) that enrich/augment library collections data (i.e., source data and base layers), with accompanying documentation.
