@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Documentation Overview
-nav_order: 2
+nav_order: 1
 ---
 ### From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice
 # Documentation
