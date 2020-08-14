@@ -4,7 +4,7 @@ title: Principles and Objectives
 nav_order: 2
 ---
 
-
+### [From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice](http://cadatpitt.github.io)
 # Principles and Objectives
 
 The CaD @ Pitt project is based in the University of Pittsburgh Library System and aims to increase the visibility and discoverability of library collections, make library collections data accessible for computational use, and enable scholars to extend/enrich collections data with critical, research-driven layers of additional data.
