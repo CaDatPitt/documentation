@@ -1,4 +1,10 @@
-# documentation
+---
+layout: default
+title: Documentation Overview
+nav_order: 2
+---
+### From Collection Records to Data Layers: A Critical Experiment in Collaborative Practice
+# Documentation
 
 01. [Princples and Objectives](01-principles-and-objectives.md)
     - Target Audiences
