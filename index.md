@@ -23,7 +23,7 @@ nav_order: 1
 
 06. [Best Practices for Creating Extension Layers](06-best-practices-for-creating-extension-layers)
 
-07. [How to Publish an Extension Layer](07-how-to-publish-an-extension-layer)
+07. [Publishing an Extension Layer](07-publishing-an-extension-layer)
 
 
 # Instructional Modules
