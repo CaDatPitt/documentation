@@ -8,10 +8,10 @@ nav_order: 1
 # Documentation
 
 01. [Princples and Objectives](01-principles-and-objectives.md)
-    - [Target Audiences](01-principles-and-objectives.html#target-audiences)
-    - [Collections](01-principles-and-objectives.html#collections)
-    - [Data Layers](01-principles-and-objectives.html#data-layers)
-    - [Instructional Modules](01-principles-and-objectives.html#instructional-modules)
+    - [Target Audiences](01-principles-and-objectives.md#target-audiences)
+    - [Collections](01-principles-and-objectives.md#collections)
+    - [Data Layers](01-principles-and-objectives.mdl#data-layers)
+    - [Instructional Modules](01-principles-and-objectives.md#instructional-modules)
     
 02. [Getting Started](02-getting-started.md)
 
