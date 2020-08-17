@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Documentation Overview
+title: Overview
 nav_order: 1
 ---
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
+
 # Documentation
 
 01. [Princples and Objectives](01-principles-and-objectives.md)
@@ -11,6 +12,21 @@ nav_order: 1
     - [Collections](01-principles-and-objectives.html#collections)
     - [Data Layers](01-principles-and-objectives.html#data-layers)
     - [Instructional Modules](01-principles-and-objectives.html#instructional-modules)
+    
+02. [Getting Started](02-getting-started.md)
+
+03. [Using the Data Layers Repository](03.using-the-data-layers-repository.md)
+
+04. [Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki)
+
+05. [Data Extraction and Transformation Workflow Model]()
+
+06. [Best Practices for Creating Extension Layers](06-best-practices-for-creating-extension-layers)
+
+07. [How to Publish an Extension Layer](07-how-to-publish-an-extension-layer)
+
+
+# Instructional Modules
 
 * creating a baselayer
   * from an existing collection
