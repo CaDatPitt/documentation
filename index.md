@@ -15,7 +15,7 @@ nav_order: 1
     
 02. [Getting Started](02-getting-started.md)
 
-03. [Using the Data Layers Repository](03.using-the-data-layers-repository.md)
+03. [Using the Data Layers Repository](https://github.com/CaDatPitt/data-layers/blob/master/README.md)
 
 04. [Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki)
 
