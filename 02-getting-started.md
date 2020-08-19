@@ -41,7 +41,7 @@ You may very well have your own project management tools and preferences, but we
 - Project management tool (e.g., Trello, Asana, Monday, Microsoft Project)
 - An access-controlled platform to store and share internal project documentation and data (e.g., Dropbox, Box, Google Drive, another private repository)
 - A public-facing web site or repository (e.g., GitHub) to share data layers and user documentation
-- For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the [CaD@Pitt Data Layers](https://github.com/CaDatPitt/data-layers) GitHub repository
+- For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the [CaD@Pitt Data Layers repository](https://github.com/CaDatPitt/data-layers)
 
 ### Evaluate existing collections data
 With a team in place, the next step is to evaluate your institution's existing collections data and consider what data will be available to you. Drawing from the expertise on your team, you can collaboratively identify:
@@ -62,7 +62,7 @@ There are a several other steps and considerations that your team may pursue dur
 ## Implementing your project
 ### Develop data layers
 After evaluating the existing collections data, you can begin developing the data layers for your project:
-- Determine the metadata elements for the base layer(s). [See the[CaD@Pitt Data Dictionary Introduction](https://github.com/CaDatPitt/data-layers/wiki/1.-Introduction) for details about how we developed our base layers.]
+- Determine the metadata elements for the base layer(s). [_See the [CaD@Pitt Data Dictionary Introduction](https://github.com/CaDatPitt/data-layers/wiki/1.-Introduction) for details about how we developed our base layers._]
   - Of the collections metadata that is available, what is well-suited for computation?
   - In addition to metadata elements that are required to identify items (e.g., identifier, title, date, publisher), what are elements that are well-suited for research inquiry? 
   - If you have received requests from scholars seeking to work with collections data, what data have they been or might they be interested in?
@@ -72,7 +72,7 @@ After evaluating the existing collections data, you can begin developing the dat
   - Note: At this time, only some of the Pitt Library’s collections items are represented in the CaD@Pitt repository. More are being added based on need and interest.
 - Export/download identified collections source data from local library/repository system(s). These will be uploaded to the repository later.
 - Determine how the metadata in the source data files will map to your base layer element set and how the CaD@Pitt transformation script will need to be modified accordingly.
-- Create documentation for your data layers. [See the [CaD@Pitt Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki) for a model.]
+- Create documentation for your data layers. _See the [CaD@Pitt Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki) for a model._
 
 ### Build repository
 The repository for your project not only provides access to your data layers but also enables the production of your base layers. These instructions assume that a GitHub repository is being used as the public-facing repository:
@@ -99,7 +99,7 @@ It is important to establish how your users will use your collections as data re
   - What are your objectives or learning outcomes? 
   - What will be the venue for instruction? Class sessions? Training sessions? An event?
 - Establish partnerships with instructors, if you’re collaborating to implement modules in a class. You may find it useful to develop a preliminary module or set of modules to present to potential instructors as an example; or, you may share previously implemented modules.
-- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). [See the CaD@Pitt[instructional modules]() as a model.]
+- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). [See the CaD@Pitt [instructional modules]() as a model.]
 - Identify and prepare the tools and materials needed to implement the module(s).
 
 As you implement these modules in your various instructional contexts, we suggest documenting and assessing these cases and refining your modules as needed.
