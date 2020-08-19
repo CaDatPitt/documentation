@@ -1,19 +1,19 @@
 # Getting Started
 This document outlines and describes how cultural heritage institutions (e.g., libraries, archives, museums) might implement a collections as data project based on the data layers model. If you’re not familiar with the conceptual model of “data layers” or the overall CaD@Pitt project, please read our Principles and Objectives. This implementation model covers the following phases and steps:
 
-I. Preparing for implementation
-  01. Form your team
-  02. Write a project charter
-  03. Set up your project infrastructure
-  04. Evaluate your institution's existing collections data
-  05. Further steps and considerations
+I. [Preparing for implementation](#preparing-for-immplementation)
+  01. [Form your team](#form-your-team)
+  02. [Write a project charter](#write-a-project-charter)
+  03. [Set up your project infrastructure](#set-up-your-project-infrastructure)
+  04. [Evaluate existing collections data](#evaluate-existing-collections-data)
+  05. [Further steps and considerations](#further-steps-and-considerations)
   
-II. Implementing your project
-  01. Develop data layers
-  02. Build repository
-  03. Establish use model
-  04. Prepare for instruction
-  05. Further steps and considerations
+II. [Implementing your project](#implementing-your-project)
+  01. [Develop data layers](#develop-data-layers)
+  02. [Build repository](#build-repository)
+  03. [Establish use model](#establish-use-model)
+  04. [Prepare for instruction](#prepare-for-instruction)
+  05. [Further steps and considerations](#further-steps-and-considerations)
 
 ## Preparing for implementation
 ### Form your team
@@ -42,8 +42,9 @@ You may very well have your own project management tools and preferences, but we
 - An access-controlled platform to store and share internal project documentation and data (e.g., Dropbox, Box, Google Drive, another private repository)
 - A public-facing web site or repository (e.g., GitHub) to share data layers and user documentation
 - For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the CaD@Pitt Data Layers GitHub repository
-- Evaluate your institution's existing collections data
-- With a team in place, the next step is to consider what collections data will be available to you. Drawing from the expertise on your team, you can collaboratively identify:
+
+### Evaluate existing collections data
+With a team in place, the next step is to evaluate your institution's existing collections data and consider what data will be available to you. Drawing from the expertise on your team, you can collaboratively identify:
 - What collections may be of interest for data layers-based inquiry?
 - What existing metadata is available?
 - What systems store that metadata, and how can it be exported?
