@@ -3,8 +3,8 @@ This document outlines and describes how cultural heritage institutions (e.g., l
 
 I. [Preparing for implementation](#preparing-for-immplementation)
   01. [Form your team](#form-your-team)
-  02. [Write a project charter](#write-a-project-charter)
-  03. [Set up your project infrastructure](#set-up-your-project-infrastructure)
+  02. [Write project charter](#write-project-charter)
+  03. [Set up project infrastructure](#set-up-project-infrastructure)
   04. [Evaluate existing collections data](#evaluate-existing-collections-data)
   05. [Further steps and considerations](#further-steps-and-considerations)
   
@@ -32,16 +32,16 @@ Specifically, consider who might be able to contribute the following:
 
 Although that may seem like a lot of different roles, it's possible to successfully implement a data layers-based project with a small team in which roles are shared or individuals wear several hats as needed. However, this work is also an excellent opportunity to work collaboratively across traditional organizational boundaries, so we recommend striving to include appropriate colleagues from your organization to the greatest degree possible.
 
-### Write a Project Charter
+### Write project charter
 Once a project team has been formed, it’s beneficial (and highly recommended) to gather team members and stakeholders to develop a project charter together. The charter establishes the nature of the project, including its scope, objectives, assumptions and constraints, deliverables, tasks, timeline, participants, audiences, budget, protocols, and more. The project team and participating stakeholders should agree upon the expectations and commitments of the charter. This document can be preliminary and may change throughout the implementation process. It does not have to be formal unless a funder or administrator requires a formal document.
 
-### Set up your project infrastructure
+### Set up project infrastructure
 You may very well have your own project management tools and preferences, but we have found that this kind of project benefits from these components of project infrastructure, at minimum:
 - Project team communications tool (e.g., email list, Slack, Microsoft Teams)
 - Project management tool (e.g., Trello, Asana, Monday, Microsoft Project)
 - An access-controlled platform to store and share internal project documentation and data (e.g., Dropbox, Box, Google Drive, another private repository)
 - A public-facing web site or repository (e.g., GitHub) to share data layers and user documentation
-- For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the CaD@Pitt Data Layers GitHub repository
+- For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the [CaD@Pitt Data Layers](https://github.com/CaDatPitt/data-layers) GitHub repository
 
 ### Evaluate existing collections data
 With a team in place, the next step is to evaluate your institution's existing collections data and consider what data will be available to you. Drawing from the expertise on your team, you can collaboratively identify:
@@ -62,7 +62,7 @@ There are a several other steps and considerations that your team may pursue dur
 ## Implementing your project
 ### Develop data layers
 After evaluating the existing collections data, you can begin developing the data layers for your project:
-- Determine the metadata elements for the base layer(s). [See the Introduction of the CaD@Pitt Data Dictionary for details about how we developed our base layers.]
+- Determine the metadata elements for the base layer(s). [See the[CaD@Pitt Data Dictionary Introduction](https://github.com/CaDatPitt/data-layers/wiki/1.-Introduction) for details about how we developed our base layers.]
   - Of the collections metadata that is available, what is well-suited for computation?
   - In addition to metadata elements that are required to identify items (e.g., identifier, title, date, publisher), what are elements that are well-suited for research inquiry? 
   - If you have received requests from scholars seeking to work with collections data, what data have they been or might they be interested in?
@@ -72,7 +72,7 @@ After evaluating the existing collections data, you can begin developing the dat
   - Note: At this time, only some of the Pitt Library’s collections items are represented in the CaD@Pitt repository. More are being added based on need and interest.
 - Export/download identified collections source data from local library/repository system(s). These will be uploaded to the repository later.
 - Determine how the metadata in the source data files will map to your base layer element set and how the CaD@Pitt transformation script will need to be modified accordingly.
-- Create documentation for your data layers. [See the CaD@Pitt Data Dictionary for a model.]
+- Create documentation for your data layers. [See the [CaD@Pitt Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki) for a model.]
 
 ### Build repository
 The repository for your project not only provides access to your data layers but also enables the production of your base layers. These instructions assume that a GitHub repository is being used as the public-facing repository:
@@ -80,7 +80,7 @@ The repository for your project not only provides access to your data layers but
   - The CaD@Pitt project’s GitHub organization has multiple repositories, for data layers, the project website, project documentation, etc. Your project may also require several repositories or only a single repository for data layers.
 - Clone the CaD@Pitt Data Layers repository.
 - Upload identified collections source data to GitHub repository.
-- Modify the CaD@ Pitt transformation script/code according to mappings from your source data to base layers. Make sure to document your code.
+- Modify the CaD@ Pitt transformation script according to mappings from your source data to base layers. Make sure to document your code.
 - Extract and transform source data into base layer(s), using modified transformation script.
 
 ### Establish use model
@@ -90,7 +90,7 @@ It is important to establish how your users will use your collections as data re
 - Determine what services you will offer to support use of collections as data in the repository.
 - Identify what human resources are necessary to provide services (positions, specific duties) and fill these roles. 
 - Identify and prepare material resources/tools needed for services and usage of collections as data (e.g., Google Forms for submitting data or requests, Google Sheets for editing data layer spreadsheets).
-- Develop and publish documentation to enable use of and contribution to the repository. The documentation may include usage documentation, data documentation (e.g., data dictionary, README, codebook), and workflows (e.g., for requesting data or assistance, contributing to the repository). [See the CaD@Pitt documentation pages for an example.]
+- Develop and publish documentation to enable use of and contribution to the repository. The documentation may include usage documentation, data documentation (e.g., data dictionary, README, codebook), and workflows (e.g., for requesting data or assistance, contributing to the repository). [See the CaD@Pitt [project documentation](https://cadatpitt.github.io/documentation/) for an example.]
 
 ### Prepare for instruction
 - If your project will involve data layers-based instruction, there are a few things you’ll need to do to prepare.
@@ -99,7 +99,7 @@ It is important to establish how your users will use your collections as data re
   - What are your objectives or learning outcomes? 
   - What will be the venue for instruction? Class sessions? Training sessions? An event?
 - Establish partnerships with instructors, if you’re collaborating to implement modules in a class. You may find it useful to develop a preliminary module or set of modules to present to potential instructors as an example; or, you may share previously implemented modules.
-- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). [See the CaD@Pitt’s instructional modules as a model.]
+- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). [See the CaD@Pitt[instructional modules]() as a model.]
 - Identify and prepare the tools and materials needed to implement the module(s).
 
 As you implement these modules in your various instructional contexts, we suggest documenting and assessing these cases and refining your modules as needed.
