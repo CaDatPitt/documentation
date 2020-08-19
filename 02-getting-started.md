@@ -62,7 +62,7 @@ There are a several other steps and considerations that your team may pursue dur
 ## Implementing your project
 ### Develop data layers
 After evaluating the existing collections data, you can begin developing the data layers for your project:
-- Determine the metadata elements for the base layer(s). [_See the [CaD@Pitt Data Dictionary Introduction](https://github.com/CaDatPitt/data-layers/wiki/1.-Introduction) for details about how we developed our base layers._]
+- Determine the metadata elements for the base layer(s). _See the [CaD@Pitt Data Dictionary Introduction](https://github.com/CaDatPitt/data-layers/wiki/1.-Introduction) for details about how we developed our base layers._
   - Of the collections metadata that is available, what is well-suited for computation?
   - In addition to metadata elements that are required to identify items (e.g., identifier, title, date, publisher), what are elements that are well-suited for research inquiry? 
   - If you have received requests from scholars seeking to work with collections data, what data have they been or might they be interested in?
@@ -90,7 +90,7 @@ It is important to establish how your users will use your collections as data re
 - Determine what services you will offer to support use of collections as data in the repository.
 - Identify what human resources are necessary to provide services (positions, specific duties) and fill these roles. 
 - Identify and prepare material resources/tools needed for services and usage of collections as data (e.g., Google Forms for submitting data or requests, Google Sheets for editing data layer spreadsheets).
-- Develop and publish documentation to enable use of and contribution to the repository. The documentation may include usage documentation, data documentation (e.g., data dictionary, README, codebook), and workflows (e.g., for requesting data or assistance, contributing to the repository). [See the CaD@Pitt [project documentation](https://cadatpitt.github.io/documentation/) for an example.]
+- Develop and publish documentation to enable use of and contribution to the repository. The documentation may include usage documentation, data documentation (e.g., data dictionary, README, codebook), and workflows (e.g., for requesting data or assistance, contributing to the repository). _See the CaD@Pitt [project documentation](https://cadatpitt.github.io/documentation/) for an example._
 
 ### Prepare for instruction
 - If your project will involve data layers-based instruction, there are a few things you’ll need to do to prepare.
@@ -99,7 +99,7 @@ It is important to establish how your users will use your collections as data re
   - What are your objectives or learning outcomes? 
   - What will be the venue for instruction? Class sessions? Training sessions? An event?
 - Establish partnerships with instructors, if you’re collaborating to implement modules in a class. You may find it useful to develop a preliminary module or set of modules to present to potential instructors as an example; or, you may share previously implemented modules.
-- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). [See the CaD@Pitt [instructional modules]() as a model.]
+- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). _See the CaD@Pitt [instructional modules]() as a model._
 - Identify and prepare the tools and materials needed to implement the module(s).
 
 As you implement these modules in your various instructional contexts, we suggest documenting and assessing these cases and refining your modules as needed.
