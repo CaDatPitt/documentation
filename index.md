@@ -15,10 +15,11 @@ nav_order: 1
     <title>CaD@Pitt</title>-->
 
     <!-- Bootstrap core CSS -->
-  <!--  <link href="css/bootstrap.min.css" rel="stylesheet">-->
+  <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
-  <!--  <link href="css/jumbotron.css" rel="stylesheet">
+  <!--
+  <link href="css/jumbotron.css" rel="stylesheet">
   </head>
 
   <body>
@@ -50,7 +51,8 @@ nav_order: 1
       </div>
   </nav>
     </body>
-  </html> -->
+  </html>
+  -->
 
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
