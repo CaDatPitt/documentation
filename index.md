@@ -6,7 +6,6 @@ nav_order: 1
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
@@ -49,6 +48,8 @@ nav_order: 1
 
       </div>
     </nav>
+    </body>
+  </html>
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
 
@@ -98,6 +99,3 @@ nav_order: 1
 * visualizing an enrichment layer
   * design principles for visualization
   * selecting data from layers
-
-  </body>
-</html>
