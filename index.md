@@ -18,7 +18,7 @@
 
   <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">CaD@Pitt</a>
+      <a class="navbar-brand" href="https://cadatpitt.github.io/">CaD@Pitt</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,15 +26,15 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://cadatpitt.github.io/">Home<span class="sr-only">(current)</span></a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="project">Our Project</a>
+            <a class="nav-link" href="https://cadatpitt.github.io/project">Our Project</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="team">Team</a>
+            <a class="nav-link" href="https://cadatpitt.github.io/team">Team</a>
           </li>
 
           <li class="nav-item">
