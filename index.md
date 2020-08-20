@@ -1,11 +1,8 @@
----
-layout: default
-title: Overview
-nav_order: 1
----
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
@@ -20,8 +17,7 @@ nav_order: 1
   </head>
 
   <body>
-
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">CaD@Pitt</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,9 +43,15 @@ nav_order: 1
         </ul>
 
       </div>
-    </nav>
+  </nav>
     </body>
   </html>
+
+---
+layout: default
+title: Overview
+nav_order: 1
+---
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
 
