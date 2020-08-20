@@ -12,10 +12,10 @@ nav_order: 1
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>CaD@Pitt</title>
+    <title>CaD@Pitt</title>-->
 
     <!-- Bootstrap core CSS -->
-  <!--  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--  <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
   <!--  <link href="css/jumbotron.css" rel="stylesheet">
@@ -50,7 +50,7 @@ nav_order: 1
       </div>
   </nav>
     </body>
-  </html>-->
+  </html> -->
 
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
