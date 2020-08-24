@@ -11,7 +11,7 @@ The CaD@Pitt project is based in the University of Pittsburgh Library System and
 
 ## Target Audiences
 
-This project was developed by and for library workers, scholars (students and instructors), and the public. Accordingly, we have these audiences and their various use cases in mind:
+This project was developed by and for library workers, scholars (including students and instructors), and the public. Accordingly, we have these audiences and their various use cases in mind:
 - Libraries and information professionals seeking to…  
   - use this project as an implementation model for a similar endeavor at their own institution
   - collaborate with the CaD@Project Team to develop a cross-institutional collections data platform
