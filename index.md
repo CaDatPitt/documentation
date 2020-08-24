@@ -17,7 +17,7 @@ nav_order: 1
 
 02. [Getting Started](02-getting-started.md)
 
-03. [Using the Data Layers Repository](03-using-the-data-layers-repository.md)
+<!--03. [Using the Data Layers Repository](03-using-the-data-layers-repository.md)
 
 04. [Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki)
 
@@ -25,10 +25,10 @@ nav_order: 1
 
 06. [Best Practices for Creating Extension Layers](06-best-practices-for-creating-extension-layers.md)
 
-07. [Publishing an Extension Layer](07-publishing-an-extension-layer.md)
+07. [Publishing an Extension Layer](07-publishing-an-extension-layer.md)-->
 
 
-# Instructional Modules
+<!--# Instructional Modules
 
 * creating a baselayer
   * from an existing collection
@@ -52,4 +52,4 @@ nav_order: 1
 
 * visualizing an enrichment layer
   * design principles for visualization
-  * selecting data from layers
+  * selecting data from layers-->
