@@ -65,7 +65,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### FINDING AID IDENTIFIER
 |CSV Element|finding_aid_id|
-|---|---|
+|:---|:---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the finding aid in the institutional repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -79,7 +79,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### TITLE OF FINDING AID
 |CSV Element|finding_aid_title|
-|---|---|
+|:---|:---|
 |**Description**|An official name given to the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -93,7 +93,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CREATOR OF FINDING AID
 |CSV Element|finding_aid_creator|
-|---|---|
+|:---|:---|
 |**Description**|A name of an entity primarily responsible for making the content of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -107,7 +107,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CREATION DATE OF FINDING AID
 |CSV Element|finding_aid_creation_date|
-|---|---|
+|:---|:---|
 |**Description**|A date associated with the creation of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -121,7 +121,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### PUBLISHER OF FINDING AID
 |CSV Element|finding_aid_publisher|
-|---|---|
+|:---|:---|
 |**Description**|An institution or agency responsible for the distribution of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -135,7 +135,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### PUBLICATION DATE OF FINDING AID
 |CSV Element|finding_aid_publication_date|
-|---|---|
+|:---|:---|
 |**Description**|A date associated with the publication of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -149,7 +149,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### ACQUISITION NUMBER
 |CSV Element|acquisition_number|
-|---|---|
+|:---|:---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the collection in the institutional repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -163,7 +163,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### TITLE OF COLLECTION
 |CSV Element|collection_title|
-|---|---|
+|:---|:---|
 |**Description**|An official name given to the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -177,7 +177,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CREATOR OF COLLECTION
 |CSV Element|creator_of_collection|
-|---|---|
+|:---|:---|
 |**Description**|A name of an entity primarily responsible for the creation, accumulation, or assembly of the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -191,7 +191,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### LANGUAGE OF COLLECTION
 |CSV Element|collection_language|
-|---|---|
+|:---|:---|
 |**Description**|A language in which the materials in the collection is expressed.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -205,7 +205,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### EXTENT OF COLLECTION
 |CSV Element|collection_extent|
-|---|---|
+|:---|:---|
 |**Description**|A statement about the quantity of the materials in the collection or of the physical space they occupy.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -219,7 +219,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### TEMPORAL COVERAGE OF COLLECTION
 |CSV Element|collection_temporal_coverage|
-|---|---|
+|:---|:---|
 |**Description**|A statement of the date(s) covered by the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -233,7 +233,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### SCOPE AND CONTENT OF COLLECTION
 |CSV Element|collection_scope_and_content|
-|---|---|
+|:---|:---|
 |**Description**|A narrative statement that summarizes the range and topical coverage of the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -247,7 +247,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### BIOGRAPHY OR HISTORY
 |CSV Element|biography_or_history|
-|---|---|
+|:---|:---|
 |**Description**|A concise essay or chronology that places the materials of the collection in context by providing information about their creator(s).|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -261,7 +261,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### COLLECTION ABSTRACT
 |CSV Element|collection_abstract|
-|---|---|
+|:---|:---|
 |**Description**|A brief characterization of the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -275,7 +275,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### COLLECTION SUBJECT HEADINGS
 |CSV Element|subject_headings|
-|---|---|
+|:---|:---|
 |**Description**|A term or phrase representing the primary topic(s) of the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -289,7 +289,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### RELATED MATERIAL
 |CSV Element|related_material|
-|---|---|
+|:---|:---|
 |**Description**|Archival materials that have an association to the materials in the collection; often another collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -303,7 +303,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### REPOSITORY
 |CSV Element|repository|
-|---|---|
+|:---|:---|
 |**Description**|An institution, person, or family responsible for providing intellectual access to the materials in the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -317,7 +317,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### PREFERRED CITATION
 |CSV Element|preferred_citation|
-|---|---|
+|:---|:---|
 |**Description**|A prescribed wording or format for citing (the materials in) the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -331,7 +331,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CONDITIONS GOVERNING USE
 |CSV Element|conditions_governing_use|
-|---|---|
+|:---|:---|
 |**Description**|Any conditions that affect the use of the materials in the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -348,7 +348,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### IDENTIFIER
 |CSV Element|id|
-|---|---|
+|:---|:---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -362,7 +362,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### TITLE
 |CSV Element|title|
-|---|---|
+|:---|:---|
 |**Description**|A name given to the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -376,7 +376,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CREATOR
 |CSV Element|creator|
-|---|---|
+|:---|:---|
 |**Description**|A name of an entity responsible for making the content of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -390,7 +390,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CONTRIBUTOR
 |CSV Element|contributor|
-|---|---|
+|:---|:---|
 |**Description**|A name of an entity responsible for making contributions to the creation or distribution of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -404,7 +404,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CREATION DATE
 |CSV Element|creation_date|
-|---|---|
+|:---|:---|
 |**Description**|A date associated with the creation of the resource.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -418,7 +418,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### SORT DATE
 |CSV Element|sort_date|
-|---|---|
+|:---|:---|
 |**Description**|A date associated with the creation of the resource and encoded for sorting or other purposes that necessitate normalization.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -432,7 +432,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### DISPLAY DATE
 |CSV Element|display_date|
-|---|---|
+|:---|:---|
 |**Description**|A date associated with the creation of the resource and formatted for display.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -446,7 +446,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### LANGUAGE
 |CSV Element|language|
-|---|---|
+|:---|:---|
 |**Description**|A language in which the content of the resource is expressed.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -460,7 +460,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### TYPE OF RESOURCE
 |CSV Element|type_of_resource|
-|---|---|
+|:---|:---|
 |**Description**|A term that specifies the characteristics and general type of content of the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -474,7 +474,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### FORMAT
 |CSV Element|format|
-|---|---|
+|:---|:---|
 |**Description**|A designation of a particular physical presentation of a resource, including the physical form or medium of material for a resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -488,7 +488,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### EXTENT
 |CSV Element|extent|
-|---|---|
+|:---|:---|
 |**Description**|A statement about the physical extent of the resource, in terms of units of measurement and material.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -502,7 +502,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### GENRE
 |CSV Element|genre|
-|---|---|
+|:---|:---|
 |**Description**|A term that designates a category characterizing a particular style, form, or content embodied by the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -516,7 +516,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### ABSTRACT
 |CSV Element|abstract|
-|---|---|
+|:---|:---|
 |**Description**|A summary of the content of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -530,7 +530,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### SUBJECT
 |CSV Element|subject|
-|---|---|
+|:---|:---|
 |**Description**|A term or phrase representing the primary topic(s) on which the resource is focused.|
 |**Required**|No
 |**Repeatable**|Yes|
@@ -544,7 +544,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### TEMPORAL COVERAGE
 |CSV Element|temporal_coverage|
-|---|---|
+|:---|:---|
 |**Description**|A chronological statement that indicates the date(s) or time period covered by the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -558,7 +558,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### GEOGRAPHIC COVERAGE
 |CSV Element|geographic_coverage|
-|---|---|
+|:---|:---|
 |**Description**|A geographical name or geographical data that indicates the spatial coverage of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -572,7 +572,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### COLLECTION IDENTIFIER
 |CSV Element|collection_id|
-|---|---|
+|:---|:---|
 |**Description**|A digital collection to which the resource belongs.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -586,7 +586,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### HOST
 |CSV Element|host|
-|---|---|
+|:---|:---|
 |**Description**|A host or parent resource for the collection described; typically the parent collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -600,7 +600,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### SERIES OF COLLECTION
 |CSV Element|series_of_collection|
-|---|---|
+|:---|:---|
 |**Description**|A series of the parent collection to which the resource belongs.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -614,7 +614,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### CONTAINER
 |CSV Element|container|
-|---|---|
+|:---|:---|
 |**Description**|An indication of the kind of container that physically holds the resource and any sequential number(s) assigned to the container.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -628,7 +628,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### OWNER
 |CSV Element|owner|
-|---|---|
+|:---|:---|
 |**Description**|A name of an entity that possesses physical and/or intellectual ownership of the resource.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -642,7 +642,7 @@ Archival collections are described at the collection-level and the item-level an
 
 #### DEPOSITOR
 |CSV Element|depositor|
-|---|---|
+|:---|:---|
 |**Description**|An official name of the institution responsible for depositing the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
