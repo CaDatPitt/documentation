@@ -112,7 +112,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|ead:eadheader/ead:filedesc/ead:titlestmt/ead:titleproper/ead:author|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>Free text. No limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|- Free text. No limitations. - [Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)|
 |**Notes**||
 |**Example(s)**|Finding aid prepared by Lindsay Bedford and Patrick Trembeth with assistance provided by Dr. Richard Oestreicher.|
 
