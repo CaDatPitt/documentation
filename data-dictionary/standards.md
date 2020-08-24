@@ -5,7 +5,7 @@ parent: Data Dictionary
 nav_order: 2
 ---
 
-# Metadata Standards, Controlled Vocabularies & Encoding Schemes [UNDER CONSTRUCTION]
+# Metadata Standards, Controlled Vocabularies & Encoding Schemes
 
 ## Metadata Standards/Schemas
 * [CopyrightMD](https://cdlib.org/groups/rights-management-group-copyrightmd/)
