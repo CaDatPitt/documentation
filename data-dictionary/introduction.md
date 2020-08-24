@@ -7,7 +7,7 @@ nav_order: 1
 
 # Introduction
 
-The CaD@Pitt Data Dictionary defines and describes the **data layers** (datasets) in this repository, which are categorized into three [3] types:
+The CaD@Pitt Data Dictionary defines and describes the **data layers** (datasets) in the Data Layers Repository, which are categorized into three [3] types:
 * **[source data](https://github.com/CaDatPitt/data-layers/tree/master/source-data)**: snapshots of library collections metadata files in their original source format (e.g., MARC21, EAD, DC, MODS, RELS-EXT) stored in either the Library’s digital repository (Islandora) or catalog system (Alma);
 * **[base layers](https://github.com/CaDatPitt/data-layers/tree/master/base-layers)**: curated datasets (CSV files) derived and simplified from the source data layers, as defined and described by this data dictionary and the application profiles;
 * **[extension layers](https://github.com/CaDatPitt/data-layers/tree/master/extension-layers)**: scholar-created datasets or outputs that enrich/augment library collections data (i.e., source data and base layers), with accompanying documentation.
