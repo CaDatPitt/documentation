@@ -13,6 +13,7 @@ nav_order: 3
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
+</html>
 
 # Archival Collection Metadata Element Set
 
@@ -704,4 +705,3 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|<ul><li>University of Pittsburgh</li><li>African American Chamber of Commerce of Western Pennsylvania</li><li>Rodef Shalom Congregation</li></ul>|
 
 [Jump to Item Level](#item-level)
-</html>
