@@ -63,14 +63,6 @@ Archival collections are described at the collection-level and the item-level an
 
 ### Collection Level
 
-#### Test
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
 #### FINDING AID IDENTIFIER
 |CSV Element|finding_aid_id|
 |:---|:---|
