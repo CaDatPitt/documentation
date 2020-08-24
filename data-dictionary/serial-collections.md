@@ -54,6 +54,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 ### Item Level
 
 #### IDENTIFIER
+
 |CSV Element|id|
 |:---|:---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional catalog system or digital repository.|
@@ -68,6 +69,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### TITLE
+
 |CSV Element|title|
 |:---|:---|
 |**Description**|A name given to the resource.|
@@ -82,6 +84,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### UNIFORM TITLE
+
 |CSV Element|uniform title|
 |:---|:---|
 |**Description**|A distinctive title assigned to a work which has no title or has appeared under more than one title; also used to provide identification for a work when the title by which it is known differs from the title proper of a particular issue or when different publications have identical titles.|
@@ -96,6 +99,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### ALTERNATIVE TITLE
+
 |CSV Element|alternative title|
 |:---|:---|
 |**Description**|An alternative form or variant of the title.|
@@ -110,6 +114,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### ENUMERATION AND CHRONOLOGY
+
 |CSV Element|enumeration_chronology|
 |:---|:---|
 |**Description**|A numeric and/or alphabetic designation used to identify the resource and its sequential and/or chronological relationship to a serial, of which it is a part, as a whole.|
@@ -124,6 +129,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### ASSOCIATED NAME
+
 |CSV Element|associated_name|
 |:---|:---|
 |**Description**|A name of an entity associated in some way with the resource.|
@@ -138,6 +144,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### PUBLICATION PLACE
+
 |CSV Element|publication_place|
 |:---|:---|
 |**Description**|Name of a place associated with the publication or issuance of the resource.|
@@ -152,6 +159,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### PUBLISHER
+
 |CSV Element|publisher|
 |:---|:---|
 |**Description**|A name of an entity that published, printed, distributed, released, issued, or produced the resource.|
@@ -166,6 +174,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### PUBLICATION DATE
+
 |CSV Element|publication_date|
 |:---|:---|
 |**Description**|A date associated with the publication or issuance of the resource.|
@@ -180,6 +189,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### START DATE
+
 |CSV Element|start_date|
 |:---|:---|
 |**Description**|A date associated with the beginning of publication of the resource or the serial of which it is a part.|
@@ -194,6 +204,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### END DATE
+
 |CSV Element|end_date|
 |:---|:---|
 |**Description**|A date associated with the end of publication of the resource or the continuing resource (e.g., serial) of which it is a part.|
@@ -208,6 +219,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### EDITION
+
 |CSV Element|edition|
 |:---|:---|
 |**Description**|An identification of the version of the resource.|
@@ -222,6 +234,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### ISSUANCE
+
 |CSV Element|issuance|
 |:---|:---|
 |**Description**|A term that designates how the resource is issued (e.g., monographic, serial, continuing).|
@@ -236,6 +249,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### FREQUENCY
+
 |CSV Element|frequency|
 |:---|:---|
 |**Description**|A statement of publication frequency or pattern of the resource or the serial of which it is a part.|
@@ -250,6 +264,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### LANGUAGE
+
 |CSV Element|language|
 |:---|:---|
 |**Description**|A language in which the content of the resource is expressed.|
@@ -264,6 +279,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### TYPE OF RESOURCE
+
 |CSV Element|type_of_resource|
 |:---|:---|
 |**Description**|A term that specifies the characteristics and general type of content of the resource.|
@@ -278,6 +294,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### FORMAT
+
 |CSV Element|format|
 |:---|:---|
 |**Description**|A designation of a particular physical presentation of a resource, including the physical form or medium of material for a resource.|
@@ -292,6 +309,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### EXTENT
+
 |CSV Element|extent|
 |:---|:---|
 |**Description**|A statement about the physical extent of the resource, in terms of units of measurement and material.|
@@ -306,6 +324,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### GENRE
+
 |CSV Element|genre|
 |:---|:---|
 |**Description**|A term that designates a category characterizing a particular style, form, or content embodied by the resource.|
@@ -320,6 +339,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### ABSTRACT
+
 |CSV Element|abstract|
 |:---|:---|
 |**Description**|A summary of the content of the resource.|
@@ -334,6 +354,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### SUBJECT
+
 |CSV Element|subject|
 |:---|:---|
 |**Description**|A term or phrase representing the primary topic(s) on which the resource is focused.|
@@ -348,6 +369,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### TEMPORAL COVERAGE
+
 |CSV Element|temporal_coverage|
 |:---|:---|
 |**Description**|A chronological statement that indicates the date(s) or time period covered by the resource.|
@@ -362,6 +384,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### GEOGRAPHIC COVERAGE
+
 |CSV Element|geographic_coverage|
 |:---|:---|
 |**Description**|A geographical name or geographical data that indicates the spatial coverage of the resource.|
@@ -375,6 +398,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### TARGET AUDIENCE
+
 |CSV Element|target_audience|
 |:---|:---|
 |**Description**|A description of the intellectual level, motivation/interest level, subject interest, or special characteristics of the audience for which the resource is intended.|
@@ -389,6 +413,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### PREECEDED BY
+
 |CSV Element|preceeded_by|
 |:---|:---|
 |**Description**|A predecessor to the resource.|
@@ -403,6 +428,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### SUCCEDED BY
+
 |CSV Element|succeeded_by|
 |:---|:---|
 |**Description**|A successor to the resource.|
@@ -417,6 +443,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### COPYRIGHT STATUS
+
 |CSV Element|copyright_status|
 |:---|:---|
 |**Description**|An indication of the copyright status for the resource.|
@@ -431,6 +458,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### COPYRIGHT HOLDER
+
 |CSV Element|copyright_holder|
 |:---|:---|
 |**Description**|A name of either an entity responsible for creating the resource or an entity identified as a copyright holder for the resource.|
@@ -445,6 +473,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### COPYRIGHT NOTE
+
 |CSV Element|copyright_note|
 |:---|:---|
 |**Description**|A general note relating to one of the following aspects of the resource: its creator(s), its publication, its rights holder(s), or services available pertaining to it.|
@@ -473,6 +502,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)-->
 
 #### ISSN
+
 |CSV Element|issn|
 |:---|:---|
 |**Description**|International Standard Serial Number: A persistent and unique identifier that serves as an unambiguous reference to the resource to distinguish it from other continuing resources worldwide.|
@@ -487,6 +517,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### LCCN
+
 |CSV Element|lccn|
 |:---|:---|
 |**Description**|Library of Congress Control Number: A persistent and unique identifier that serves as an unambiguous reference to the resource to distinguish it from other resources worldwide.|
@@ -501,6 +532,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### OCLCCN
+
 |CSV Element|oclccn|
 |:---|:---|
 |**Description**|Online Computer Library Center Control Number: A persistent and unique identifier that serves as an unambiguous reference to the resource to distinguish it from other resources in the WorldCat and other bibliographic contexts.|
@@ -515,6 +547,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### URL
+
 |CSV Element|url|
 |:---|:---|
 |**Description**|A Uniform Resource Location (URL) of the resource; an electronic location from which the resource is available.|
@@ -529,6 +562,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### COLLECTION IDENTIFIER
+
 |CSV Element|collection_id|
 |:---|:---|
 |**Description**|A digital collection to which the resource belongs.|
@@ -543,6 +577,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 [Jump to Item Level](#item-level)
 
 #### DEPOSITOR
+
 |CSV Element|depositor|
 |:---|:---|
 |**Description**|An official name of the institution responsible for depositing the resource.|
