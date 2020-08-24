@@ -5,8 +5,18 @@ parent: Data Dictionary
 nav_order: 7
 ---
 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Font Awesome Icons css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+</html>
+
 # Metadata Element Set Chart
 
 This chart indicates the available elements for each collection type, indicates the base layer level (i.e., collection-level or item-level), and enables a quick comparison between each of the base layer metadata element sets. It does not distinguish between digital and catalog versions of the base layer.
 
-* [Metadata Element Set Chart](https://docs.google.com/spreadsheets/d/16ZWEPWQ78m4QxcwMkg_6XuNT-AiJJ-ww42nc0pzxZrM/edit?pli=1#gid=650321697)
+* [Metadata Element Set Chart](https://docs.google.com/spreadsheets/d/16ZWEPWQ78m4QxcwMkg_6XuNT-AiJJ-ww42nc0pzxZrM/edit?pli=1#gid=650321697)<i class="fa fa-external-link">

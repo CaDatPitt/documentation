@@ -7,4 +7,5 @@ permalink: /04-data-dictionary
 ---
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
+
 # CaD@Pitt Data Dictionary
