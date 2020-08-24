@@ -78,6 +78,7 @@ Archival collections are described at the collection-level and the item-level an
 [Jump to Collection Level](#collection-level)
 
 #### TITLE OF FINDING AID
+
 |CSV Element|finding_aid_title|
 |:---|:---|
 |**Description**|An official name given to the finding aid.|
