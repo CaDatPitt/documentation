@@ -59,7 +59,7 @@ Archival collections are described at the collection-level and the item-level an
 &nbsp;
 
 ## Metadata Element Descriptions
-**Note**: Multiple element values are separated by a triple pipe (|||) unless stated otherwise.
+**Note**: Multiple element values are separated by a triple pipe (\|\|\|) unless stated otherwise.
 
 ### Collection Level
 
