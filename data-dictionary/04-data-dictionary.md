@@ -3,7 +3,7 @@ layout: default
 title: Data Dictionary
 nav_order: 5
 has_children: true
-permalink: /data-dictionary
+permalink: /04-data-dictionary
 ---
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
