@@ -202,7 +202,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:did/ead:origination|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>Free text. No limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li><li>[Library of Congress Subject Headings (LCSH)](http://id.loc.gov/authorities/subjects.html)</li><li>Anglo-American Cataloguing Rules (AACR)</li><li>[Describing Archives: A Content Standard (DACS)](https://www2.archivists.org/groups/technical-subcommittee-on-describing-archives-a-content-standard-dacs/describing-archives-a-content-standard-dacs-second-)</li><li>[Resource Description and Access (RDA)](https://www.oclc.org/en/rda/about.html)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li><li>[Library of Congress Subject Headings (LCSH)](http://id.loc.gov/authorities/subjects.html)</li><li>Anglo-American Cataloguing Rules (AACR)</li><li>[Describing Archives: A Content Standard (DACS)](https://www2.archivists.org/groups/technical-subcommittee-on-describing-archives-a-content-standard-dacs/describing-archives-a-content-standard-dacs-second-)</li><li>[Resource Description and Access (RDA)](https://www.oclc.org/en/rda/about.html)</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|Oestreicher, Richard Jules, 1947-|
 
@@ -234,7 +234,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.extent|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|<ul><li>22.75 linear feet</li><li>(37 boxes)</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>22.75 linear feet</li><li>(37 boxes)</li></ul>{:/}|
 
 [Jump to Collection Level](#collection-level)
 
@@ -307,9 +307,9 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:controlaccess|
 |**Dublin Core Mapping**|dc.subject|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>[Library of Congress Name Authority File (LCNAF)](http://id.loc.gov/authorities/names.html)</li><li>[Art & Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/)</li><li>[Faceted Application of Subject Terminology (FAST)](https://www.oclc.org/research/themes/data-science/fast/download.html)</li><li>[Children's Subject Headings (CSH)](https://www.loc.gov/aba/cyac/childsubjhead.html)</li><li>[Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)](http://id.loc.gov/authorities/childrensSubjects.html)</li><li>[Medical Subject Headings (MeSH)](https://www.nlm.nih.gov/mesh/meshhome.html)</li><li>[National Agricultural Library](https://agclass.nal.usda.gov/)</li><li>[Répertoire de vedettes-matière (RVM)](https://rvmweb.bibl.ulaval.ca/eccueil)</li><li>[ISO 8601 — Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)</li><li>[MARC Code List for Geographic Areas](https://www.loc.gov/marc/geoareas/)</li><li>[MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_code.html)</li><li>[ISO 3166 — Country Codes](https://www.iso.org/iso-3166-country-codes.html)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>[Library of Congress Name Authority File (LCNAF)](http://id.loc.gov/authorities/names.html)</li><li>[Art & Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/)</li><li>[Faceted Application of Subject Terminology (FAST)](https://www.oclc.org/research/themes/data-science/fast/download.html)</li><li>[Children's Subject Headings (CSH)](https://www.loc.gov/aba/cyac/childsubjhead.html)</li><li>[Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)](http://id.loc.gov/authorities/childrensSubjects.html)</li><li>[Medical Subject Headings (MeSH)](https://www.nlm.nih.gov/mesh/meshhome.html)</li><li>[National Agricultural Library](https://agclass.nal.usda.gov/)</li><li>[Répertoire de vedettes-matière (RVM)](https://rvmweb.bibl.ulaval.ca/eccueil)</li><li>[ISO 8601 — Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)</li><li>[MARC Code List for Geographic Areas](https://www.loc.gov/marc/geoareas/)</li><li>[MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_code.html)</li><li>[ISO 3166 — Country Codes](https://www.iso.org/iso-3166-country-codes.html)</li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|<ul><li>Communist Party of the United States of America. -- History -- Sources</li><li>Buttons (Information artifacts)</li><li>Christian socialism -- United States -- History -- Sources</li><li>Pamphlets</li><li>Politics</li><li>Vietnam War, 1961-1975</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>Communist Party of the United States of America. -- History -- Sources</li><li>Buttons (Information artifacts)</li><li>Christian socialism -- United States -- History -- Sources</li><li>Pamphlets</li><li>Politics</li><li>Vietnam War, 1961-1975</li></ul>{:/}|
 
 [Jump to Collection Level](#collection-level)
 
@@ -387,7 +387,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.identifier|
 |**Vocabulary/Encoding Scheme(s)**|Must be a unique string in the digital repository system.|
 |**Notes**|Alpha-numeric or numeric string, with or without special characters like periods (.) or dashes (-)|
-|**Example(s)**|<ul><li>31735070074590</li><li>ue13.1.0611a</li><li>000010.PI</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>31735070074590</li><li>ue13.1.0611a</li><li>000010.PI</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -398,11 +398,11 @@ Archival collections are described at the collection-level and the item-level an
 |**Description**|A name given to the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
-|**Element(s)**|mods:titleInfo<ul><li>mods:title</li><li>mods:subTitle</li><li>mods:nonSort</li></ul>|
+|**Element(s)**|mods:titleInfo{::nomarkdown}<ul><li>mods:title</li><li>mods:subTitle</li><li>mods:nonSort</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.title|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|<ul><li>Title is formatted as following (less the subTitle and/or nonSort where they do not exist): [title]: [subTitle], [nonSort]</li><li>Excludes any Title elements (i.e., mods:titleInfo) with the following @type attribute values: abbreviated, translated, alternative, uniform.</li></ul>|
-|**Example(s)**|<ul><li>Zhou zong li-Ruisidun hui tan quan wen</li><li>Tip top weekly</li><li>Allegheny County Soldiers and Sailors Memorial</li></ul>|
+|**Notes**|{::nomarkdown}<ul><li>Title is formatted as following (less the subTitle and/or nonSort where they do not exist): [title]: [subTitle], [nonSort]</li><li>Excludes any Title elements (i.e., mods:titleInfo) with the following @type attribute values: abbreviated, translated, alternative, uniform.</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>Zhou zong li-Ruisidun hui tan quan wen</li><li>Tip top weekly</li><li>Allegheny County Soldiers and Sailors Memorial</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -415,7 +415,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleTerm="creator"|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>Free text. No Limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li><li>[MARC Relators](http://id.loc.gov/vocabulary/relators.htm)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li><li>[MARC Relators](http://id.loc.gov/vocabulary/relators.htm)</li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
 |**Example(s)**|Stockton, Frank R., 1834-1902|
 
@@ -430,7 +430,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleTerm="contributor"|
 |**Dublin Core Mapping**|dc.contributor|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>Free text. No Limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li><li>[MARC Relators](http://id.loc.gov/vocabulary/relators.htm)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li><li>[Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li><li>[MARC Relators](http://id.loc.gov/vocabulary/relators.htm)</li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
 |**Example(s)**|Abbot Renaud de Semur|
 
@@ -447,7 +447,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**||
 |**Notes**||
-|**Example(s)**|<ul><li>1872</li><li>1972-2010</li><li>1940/1950</li><li>184u/uuuu</li><li>1962-01-29</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>1872</li><li>1972-2010</li><li>1940/1950</li><li>184u/uuuu</li><li>1962-01-29</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -477,7 +477,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li><li>[189?]</li><li>February 9</li></li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li><li>[189?]</li><li>February 9</li></li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -490,7 +490,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|mods:language/mods:languageTerm|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>[ISO 639-2 Language Code List - Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/code_list.php)</li><li>[MARC Code List for Language](http://www.loc.gov/marc/languages/)</li><ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>[ISO 639-2 Language Code List - Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/code_list.php)</li><li>[MARC Code List for Language](http://www.loc.gov/marc/languages/)</li>{::nomarkdown}<ul>|
 |**Notes**||
 |**Example(s)**|eng|
 
@@ -520,9 +520,9 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|No|
 |**Element(s)**|mods:physicalDescription/mods:form|
 |**Dublin Core Mapping**|dc.format|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>[MARC Form Category Term List](https://www.loc.gov/standards/valuelist/marccategory.html)</li><li>[MARC Form of Item Term List](https://www.loc.gov/standards/valuelist/marcform.html)</li><li>[Specific Material Form Term List](https://www.loc.gov/standards/valuelist/marcsmd.html)</li><li>General Material Designation (GMD)</li><li>Free text. No limitations.</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>[MARC Form Category Term List](https://www.loc.gov/standards/valuelist/marccategory.html)</li><li>[MARC Form of Item Term List](https://www.loc.gov/standards/valuelist/marcform.html)</li><li>[Specific Material Form Term List](https://www.loc.gov/standards/valuelist/marcsmd.html)</li><li>General Material Designation (GMD)</li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|<ul><li>print</il><li>gelatin silver prints</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>print</il><li>gelatin silver prints</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -548,11 +548,11 @@ Archival collections are described at the collection-level and the item-level an
 |**Description**|A term that designates a category characterizing a particular style, form, or content embodied by the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element(s)**|<ul><li>mods:genre</li><li>mods:subject/mods:genre</li></ul>|
+|**Element(s)**|{::nomarkdown}<ul><li>mods:genre</li><li>mods:subject/mods:genre</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.type|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>[MARC Genre Term List](https://www.loc.gov/standards/valuelist/marcgt.html)</li><li>[Art & Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/)</li><li>[Faceted Application of Subject Terminology (FAST)](https://www.oclc.org/research/themes/data-science/fast/download.html)</li><li>[MARC Form of Musical Composition Code List](https://www.loc.gov/standards/valuelist/marcmuscomp.html)</li><li>[Library of Congress Genre/Form Terms](https://www.loc.gov/rr/print/tgm2/)</li><li>[RBMS Controlled Vocabularies: Genre Terms](https://rbms.info/vocabularies/genre/alphabetical_list.htm)</li><li>[Thesaurus for graphic materialsTGM II, Genre and physical characteristic terms](https://www.loc.gov/rr/print/tgm2/)</li><li>[RBMS Controlled Vocabularies: Provenance Evidence Terms](https://rbms.info/vocabularies/provenance/alphabetical_list.htm)</li><li>[Guidelines on Subject Access to Individual Works of Fiction, Drama, Etc., 2nd edition](http://experimental.worldcat.org/gsafd/)</li><li>[Term and Code List for RDA Content Types](https://www.loc.gov/standards/valuelist/rdacontent.html)</li><li>[Form terms for archival and manuscripts control](http://id.loc.gov/vocabulary/genreFormSchemes/ftamc.html)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>[MARC Genre Term List](https://www.loc.gov/standards/valuelist/marcgt.html)</li><li>[Art & Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/)</li><li>[Faceted Application of Subject Terminology (FAST)](https://www.oclc.org/research/themes/data-science/fast/download.html)</li><li>[MARC Form of Musical Composition Code List](https://www.loc.gov/standards/valuelist/marcmuscomp.html)</li><li>[Library of Congress Genre/Form Terms](https://www.loc.gov/rr/print/tgm2/)</li><li>[RBMS Controlled Vocabularies: Genre Terms](https://rbms.info/vocabularies/genre/alphabetical_list.htm)</li><li>[Thesaurus for graphic materialsTGM II, Genre and physical characteristic terms](https://www.loc.gov/rr/print/tgm2/)</li><li>[RBMS Controlled Vocabularies: Provenance Evidence Terms](https://rbms.info/vocabularies/provenance/alphabetical_list.htm)</li><li>[Guidelines on Subject Access to Individual Works of Fiction, Drama, Etc., 2nd edition](http://experimental.worldcat.org/gsafd/)</li><li>[Term and Code List for RDA Content Types](https://www.loc.gov/standards/valuelist/rdacontent.html)</li><li>[Form terms for archival and manuscripts control](http://id.loc.gov/vocabulary/genreFormSchemes/ftamc.html)</li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|<ul><li>text</li><li>novel</li><li>Embossed cloth binding (Binding)-1851</li><li>Fiction.</li><li>archival document</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>text</li><li>novel</li><li>Embossed cloth binding (Binding)-1851</li><li>Fiction.</li><li>archival document</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -567,7 +567,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.description|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|<ul><li>Tom and Mary delight in their baby brother Charlie, while Tom befriends a boy from Georgia.</li><li>92 verso</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>Tom and Mary delight in their baby brother Charlie, while Tom befriends a boy from Georgia.</li><li>92 verso</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -578,11 +578,11 @@ Archival collections are described at the collection-level and the item-level an
 |**Description**|A term or phrase representing the primary topic(s) on which the resource is focused.|
 |**Required**|No
 |**Repeatable**|Yes|
-|**Element(s)**|mods:subject<ul><li>mods:topic</li><li>mods:name</li><li>mods:titleInfo</li><li>mods:occupation</li></ul>|
+|**Element(s)**|mods:subject{::nomarkdown}<ul><li>mods:topic</li><li>mods:name</li><li>mods:titleInfo</li><li>mods:occupation</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.subject|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>[Library of Congress Name Authority File (LCNAF)](http://id.loc.gov/authorities/names.html)</li><li>[Faceted Application of Subject Terminology (FAST)](https://www.oclc.org/research/themes/data-science/fast/download.html)</li><li>[Children's Subject Headings (CSH)](https://www.loc.gov/aba/cyac/childsubjhead.html)</li><li>[Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)](http://id.loc.gov/authorities/childrensSubjects.html)</li><li>[Medical Subject Headings (MeSH)](https://www.nlm.nih.gov/mesh/meshhome.html)</li><li>[National Agricultural Library](https://agclass.nal.usda.gov/)</li><li>[Répertoire de vedettes-matière (RVM)](https://rvmweb.bibl.ulaval.ca/eccueil)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>[Library of Congress Name Authority File (LCNAF)](http://id.loc.gov/authorities/names.html)</li><li>[Faceted Application of Subject Terminology (FAST)](https://www.oclc.org/research/themes/data-science/fast/download.html)</li><li>[Children's Subject Headings (CSH)](https://www.loc.gov/aba/cyac/childsubjhead.html)</li><li>[Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)](http://id.loc.gov/authorities/childrensSubjects.html)</li><li>[Medical Subject Headings (MeSH)](https://www.nlm.nih.gov/mesh/meshhome.html)</li><li>[National Agricultural Library](https://agclass.nal.usda.gov/)</li><li>[Répertoire de vedettes-matière (RVM)](https://rvmweb.bibl.ulaval.ca/eccueil)</li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|<ul><li>Advertising</li><li>Pittsburgh</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>Advertising</li><li>Pittsburgh</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -595,9 +595,9 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|mods:subject/mods:temporal|
 |**Dublin Core Mapping**|dc.coverage|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>Free text. No limitations.</li><li>[ISO 8601 — Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li>[ISO 8601 — Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)</li></ul>{:/}|
 |**Notes**|May be a simple or hierarchical geographical name or area code (e.g., city section, city, county, territory, state, region, country, continent, island, area, extraterrestrial area), cartographic data (e.g., coordinates, scale, projection)|
-|**Example(s)**|<ul><li>19th century</li><li>1775-1783</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>19th century</li><li>1775-1783</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -608,11 +608,11 @@ Archival collections are described at the collection-level and the item-level an
 |**Description**|A geographical name or geographical data that indicates the spatial coverage of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element(s)**|mods:subject<ul><li>mods:geographic</li><li>mods:geographicCode</li><li>mods:hierarchicalGeographic</li><ul><li>mods:continent</li><li>mods:country</li><li>mods:region</li><li>mods:state</li><li>mods:territory</li><li>mods:county</li><li>mods:city</li><li>mods:island</li><li>mods:area</li><li>mods:extraterrestrialArea</li><li>mods:citySection</li></ul><li>mods:cartographics</li><ul><li>mods:scale</li><li>mods:projection</li><li>mods:coordinates</li></ul><li>mods:geographicCoordinates</li></ul>|
+|**Element(s)**|mods:subject{::nomarkdown}<ul><li>mods:geographic</li><li>mods:geographicCode</li><li>mods:hierarchicalGeographic</li>{::nomarkdown}<ul><li>mods:continent</li><li>mods:country</li><li>mods:region</li><li>mods:state</li><li>mods:territory</li><li>mods:county</li><li>mods:city</li><li>mods:island</li><li>mods:area</li><li>mods:extraterrestrialArea</li><li>mods:citySection</li></ul>{:/}<li>mods:cartographics</li>{::nomarkdown}<ul><li>mods:scale</li><li>mods:projection</li><li>mods:coordinates</li></ul>{:/}<li>mods:geographicCoordinates</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.coverage|
-|**Vocabulary/Encoding Scheme(s)**|<ul><li>[MARC Code List for Geographic Areas](https://www.loc.gov/marc/geoareas/)</li><li>[MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_code.html)</li><li>[ISO 3166 — Country Codes](https://www.iso.org/iso-3166-country-codes.html)</li><li>Free text. No limitations.</li></ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>[MARC Code List for Geographic Areas](https://www.loc.gov/marc/geoareas/)</li><li>[MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_code.html)</li><li>[ISO 3166 — Country Codes](https://www.iso.org/iso-3166-country-codes.html)</li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|<ul><li>Downtown</li><li>n------</li><li>North America</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>Downtown</li><li>n------</li><li>North America</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -653,7 +653,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Description**|A series of the parent collection to which the resource belongs.|
 |**Required**|No|
 |**Repeatable**|No|
-|**Element(s)**|<ul><li>mods:note[@type="series"]</li><li>mods:note[@type="subseries"]</li></ul>|
+|**Element(s)**|{::nomarkdown}<ul><li>mods:note[@type="series"]</li><li>mods:note[@type="subseries"]</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.relation|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**|Multiple values are separated by a semicolon (;), from broadest to narrowest series level.|
@@ -672,7 +672,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|n/a|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**|Value may include one or more of the following: box, folder, shelf, drawer, reel, etc.|
-|**Example(s)**|<ul><li>Box 14, Folder 32</li><li>Microfilm-cabinet Drawer 2 3, Reel 1</li><li>Reel 8</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>Box 14, Folder 32</li><li>Microfilm-cabinet Drawer 2 3, Reel 1</li><li>Reel 8</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -702,6 +702,6 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|n/a|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|<ul><li>University of Pittsburgh</li><li>African American Chamber of Commerce of Western Pennsylvania</li><li>Rodef Shalom Congregation</li></ul>|
+|**Example(s)**|{::nomarkdown}<ul><li>University of Pittsburgh</li><li>African American Chamber of Commerce of Western Pennsylvania</li><li>Rodef Shalom Congregation</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
