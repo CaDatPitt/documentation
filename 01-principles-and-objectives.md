@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Principles and Objectives
-nav_order: 2
+nav_order: 3
 ---
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)

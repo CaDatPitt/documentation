@@ -17,11 +17,11 @@ nav_order: 1
 
 02. [Getting Started](02-getting-started.md)
 
-<!--03. [Using the Data Layers Repository](03-using-the-data-layers-repository.md)
+03. [Using the Data Layers Repository](03-using-the-data-layers-repository.md)
 
-04. [Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki)
+04. [Data Dictionary](04-data-dictionary.md)
 
-05. [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md)
+<!--05. [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md)
 
 06. [Best Practices for Creating Extension Layers](06-best-practices-for-creating-extension-layers.md)
 
