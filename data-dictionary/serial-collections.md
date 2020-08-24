@@ -49,7 +49,7 @@ Serial collections may contain items from the catalog and/or the digital reposit
 &nbsp;
 
 ## Metadata Element Descriptions
-Descriptions below may apply only to the catalog version or the digital version of the metadata element set, indicated by "catalog only" or "digital only," respectively. **Note**: Multiple element values are separated by a triple pipe (\|\|\|) unless stated otherwise.
+Descriptions below may apply only to the catalog version or the digital version of the metadata element set, indicated by "catalog only" or "digital only," respectively. **Note**: Multiple element values are separated by a triple pipe (`|||`) unless stated otherwise.
 
 ### Item Level
 

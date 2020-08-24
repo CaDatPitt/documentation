@@ -23,7 +23,7 @@ The application profiles enumerate the elements in each of the three base layer 
 * **Source Data Example**—a snippet of XML representing the element, as it would appear in the source data file
 * **Base Layer Example**—an example an element value, as it would appear in the base layer
 
-**Note**: Multiple element values are separated by a triple pipe (|||) unless stated otherwise.
+**Note**: Multiple element values are separated by a triple pipe (`|||`)unless stated otherwise.
 
 # Spreadsheets
 * [Archival Collections](https://docs.google.com/spreadsheets/d/16ZWEPWQ78m4QxcwMkg_6XuNT-AiJJ-ww42nc0pzxZrM/edit?pli=1#gid=0)
