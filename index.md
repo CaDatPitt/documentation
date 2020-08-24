@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Overview
+title: Documentation Overview
 nav_order: 1
 ---
 
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
 
-# Documentation
+# Documentation Overview
 
 01. [Princples and Objectives](01-principles-and-objectives.md)
     - [Target Audiences](01-principles-and-objectives.md#target-audiences)
