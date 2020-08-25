@@ -131,7 +131,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |Description|A name of an entity responsible for making contributions to the creation or distribution of the resource.|
 |Required|No|
 |Repeatable|Yes|
-|Element Node(s)|mods:name/mods:namePart _with_ mods:role/mods:roleTerm{::nomarkdown}<ul><li>**Exceptions for possible @roleTerm attribute values**: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul>{:/}|
+|Element Node(s)|mods:name/mods:namePart _with_ mods:role/mods:roleTerm{::nomarkdown}<ul><li><strong>Exceptions for possible @roleTerm attribute values<strong>: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul>{:/}|
 |Dublin Core Mapping|dc.contributor|
 |Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.htm" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
 |Notes||
