@@ -118,7 +118,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |Repeatable|Yes|
 |Element Node(s)|{::nomarkdown}<ul><li>mods:name/mods:namePart _wihtout_ mods:role/mods:roleTerm</li><li>mods:name/mods:namePart _with_ mods:role/mods:roleTerm</li><ul><li>**Restricted values for roleTerm attribute (ignoring trailing punctuation)**: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul></ul>{:/}|
 |Dublin Core Mapping|dc.creator|
-|Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="" target="_blank">Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)</li></li><li><a href="" target="_blank">MARC Relators](http://id.loc.gov/vocabulary/relators.htm) (for roleTerm attribute values)</li></ul>{:/}|
+|Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
 |Notes|Multiple values within the <mods:name> element are separated by comma (,).|
 |Example(s)|{::nomarkdown}<ul><li>Boisrobert, Anouck</li><li>Goodrich, Samuel G. (Samuel Griswold), 1793-1860</li></ul>{:/}|
 
