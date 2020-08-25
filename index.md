@@ -17,7 +17,7 @@ nav_order: 1
 
 02. [Getting Started](02-getting-started.md)
 
-03. [Using the Data Layers Repository](03-using-the-data-layers-repository.md)
+03. [Using the Data Layers Repository](03-using-the-repository.md)
 
 04. [Data Dictionary](data-dictionary/04-data-dictionary.md)
 
