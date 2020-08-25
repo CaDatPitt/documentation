@@ -195,7 +195,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**|{::nomarkdown}<ul><li>Dates in this field may fall under the following cases:</li><ul><li>Before Common Era (B.C.E.) date</li><li>publication or copyright date</li><li>reprint/reissue date or original date</li><li>modification or creation date</li><li>incorrect date</li><li>date span when resources are valid</li><li>date span recorded in addition to appearing elsewhere</li><li>date range of publication of a multipart item</li><li>date range with earliest and latest possible dates for a questionable date</li></ul><li>Start and end date values are combined and separated by a forward slash (/).</li><li>For more information, see <a href="https://www.loc.gov/marc/bibliographic/bd008a.html" target="_blank">MARC 21 Format for Bibliographic Data  — 008 - All Materials (NR)</a> and <a href="https://www.loc.gov/marc/bibliographic/bd046.html" target="_blank">MARC 21 Format for Bibliographic Data  — 046 - Special Coded Dates.</a></li></ul>{:/}|
-|**Example(s)**|{::nomarkdown}<ul></li><li><a href="" target="_blank">191-?]</li><li>1910/1919</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul></li><li>[191-?]</li><li>1910/1919</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
