@@ -24,7 +24,7 @@ II. [Implementing your project](#implementing-your-project)
   05. [Further steps and considerations](#further-steps-and-considerations)
 
 ## Preparing for implementation
-### Form your team
+### **Form your team**
 A data layers-based project requires a number of different skills. It’s most likely that getting these skills together will require forming a team and that this team may comprise people who work in different units of your organization (or even outside of your organization).
 
 Specifically, consider who might be able to contribute the following:
@@ -40,10 +40,10 @@ Specifically, consider who might be able to contribute the following:
 
 Although that may seem like a lot of different roles, it's possible to successfully implement a data layers-based project with a small team in which roles are shared or individuals wear several hats as needed. However, this work is also an excellent opportunity to work collaboratively across traditional organizational boundaries, so we recommend striving to include appropriate colleagues from your organization to the greatest degree possible.
 
-### Write project charter
+### **Write project charter**
 Once a project team has been formed, it’s beneficial (and highly recommended) to gather team members and stakeholders to develop a project charter together. The charter establishes the nature of the project, including its scope, objectives, assumptions and constraints, deliverables, tasks, timeline, participants, audiences, budget, protocols, and more. The project team and participating stakeholders should agree upon the expectations and commitments of the charter. This document can be preliminary and may change throughout the implementation process. It does not have to be formal unless a funder or administrator requires a formal document.
 
-### Set up project infrastructure
+### **Set up project infrastructure**
 You may very well have your own project management tools and preferences, but we have found that this kind of project benefits from these components of project infrastructure, at minimum:
 - Project team communications tool (e.g., email list, Slack, Microsoft Teams)
 - Project management tool (e.g., Trello, Asana, Monday, Microsoft Project)
@@ -51,7 +51,7 @@ You may very well have your own project management tools and preferences, but we
 - A public-facing web site or repository (e.g., GitHub) to share data layers and user documentation
 - For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the [CaD@Pitt Data Layers repository](https://github.com/CaDatPitt/data-layers)
 
-### Evaluate existing collections data
+### **Evaluate existing collections data**
 With a team in place, the next step is to evaluate your institution's existing collections data and consider what data will be available to you. Drawing from the expertise on your team, you can collaboratively identify:
 - What collections may be of interest for data layers-based inquiry?
 - What existing metadata is available?
@@ -62,13 +62,13 @@ With a team in place, the next step is to evaluate your institution's existing c
 
 This is not a one-time process, and identifying collections of interest may (or should!) be influenced by direct conversations with researchers who use your collections. However, getting a basic lay of the land, including anticipating collections data challenges, will help your project get off to a productive start.
 
-### Further steps and considerations
+### **Further steps and considerations**
 There are a several other steps and considerations that your team may pursue during the preparation phase:
 - Create user personas to articulate various cohorts of your audiences and promote user- centered design. Conducting interviews with representatives of each cohort is recommended.
 - Conduct programmatic/computational analysis of your metadata to better understand the nature of your metadata.
 
 ## Implementing your project
-### Develop data layers
+### **Develop data layers**
 After evaluating the existing collections data, you can begin developing the data layers for your project:
 - Determine the metadata elements for the base layer(s). _See the [CaD@Pitt Data Dictionary Introduction](data-dictionary/introduction.md) for details about how we developed our base layers._
   - Of the collections metadata that is available, what is well-suited for computation?
@@ -82,7 +82,7 @@ After evaluating the existing collections data, you can begin developing the dat
 - Determine how the metadata in the source data files will map to your base layer element set and how the CaD@Pitt transformation script will need to be modified accordingly.
 - Create documentation for your data layers. _See the [CaD@Pitt Data Dictionary](data-dictionary/04-data-dictionary.md) for a model._
 
-### Build repository
+### **Build repository**
 The repository for your project not only provides access to your data layers but also enables the production of your base layers. These instructions assume that a GitHub repository is being used as the public-facing repository:
 - Create and organize your project’s GitHub organization and/or repository (or repositories).
   - The CaD@Pitt project’s GitHub organization has multiple repositories, for data layers, the project website, project documentation, etc. Your project may also require several repositories or only a single repository for data layers.
@@ -91,7 +91,7 @@ The repository for your project not only provides access to your data layers but
 - Modify the CaD@ Pitt transformation script according to mappings from your source data to base layers. Make sure to document your code.
 - Extract and transform source data into base layer(s), using modified transformation script.
 
-### Establish use model
+### **Establish use model**
 It is important to establish how your users will use your collections as data repository and how you will enable such use.
 - Identify various use cases for your repository and how your team will support them.
   - Will users simply be given access to download data layers? Will they be able to process/create data layers? Will they be able to contribute/publish data layers?
@@ -100,7 +100,7 @@ It is important to establish how your users will use your collections as data re
 - Identify and prepare material resources/tools needed for services and usage of collections as data (e.g., Google Forms for submitting data or requests, Google Sheets for editing data layer spreadsheets).
 - Develop and publish documentation to enable use of and contribution to the repository. The documentation may include usage documentation, data documentation (e.g., data dictionary, README, codebook), and workflows (e.g., for requesting data or assistance, contributing to the repository). _See the CaD@Pitt [project documentation](https://cadatpitt.github.io/documentation/) for an example._
 
-### Prepare for instruction
+### **Prepare for instruction**
 - If your project will involve data layers-based instruction, there are a few things you’ll need to do to prepare.
   - Determine the instructional opportunities and goals you will pursue in your project.
   - Who is the audience? A class of undergraduate or graduate students? Individual researchers or a group of researchers? A group of participants from your community? Other staff members in your organization?
@@ -112,7 +112,7 @@ It is important to establish how your users will use your collections as data re
 
 As you implement these modules in your various instructional contexts, we suggest documenting and assessing these cases and refining your modules as needed.
 
-### Further steps and considerations
+### **Further steps and considerations**
 There are a several other steps and considerations that your team may pursue during the implementation phase:
 - Generate your own extension layers to increase the visibility and discoverability of your institution’s collections; you may use these layers to generate data visualizations for your collections, learn more about the contents of and connections between your collections, and enable targeted marketing for your collections.
 - Develop workflows for incorporating enrichments from extension layers back into your institution’s catalog and/or repository.
