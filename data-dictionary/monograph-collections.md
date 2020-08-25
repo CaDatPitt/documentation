@@ -178,7 +178,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:originInfo/mods:dateIssued _without_ attributes|
 |**Dublin Core Mapping**|dc.date|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 260 - Publication, Distribution, etc.](https://www.loc.gov/marc/bibliographic/bd260.html) and [MARC 21 Format for Bibliographic Data  — 264 - Production, Publication, Distribution, Manufacture, and Copyright Notice (R)](https://www.loc.gov/marc/bibliographic/bd264.html).|
 |**Example(s)**|{::nomarkdown}<ul></li><li><a href="" target="_blank">not before 1852?]</li><li>2014.</li><li>1855, ©1853</li></li><li><a href="" target="_blank">©1924]</li><li>187-?⁾</li></ul>{:/}|
 
