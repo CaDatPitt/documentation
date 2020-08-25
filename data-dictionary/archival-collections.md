@@ -20,7 +20,7 @@ nav_order: 3
 ## Metadata Element List
 Archival collections are described at the collection-level and the item-level and, thus, have two [2] base layer CSVs, one for each level of description.
 
-### **Collection Level**
+### Collection Level
 * [Finding Aid Identifier](#finding-aid-identifier)
 * [Title of Finding Aid](#title-of-finding-aid)
 * [Creator of Finding Aid](#creator-of-finding-aid)
@@ -42,7 +42,7 @@ Archival collections are described at the collection-level and the item-level an
 * [Preferred Citation](#preferred-citation)
 * [Conditions Governing Use](#conditions-governing-use)
 
-### **Item Level**
+### Item Level
 * [Identifier](#identifier)
 * [Title](#title)
 * [Creator](#creator)
@@ -69,14 +69,14 @@ Archival collections are described at the collection-level and the item-level an
 &nbsp;
 
 ## Metadata Element Descriptions
-**Note**: Multiple element values are separated by a triple pipe (`|||`) unless stated otherwise.
+Multiple element values are separated by a triple pipe (`|||`) unless stated otherwise.
 
 ### Collection Level
 
 #### FINDING AID IDENTIFIER
 
 |CSV Element|finding_aid_id|
-|:---|:---|
+|---|---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the finding aid in the institutional repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -93,7 +93,7 @@ Archival collections are described at the collection-level and the item-level an
 #### TITLE OF FINDING AID
 
 |CSV Element|finding_aid_title|
-|:---|:---|
+|---|---|
 |**Description**|An official name given to the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -116,7 +116,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Repeatable**|Yes|
 |**Element(s)**|ead:eadheader/ead:filedesc/ead:titlestmt/ead:titleproper/ead:author|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|Finding aid prepared by Lindsay Bedford and Patrick Trembeth with assistance provided by Dr. Richard Oestreicher.|
 
@@ -127,7 +127,7 @@ Archival collections are described at the collection-level and the item-level an
 #### CREATION DATE OF FINDING AID
 
 |CSV Element|finding_aid_creation_date|
-|:---|:---|
+|---|---|
 |**Description**|A date associated with the creation of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -144,7 +144,7 @@ Archival collections are described at the collection-level and the item-level an
 #### PUBLISHER OF FINDING AID
 
 |CSV Element|finding_aid_publisher|
-|:---|:---|
+|---|---|
 |**Description**|An institution or agency responsible for the distribution of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -161,7 +161,7 @@ Archival collections are described at the collection-level and the item-level an
 #### PUBLICATION DATE OF FINDING AID
 
 |CSV Element|finding_aid_publication_date|
-|:---|:---|
+|---|---|
 |**Description**|A date associated with the publication of the finding aid.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -178,7 +178,7 @@ Archival collections are described at the collection-level and the item-level an
 #### ACQUISITION NUMBER
 
 |CSV Element|acquisition_number|
-|:---|:---|
+|---|---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the collection in the institutional repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -195,7 +195,7 @@ Archival collections are described at the collection-level and the item-level an
 #### TITLE OF COLLECTION
 
 |CSV Element|collection_title|
-|:---|:---|
+|---|---|
 |**Description**|An official name given to the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -212,7 +212,7 @@ Archival collections are described at the collection-level and the item-level an
 #### CREATOR OF COLLECTION
 
 |CSV Element|creator_of_collection|
-|:---|:---|
+|---|---|
 |**Description**|A name of an entity primarily responsible for the creation, accumulation, or assembly of the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -229,7 +229,7 @@ Archival collections are described at the collection-level and the item-level an
 #### LANGUAGE OF COLLECTION
 
 |CSV Element|collection_language|
-|:---|:---|
+|---|---|
 |**Description**|A language in which the materials in the collection is expressed.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -246,7 +246,7 @@ Archival collections are described at the collection-level and the item-level an
 #### EXTENT OF COLLECTION
 
 |CSV Element|collection_extent|
-|:---|:---|
+|---|---|
 |**Description**|A statement about the quantity of the materials in the collection or of the physical space they occupy.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -254,7 +254,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.extent|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|{::nomarkdown}<ul><li>22.75 linear feet</li><li>(37 boxes</a></li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>22.75 linear feet</li><li>(37 boxes)</a></li></ul>{:/}|
 
 [Jump to Collection Level](#collection-level)
 
@@ -263,7 +263,7 @@ Archival collections are described at the collection-level and the item-level an
 #### TEMPORAL COVERAGE OF COLLECTION
 
 |CSV Element|collection_temporal_coverage|
-|:---|:---|
+|---|---|
 |**Description**|A statement of the date(s) covered by the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -280,7 +280,7 @@ Archival collections are described at the collection-level and the item-level an
 #### SCOPE AND CONTENT OF COLLECTION
 
 |CSV Element|collection_scope_and_content|
-|:---|:---|
+|---|---|
 |**Description**|A narrative statement that summarizes the range and topical coverage of the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -297,7 +297,7 @@ Archival collections are described at the collection-level and the item-level an
 #### BIOGRAPHY OR HISTORY
 
 |CSV Element|biography_or_history|
-|:---|:---|
+|---|---|
 |**Description**|A concise essay or chronology that places the materials of the collection in context by providing information about their creator(s).|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -314,7 +314,7 @@ Archival collections are described at the collection-level and the item-level an
 #### COLLECTION ABSTRACT
 
 |CSV Element|collection_abstract|
-|:---|:---|
+|---|---|
 |**Description**|A brief characterization of the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -331,7 +331,7 @@ Archival collections are described at the collection-level and the item-level an
 #### COLLECTION SUBJECT HEADINGS
 
 |CSV Element|subject_headings|
-|:---|:---|
+|---|---|
 |**Description**|A term or phrase representing the primary topic(s) of the materials in the collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -348,7 +348,7 @@ Archival collections are described at the collection-level and the item-level an
 #### RELATED MATERIAL
 
 |CSV Element|related_material|
-|:---|:---|
+|---|---|
 |**Description**|Archival materials that have an association to the materials in the collection; often another collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -365,7 +365,7 @@ Archival collections are described at the collection-level and the item-level an
 #### REPOSITORY
 
 |CSV Element|repository|
-|:---|:---|
+|---|---|
 |**Description**|An institution, person, or family responsible for providing intellectual access to the materials in the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -382,7 +382,7 @@ Archival collections are described at the collection-level and the item-level an
 #### PREFERRED CITATION
 
 |CSV Element|preferred_citation|
-|:---|:---|
+|---|---|
 |**Description**|A prescribed wording or format for citing (the materials in) the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -399,7 +399,7 @@ Archival collections are described at the collection-level and the item-level an
 #### CONDITIONS GOVERNING USE
 
 |CSV Element|conditions_governing_use|
-|:---|:---|
+|---|---|
 |**Description**|Any conditions that affect the use of the materials in the collection.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -418,7 +418,7 @@ Archival collections are described at the collection-level and the item-level an
 #### IDENTIFIER
 
 |CSV Element|id|
-|:---|:---|
+|---|---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -435,7 +435,7 @@ Archival collections are described at the collection-level and the item-level an
 #### TITLE
 
 |CSV Element|title|
-|:---|:---|
+|---|---|
 |**Description**|A name given to the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -452,7 +452,7 @@ Archival collections are described at the collection-level and the item-level an
 #### CREATOR
 
 |CSV Element|creator|
-|:---|:---|
+|---|---|
 |**Description**|A name of an entity responsible for making the content of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -469,13 +469,13 @@ Archival collections are described at the collection-level and the item-level an
 #### CONTRIBUTOR
 
 |CSV Element|contributor|
-|:---|:---|
+|---|---|
 |**Description**|A name of an entity responsible for making contributions to the creation or distribution of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
 |**Element(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleTerm="contributor"|
 |**Dublin Core Mapping**|dc.contributor|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="" target="_blank">Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
 |**Example(s)**|Abbot Renaud de Semur|
 
@@ -486,7 +486,7 @@ Archival collections are described at the collection-level and the item-level an
 #### CREATION DATE
 
 |CSV Element|creation_date|
-|:---|:---|
+|---|---|
 |**Description**|A date associated with the creation of the resource.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -503,7 +503,7 @@ Archival collections are described at the collection-level and the item-level an
 #### SORT DATE
 
 |CSV Element|sort_date|
-|:---|:---|
+|---|---|
 |**Description**|A date associated with the creation of the resource and encoded for sorting or other purposes that necessitate normalization.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -520,7 +520,7 @@ Archival collections are described at the collection-level and the item-level an
 #### DISPLAY DATE
 
 |CSV Element|display_date|
-|:---|:---|
+|---|---|
 |**Description**|A date associated with the creation of the resource and formatted for display.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -528,7 +528,7 @@ Archival collections are described at the collection-level and the item-level an
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|{::nomarkdown}<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li></li><li><a href="" target="_blank">189?]</li><li>February 9</li></li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li></li><li>[189?]</li><li>February 9</li></li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -537,13 +537,13 @@ Archival collections are described at the collection-level and the item-level an
 #### LANGUAGE
 
 |CSV Element|language|
-|:---|:---|
+|---|---|
 |**Description**|A language in which the content of the resource is expressed.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
 |**Element(s)**|mods:language/mods:languageTerm|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2 Language Code List - Codes for the Representation of Names of Languages</a></li></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language]</a></li>{::nomarkdown}<ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2 Language Code List - Codes for the Representation of Names of Languages</a></li></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language]</a></li>{:/}<ul>|
 |**Notes**||
 |**Example(s)**|eng|
 
@@ -554,7 +554,7 @@ Archival collections are described at the collection-level and the item-level an
 #### TYPE OF RESOURCE
 
 |CSV Element|type_of_resource|
-|:---|:---|
+|---|---|
 |**Description**|A term that specifies the characteristics and general type of content of the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -571,13 +571,13 @@ Archival collections are described at the collection-level and the item-level an
 #### FORMAT
 
 |CSV Element|format|
-|:---|:---|
+|---|---|
 |**Description**|A designation of a particular physical presentation of a resource, including the physical form or medium of material for a resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
 |**Element(s)**|mods:physicalDescription/mods:form|
 |**Dublin Core Mapping**|dc.format|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List]</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcform.html" target="_blank">MARC Form of Item Term List</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcsmd.html<" target="_blank">Specific Material Form Term List/a></li><li>General Material Designation (GMD</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List]</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcform.html" target="_blank">MARC Form of Item Term List</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcsmd.html<" target="_blank">Specific Material Form Term List</a></li><li>General Material Designation (GMD</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>print</il><li>gelatin silver prints</li></ul>{:/}|
 
@@ -588,7 +588,7 @@ Archival collections are described at the collection-level and the item-level an
 #### EXTENT
 
 |CSV Element|extent|
-|:---|:---|
+|---|---|
 |**Description**|A statement about the physical extent of the resource, in terms of units of measurement and material.|
 |**Required**|Yes|
 |**Repeatable**|No|
@@ -605,7 +605,7 @@ Archival collections are described at the collection-level and the item-level an
 #### GENRE
 
 |CSV Element|genre|
-|:---|:---|
+|---|---|
 |**Description**|A term that designates a category characterizing a particular style, form, or content embodied by the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -622,7 +622,7 @@ Archival collections are described at the collection-level and the item-level an
 #### ABSTRACT
 
 |CSV Element|abstract|
-|:---|:---|
+|---|---|
 |**Description**|A summary of the content of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -639,7 +639,7 @@ Archival collections are described at the collection-level and the item-level an
 #### SUBJECT
 
 |CSV Element|subject|
-|:---|:---|
+|---|---|
 |**Description**|A term or phrase representing the primary topic(s) on which the resource is focused.|
 |**Required**|No
 |**Repeatable**|Yes|
@@ -656,7 +656,7 @@ Archival collections are described at the collection-level and the item-level an
 #### TEMPORAL COVERAGE
 
 |CSV Element|temporal_coverage|
-|:---|:---|
+|---|---|
 |**Description**|A chronological statement that indicates the date(s) or time period covered by the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -673,11 +673,11 @@ Archival collections are described at the collection-level and the item-level an
 #### GEOGRAPHIC COVERAGE
 
 |CSV Element|geographic_coverage|
-|:---|:---|
+|---|---|
 |**Description**|A geographical name or geographical data that indicates the spatial coverage of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element(s)**|mods:subject{::nomarkdown}<ul><li>mods:geographic</li><li>mods:geographicCode</li><li>mods:hierarchicalGeographic</li>{::nomarkdown}<ul><li>mods:continent</li><li>mods:country</li><li>mods:region</li><li>mods:state</li><li>mods:territory</li><li>mods:county</li><li>mods:city</li><li>mods:island</li><li>mods:area</li><li>mods:extraterrestrialArea</li><li>mods:citySection</li></ul>{:/}<li>mods:cartographics</li>{::nomarkdown}<ul><li>mods:scale</li><li>mods:projection</li><li>mods:coordinates</li></ul>{:/}<li>mods:geographicCoordinates</li></ul>{:/}|
+|**Element(s)**|mods:subject{::nomarkdown}<ul><li>mods:geographic</li><li>mods:geographicCode</li><li>mods:hierarchicalGeographic</li><ul><li>mods:continent</li><li>mods:country</li><li>mods:region</li><li>mods:state</li><li>mods:territory</li><li>mods:county</li><li>mods:city</li><li>mods:island</li><li>mods:area</li><li>mods:extraterrestrialArea</li><li>mods:citySection</li></ul>{:/}<li>mods:cartographics</li><ul><li>mods:scale</li><li>mods:projection</li><li>mods:coordinates</li></ul>{:/}<li>mods:geographicCoordinates</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.coverage|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</a></li></li><li><a href="" target="_blank">MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_code.html</a></li></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
@@ -690,7 +690,7 @@ Archival collections are described at the collection-level and the item-level an
 #### COLLECTION IDENTIFIER
 
 |CSV Element|collection_id|
-|:---|:---|
+|---|---|
 |**Description**|A digital collection to which the resource belongs.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
@@ -707,7 +707,7 @@ Archival collections are described at the collection-level and the item-level an
 #### HOST
 
 |CSV Element|host|
-|:---|:---|
+|---|---|
 |**Description**|A host or parent resource for the collection described; typically the parent collection.|
 |**Required**|No|
 |**Repeatable**|Yes|
@@ -724,7 +724,7 @@ Archival collections are described at the collection-level and the item-level an
 #### SERIES OF COLLECTION
 
 |CSV Element|series_of_collection|
-|:---|:---|
+|---|---|
 |**Description**|A series of the parent collection to which the resource belongs.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -741,7 +741,7 @@ Archival collections are described at the collection-level and the item-level an
 #### CONTAINER
 
 |CSV Element|container|
-|:---|:---|
+|---|---|
 |**Description**|An indication of the kind of container that physically holds the resource and any sequential number(s) assigned to the container.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -758,7 +758,7 @@ Archival collections are described at the collection-level and the item-level an
 #### OWNER
 
 |CSV Element|owner|
-|:---|:---|
+|---|---|
 |**Description**|A name of an entity that possesses physical and/or intellectual ownership of the resource.|
 |**Required**|No|
 |**Repeatable**|No|
@@ -775,7 +775,7 @@ Archival collections are described at the collection-level and the item-level an
 #### DEPOSITOR
 
 |CSV Element|depositor|
-|:---|:---|
+|---|---|
 |**Description**|An official name of the institution responsible for depositing the resource.|
 |**Required**|Yes|
 |**Repeatable**|No|
