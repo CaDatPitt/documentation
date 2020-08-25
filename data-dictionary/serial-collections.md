@@ -304,7 +304,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Dublin Core Mapping**|dc.format|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/rdamedia.html" target="_blank">Term and Code List for RDA Media Types</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/rdacarrier.html" target="_blank">Term and Code List for RDA Carrier Types</a></li><li>Anglo-American Cataloguing Rules general material designation (Rule 1.1C)</a></li><li>Others: <a href="http://www.loc.gov/standards/sourcelist/genre-form.html" target="_blank">Genre/Form Code and Term Source Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|{::nomarkdown}<ul><li>print</li><li>print|||unmediated|||volume</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>print</li><li>print\|\|\|unmediated\|\|\|volume</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
