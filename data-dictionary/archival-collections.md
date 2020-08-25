@@ -430,8 +430,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### TITLE
 
 |CSV Element|title|
@@ -446,8 +444,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>Zhou zong li-Ruisidun hui tan quan wen</li><li>Tip top weekly</li><li>Allegheny County Soldiers and Sailors Memorial</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### CREATOR
 
@@ -464,8 +460,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### CONTRIBUTOR
 
 |CSV Element|contributor|
@@ -480,8 +474,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|Abbot Renaud de Semur|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### CREATION DATE
 
@@ -498,8 +490,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### SORT DATE
 
 |CSV Element|sort_date|
@@ -514,8 +504,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|1872-01-01T00:00:00|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### DISPLAY DATE
 
@@ -532,8 +520,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### LANGUAGE
 
 |CSV Element|language|
@@ -548,8 +534,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|eng|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### TYPE OF RESOURCE
 
@@ -566,8 +550,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### FORMAT
 
 |CSV Element|format|
@@ -582,8 +564,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>print</il><li>gelatin silver prints</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### EXTENT
 
@@ -600,8 +580,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### GENRE
 
 |CSV Element|genre|
@@ -616,8 +594,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>text</li><li>novel</li><li>Embossed cloth binding (Binding)-1851</li><li>Fiction.</li><li>archival document</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### ABSTRACT
 
@@ -634,8 +610,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### SUBJECT
 
 |CSV Element|subject|
@@ -650,8 +624,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>Advertising</li><li>Pittsburgh</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### TEMPORAL COVERAGE
 
@@ -668,8 +640,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### GEOGRAPHIC COVERAGE
 
 |CSV Element|geographic_coverage|
@@ -684,8 +654,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>Downtown</li><li>n------</li><li>North America</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
-
-&nbsp;
 
 #### COLLECTION IDENTIFIER
 
@@ -702,7 +670,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
 
 #### HOST
 
@@ -719,7 +686,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
 
 #### SERIES OF COLLECTION
 
@@ -736,7 +702,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
 
 #### CONTAINER
 
@@ -753,8 +718,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
-
 #### OWNER
 
 |CSV Element|owner|
@@ -770,7 +733,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-&nbsp;
 
 #### DEPOSITOR
 
