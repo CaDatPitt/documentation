@@ -19,4 +19,4 @@ This repository comprises the following directories:
 The “base-layers,” “extension-layers” and “source-data” directories each contain subdirectories, organized by collection. Subdirectories under “source-data” contain third-level directories, organized by metadata schema. Subdirectories under “extension-layers” contain third-level  directories organized by project.
 
 ## Data Dictionary
-The [CaD@Pitt Data Dictionary](documentation/04-data-dictionary.md) defines and describes the data layers in this repository, including the project’s related controlled vocabularies and encoding schemes, metadata element sets, and application profiles.
+The [CaD@Pitt Data Dictionary](data-dictionary/04-data-dictionary.md) defines and describes the data layers in this repository, including the project’s related controlled vocabularies and encoding schemes, metadata element sets, and application profiles.
