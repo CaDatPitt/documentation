@@ -254,7 +254,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Element Node(s)**|mods:originInfo/mods:issuance|
 |**Dublin Core Mapping**|n/a|
 |**Vocabulary/Encoding Scheme(s)**|**Restricted schema data values for issuance subelement**: serial, monographic, multipart monograph, single unit, integrating resource|
-|**Notes**|For more information, see [MARC Mapping to MODS for the <originInfo>](https://www.loc.gov/standards/mods/mods-mapping.html#publication).|
+|**Notes**|For more information, see [MARC Mapping to MODS for the \<originInfo\>](https://www.loc.gov/standards/mods/mods-mapping.html#publication).|
 |**Example(s)**|monographic|
 
 [Jump to Item Level](#item-level)
