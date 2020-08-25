@@ -184,7 +184,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|
 |**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 260 - Publication, Distribution, etc.](https://www.loc.gov/marc/bibliographic/bd260.html).|
-|**Example(s)**|{::nomarkdown}<ul></li><li><a href="" target="_blank">1994]-</li><li>2011-</li><li>1940-02-01T00:00:00 **(digital only)**</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>1994]-</li><li>2011-</li><li>1940-02-01T00:00:00 <strong>(digital only)</strong></li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
