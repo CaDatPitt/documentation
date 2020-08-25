@@ -9,7 +9,7 @@ nav_order: 3
 # Getting Started
 This document outlines and describes how cultural heritage institutions (e.g., libraries, archives, museums) might implement a collections as data project based on the data layers model. If you’re not familiar with the conceptual model of “data layers” or the overall CaD@Pitt project, please read our Principles and Objectives. This implementation model covers the following phases and steps:
 
-I. [Preparing for implementation](#preparing-for-immplementation)
+I. [Preparing for implementation](#preparing-for-implementation)
   01. [Form your team](#form-your-team)
   02. [Write project charter](#write-project-charter)
   03. [Set up project infrastructure](#set-up-project-infrastructure)
