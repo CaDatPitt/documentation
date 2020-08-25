@@ -284,7 +284,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Element Node(s)**|mods:typeOfResource|
 |**Dublin Core Mapping**|dc.type|
 |**Vocabulary/Encoding Scheme(s)**|**Restricted scheme data values for typeOfResource element**: text, cartographic, notated music, sound recording, sound recording - nonmusical, sound recording - musical, still image, moving image, kit three dimensional object, software, multimedia, mixed material|
-|**Notes**|For more information, see <a href="https://www.loc.gov/standards/mods/mods-mapping.html#typeofresource" target="_blank">MARC Mapping to MODS for the <typeOfResource></a> and MARC 21 Format for Bibliographic Data — Leader](http://www.loc.gov/marc/bibliographic/bdleader.html).|
+|**Notes**|For more information, see [MARC Mapping to MODS for the <typeOfResource>]()"https://www.loc.gov/standards/mods/mods-mapping.html#typeofresource")</a> and MARC 21 Format for Bibliographic Data — Leader](http://www.loc.gov/marc/bibliographic/bdleader.html).|
 |**Example(s)**|text|
 
 [Jump to Item Level](#item-level)
