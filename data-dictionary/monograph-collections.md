@@ -161,7 +161,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A name of an entity that published, printed, distributed, released, issued, or produced the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:publisher</li><li>mods:name/mods:namePart _with_ mods:role/mods:roleterm="publisher"</li></ul>{:/}|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:publisher</li><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleterm="publisher"</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.publisher|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</li></ul>{:/}|
 |**Notes**||
@@ -191,7 +191,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A date associated with the creation of the resource and encoded for sorting or other purposes that necessitate normalization.|
 |**Required**|No|
 |**Repeatable**|No|
-|**Element Node(s)**|mods:originInfo/mods:dateIssued[@encoding="marc"]{::nomarkdown}<ul><li>_with_ @encoding="start"</li><li>_with_ @encoding="end"</ul>{:/}|
+|**Element Node(s)**|mods:originInfo/mods:dateIssued[@encoding="marc"]{::nomarkdown}<ul><li><em>with</em> @encoding="start"</li><li><em>with</em> @encoding="end"</ul>{:/}|
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**|{::nomarkdown}<ul><li>Dates in this field may fall under the following cases:</li><ul><li>Before Common Era (B.C.E.) date</li><li>publication or copyright date</li><li>reprint/reissue date or original date</li><li>modification or creation date</li><li>incorrect date</li><li>date span when resources are valid</li><li>date span recorded in addition to appearing elsewhere</li><li>date range of publication of a multipart item</li><li>date range with earliest and latest possible dates for a questionable date</li></ul><li>Start and end date values are combined and separated by a forward slash (/).</li><li>For more information, see <a href="https://www.loc.gov/marc/bibliographic/bd008a.html" target="_blank">MARC 21 Format for Bibliographic Data  — 008 - All Materials (NR)</a> and <a href="https://www.loc.gov/marc/bibliographic/bd046.html" target="_blank">MARC 21 Format for Bibliographic Data  — 046 - Special Coded Dates.</a></li></ul>{:/}|
