@@ -122,6 +122,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### CREATION DATE OF FINDING AID
 
 |CSV Element|finding_aid_creation_date|
@@ -136,6 +138,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|2017-08-29T07:46-0400|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### PUBLISHER OF FINDING AID
 
@@ -152,6 +156,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### PUBLICATION DATE OF FINDING AID
 
 |CSV Element|finding_aid_publication_date|
@@ -166,6 +172,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|July 2012|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### ACQUISITION NUMBER
 
@@ -182,6 +190,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### TITLE OF COLLECTION
 
 |CSV Element|collection_title|
@@ -196,6 +206,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|American Left Ephemera Collection|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### CREATOR OF COLLECTION
 
@@ -212,6 +224,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### LANGUAGE OF COLLECTION
 
 |CSV Element|collection_language|
@@ -226,6 +240,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|eng|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### EXTENT OF COLLECTION
 
@@ -242,6 +258,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### TEMPORAL COVERAGE OF COLLECTION
 
 |CSV Element|collection_temporal_coverage|
@@ -256,6 +274,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|1875-2015|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### SCOPE AND CONTENT OF COLLECTION
 
@@ -272,6 +292,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### BIOGRAPHY OR HISTORY
 
 |CSV Element|biography_or_history|
@@ -286,6 +308,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|Left and Right as political designations date to the French Revolution when the Jacobins sat on the left in the National Assembly and the Girondins on the right. The Left has come to mean movements, organizations, and intellectual or cultural tendencies that emphasize an egalitarian ethos, a utopian vision of social reconstruction, and a commitment to agitation and action to advance that ethos and vision.|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### COLLECTION ABSTRACT
 
@@ -302,6 +326,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### COLLECTION SUBJECT HEADINGS
 
 |CSV Element|subject_headings|
@@ -316,6 +342,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|{::nomarkdown}<ul><li>Communist Party of the United States of America. -- History -- Sources</li><li>Buttons (Information artifacts</a></li><li>Christian socialism -- United States -- History -- Sources</li><li>Pamphlets</li><li>Politics</li><li>Vietnam War, 1961-1975</li></ul>{:/}|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### RELATED MATERIAL
 
@@ -332,6 +360,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### REPOSITORY
 
 |CSV Element|repository|
@@ -347,6 +377,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### PREFERRED CITATION
 
 |CSV Element|preferred_citation|
@@ -361,6 +393,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|American Left Ephemera Collection, 1875-2015, AIS.2007.11, Archives &amp; Special Collections, University of Pittsburgh Library System|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### CONDITIONS GOVERNING USE
 
@@ -378,6 +412,7 @@ Archival collections are described at the collection-level and the item-level an
 [Jump to Collection Level](#collection-level)
 
 &nbsp;
+
 ### Item Level
 
 #### IDENTIFIER
@@ -395,6 +430,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### TITLE
 
 |CSV Element|title|
@@ -409,6 +446,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|{::nomarkdown}<ul><li>Zhou zong li-Ruisidun hui tan quan wen</li><li>Tip top weekly</li><li>Allegheny County Soldiers and Sailors Memorial</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### CREATOR
 
@@ -425,6 +464,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### CONTRIBUTOR
 
 |CSV Element|contributor|
@@ -439,6 +480,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|Abbot Renaud de Semur|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### CREATION DATE
 
@@ -455,6 +498,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### SORT DATE
 
 |CSV Element|sort_date|
@@ -469,6 +514,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|1872-01-01T00:00:00|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### DISPLAY DATE
 
@@ -485,6 +532,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### LANGUAGE
 
 |CSV Element|language|
@@ -499,6 +548,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|eng|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### TYPE OF RESOURCE
 
@@ -515,6 +566,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### FORMAT
 
 |CSV Element|format|
@@ -529,6 +582,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|{::nomarkdown}<ul><li>print</il><li>gelatin silver prints</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### EXTENT
 
@@ -545,6 +600,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### GENRE
 
 |CSV Element|genre|
@@ -559,6 +616,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|{::nomarkdown}<ul><li>text</li><li>novel</li><li>Embossed cloth binding (Binding)-1851</li><li>Fiction.</li><li>archival document</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### ABSTRACT
 
@@ -575,6 +634,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### SUBJECT
 
 |CSV Element|subject|
@@ -589,6 +650,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|{::nomarkdown}<ul><li>Advertising</li><li>Pittsburgh</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### TEMPORAL COVERAGE
 
@@ -605,6 +668,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### GEOGRAPHIC COVERAGE
 
 |CSV Element|geographic_coverage|
@@ -619,6 +684,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|{::nomarkdown}<ul><li>Downtown</li><li>n------</li><li>North America</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### COLLECTION IDENTIFIER
 
@@ -635,6 +702,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### HOST
 
 |CSV Element|host|
@@ -649,6 +718,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|Arlen Specter Senatorial Papers, Group 6. Public Relations and Media Files|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### SERIES OF COLLECTION
 
@@ -665,6 +736,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### CONTAINER
 
 |CSV Element|container|
@@ -680,6 +753,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Item Level](#item-level)
 
+&nbsp;
+
 #### OWNER
 
 |CSV Element|owner|
@@ -694,6 +769,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|ULS Archives &amp; Special Collections|
 
 [Jump to Item Level](#item-level)
+
+&nbsp;
 
 #### DEPOSITOR
 
