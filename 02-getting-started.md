@@ -70,7 +70,7 @@ There are a several other steps and considerations that your team may pursue dur
 ## Implementing your project
 ### Develop data layers
 After evaluating the existing collections data, you can begin developing the data layers for your project:
-- Determine the metadata elements for the base layer(s). _See the [CaD@Pitt Data Dictionary Introduction](https://github.com/CaDatPitt/data-layers/wiki/1.-Introduction) for details about how we developed our base layers._
+- Determine the metadata elements for the base layer(s). _See the [CaD@Pitt Data Dictionary Introduction](data-dictionary/introduction.md) for details about how we developed our base layers._
   - Of the collections metadata that is available, what is well-suited for computation?
   - In addition to metadata elements that are required to identify items (e.g., identifier, title, date, publisher), what are elements that are well-suited for research inquiry?
   - If you have received requests from scholars seeking to work with collections data, what data have they been or might they be interested in?
@@ -80,7 +80,7 @@ After evaluating the existing collections data, you can begin developing the dat
   - Note: At this time, only some of the Pitt Library’s collections items are represented in the CaD@Pitt repository. More are being added based on need and interest.
 - Export/download identified collections source data from local library/repository system(s). These will be uploaded to the repository later.
 - Determine how the metadata in the source data files will map to your base layer element set and how the CaD@Pitt transformation script will need to be modified accordingly.
-- Create documentation for your data layers. _See the [CaD@Pitt Data Dictionary](https://github.com/CaDatPitt/data-layers/wiki) for a model._
+- Create documentation for your data layers. _See the [CaD@Pitt Data Dictionary](data-dictionary/04-data-dictionary.md) for a model._
 
 ### Build repository
 The repository for your project not only provides access to your data layers but also enables the production of your base layers. These instructions assume that a GitHub repository is being used as the public-facing repository:
