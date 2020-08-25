@@ -56,7 +56,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional catalog system or digital repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
-|**Element Node(s)**|{::nomarkdown}<ul><li>mods:recordInfo/mods:recordIdentifier (catalog only)</li><li>mods:identifier type="pitt" **(digital only)**</li></ul>{:/}|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:recordInfo/mods:recordIdentifier <strong>(catalog only)</strong></li><li>mods:identifier type="pitt" <strong>(digital only)</strong></li></ul>{:/}|
 |**Dublin Core Mapping**|dc.identifier|
 |**Vocabulary/Encoding Scheme(s)**|Must be a unique string in the catalog system.|
 |**Notes**|Numeric or alpha-numeric string.|
