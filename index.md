@@ -16,10 +16,24 @@ nav_order: 1
     - [Instructional Modules](01-principles-and-objectives.md#instructional-modules)
 
 02. [Getting Started](02-getting-started.md)
+    - [Preparing for implementation](02-getting-started.html#preparing-for-implementation)
+    - [Implementing your project](02-getting-started.html#implementing-your-project)
 
 03. [Using the Data Layers Repository](03-using-the-repository.md)
+    - [Directories](03-using-the-repository.html#directories)
+    <!--- []()
+    - []()-->
+    - [Data Dictionary](03-using-the-repository.html#data-dictionary)
+
 
 04. [Data Dictionary](data-dictionary/04-data-dictionary.md)
+    - [Introduction](data-dictionary/introduction.html)
+    - [Metadata Standards, Controlled Vocabularies & Encoding Schemes](data-dictionary/standards.html)
+    - [Archival Collection Metadata Element Set](data-dictionary/archival-collections.html)
+    - [Serial Collection Metadata Element Set](data-dictionary/serial-collections.html)
+    - [Monograph Collection Metadata Element Set](data-dictionary/monograph-collections.html)
+    - [Application Profiles](data-dictionary/application-profiles.html)
+    - [Metadata Element Set Chart](data-dictionary/metadata-element-set-chart.html)
 
 <!--05. [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md)
 
