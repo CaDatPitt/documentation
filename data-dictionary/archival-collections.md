@@ -88,6 +88,8 @@ Archival collections are described at the collection-level and the item-level an
 
 [Jump to Collection Level](#collection-level)
 
+&nbsp;
+
 #### TITLE OF FINDING AID
 
 |CSV Element|finding_aid_title|
@@ -102,6 +104,8 @@ Archival collections are described at the collection-level and the item-level an
 |**Example(s)**|Guide to the American Left Ephemera Collection, 1875-2015|
 
 [Jump to Collection Level](#collection-level)
+
+&nbsp;
 
 #### CREATOR OF FINDING AID
 
