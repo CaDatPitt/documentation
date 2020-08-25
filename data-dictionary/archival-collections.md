@@ -18,11 +18,9 @@ nav_order: 3
 # Archival Collection Metadata Element Set
 
 ## Metadata Element List
-{::nomarkdown}<hr/>{:/}
 Archival collections are described at the collection-level and the item-level and, thus, have two [2] base layer CSVs, one for each level of description.
 
 ### **Collection Level**
-{::nomarkdown}<hr/>{:/}
 * [Finding Aid Identifier](#finding-aid-identifier)
 * [Title of Finding Aid](#title-of-finding-aid)
 * [Creator of Finding Aid](#creator-of-finding-aid)
@@ -44,7 +42,7 @@ Archival collections are described at the collection-level and the item-level an
 * [Preferred Citation](#preferred-citation)
 * [Conditions Governing Use](#conditions-governing-use)
 
-### Item Level
+### **Item Level**
 * [Identifier](#identifier)
 * [Title](#title)
 * [Creator](#creator)
