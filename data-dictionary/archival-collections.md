@@ -16,6 +16,7 @@ nav_order: 3
 </html>
 
 # Archival Collection Metadata Element Set
+{::nomarkdown}<hr/>{:/}
 
 ## Metadata Element List
 Archival collections are described at the collection-level and the item-level and, thus, have two [2] base layer CSVs, one for each level of description.
