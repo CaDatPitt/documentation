@@ -13,8 +13,8 @@ Monograph collections may contain items from the catalog and/or the digital repo
 ### Item Level
 * [Identifier](#identifier)
 * [Title](#title)
-* [Uniform Title](#title)
-* [Alternative Title](#title)
+* [Uniform Title](#uniform-title)
+* [Alternative Title](#alternative-title)
 * [Creator](#creator)
 * [Contributor](#contributor)
 * [Publication Place](#publication-place)
