@@ -19,7 +19,7 @@ nav_order: 1
 
 03. [Using the Data Layers Repository](03-using-the-data-layers-repository.md)
 
-04. [Data Dictionary](/04-data-dictionary)
+04. [Data Dictionary](data-dictionary/04-data-dictionary.md)
 
 <!--05. [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md)
 
