@@ -16,7 +16,6 @@ nav_order: 3
 </html>
 
 # Archival Collection Metadata Element Set
-{::nomarkdown}<hr/>{:/}
 
 ## Metadata Element List
 {::nomarkdown}<hr/>{:/}
