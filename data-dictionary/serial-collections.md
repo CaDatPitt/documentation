@@ -60,7 +60,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional catalog system or digital repository.|
 |**Required**|Yes|
 |**Repeatable**|No|
-|**Element Node(s)**|{::nomarkdown}<ul><li>mods:recordInfo/mods:recordIdentifier **(catalog only)**</li><li>mods:identifier[@type="pitt"] **(digital only)**</li></ul>{:/}|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:recordInfo/mods:recordIdentifier <strong>(catalog only)</strong></li><li>mods:identifier[@type="pitt"] <strong>(digital only)</strong></li></ul>{:/}|
 |**Dublin Core Mapping**|dc.identifier|
 |**Vocabulary/Encoding Scheme(s)**|Must be a unique string in the catalog or digital repository system.|
 |**Notes**|Alpha-numeric or numeric string, with or without special characters like periods (.) or dashes (-)|
@@ -180,7 +180,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A date associated with the publication or issuance of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued</li><li>mods:originInfo/mods:dateOther[@type="sort"] **(digital only)**</li></ul>{:/}|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued</li><li>mods:originInfo/mods:dateOther[@type="sort"] <strong>(digital only)</strong></li></ul>{:/}|
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|
 |**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 260 - Publication, Distribution, etc.](https://www.loc.gov/marc/bibliographic/bd260.html).|
@@ -195,7 +195,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A date associated with the beginning of publication of the resource or the serial of which it is a part.|
 |**Required**|No|
 |**Repeatable**|No|
-|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued[@point="start"]</li><li>mods:originInfo/mods:dateCreated[@point="start"] **(digital only)**</li></ul>{:/}|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued[@point="start"]</li><li>mods:originInfo/mods:dateCreated[@point="start"] <strong>(digital only)</strong></li></ul>{:/}|
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 008 - All Materials (NR)](https://www.loc.gov/marc/bibliographic/bd008a.html).|
