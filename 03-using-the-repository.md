@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Using the Data Layer Repository
+title: Using the Data Layers Repository
 nav_order: 4
 ---
 
 ### [CaD@Pitt Home](http://cadatpitt.github.io)
-# Using the Data Layer Repository
+# Using the Data Layers Repository
 
-The Data Layer Repository hosts primarily collections data, datasets and data extraction/transformation scripts.
+The [Data Layers Repository](https://github.com/CaDatPitt/data-layers) hosts primarily collections data, datasets and data extraction/transformation scripts.
 
 ## Directories
 This repository comprises the following directories:
