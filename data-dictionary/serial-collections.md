@@ -13,8 +13,8 @@ Serial collections may contain items from the catalog and/or the digital reposit
 ### Item Level
 * [Identifier](#identifier)
 * [Title](#title)
-* [Uniform Title](#title)
-* [Alternative Title](#title)
+* [Uniform Title](#uniform-title)
+* [Alternative Title](#alternative-title)
 * [Enumeration and Chronology](#enumeration-and-chronology) (digital only)
 * [Associated Name](#associated-name)
 * [Publication Place](#publication-place)
