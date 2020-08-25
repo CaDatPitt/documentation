@@ -19,9 +19,11 @@ nav_order: 3
 {::nomarkdown}<hr/>{:/}
 
 ## Metadata Element List
+{::nomarkdown}<hr/>{:/}
 Archival collections are described at the collection-level and the item-level and, thus, have two [2] base layer CSVs, one for each level of description.
 
-### Collection Level
+### **Collection Level**
+{::nomarkdown}<hr/>{:/}
 * [Finding Aid Identifier](#finding-aid-identifier)
 * [Title of Finding Aid](#title-of-finding-aid)
 * [Creator of Finding Aid](#creator-of-finding-aid)
