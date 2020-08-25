@@ -1,15 +1,3 @@
-# documentation
-Documentation for CaD@Pitt
-
----
-layout: default
-title: Documentation Overview
-nav_order: 1
----
-
-
-### [CaD@Pitt Home](http://cadatpitt.github.io)
-
 # Documentation Overview
 
 01. [Princples and Objectives](01-principles-and-objectives.md)
