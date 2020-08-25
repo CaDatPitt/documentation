@@ -543,7 +543,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|mods:language/mods:languageTerm|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2 Language Code List - Codes for the Representation of Names of Languages</a></li></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language</a></li>{:/}</ul>|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2 Language Code List - Codes for the Representation of Names of Languages</a></li></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|eng|
 
