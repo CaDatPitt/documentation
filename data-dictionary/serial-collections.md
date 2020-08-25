@@ -318,7 +318,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Element Node(s)**|mods:physicalDescription/mods:extent|
 |**Dublin Core Mapping**|dc.format|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 300 - Physical Description](http://www.loc.gov/marc/bibliographic/bd300.html)|
+|**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 300 - Physical Description](http://www.loc.gov/marc/bibliographic/bd300.html).|
 |**Example(s)**|93 v. in 91. : ill. ; 23 cm.|
 
 [Jump to Item Level](#item-level)
