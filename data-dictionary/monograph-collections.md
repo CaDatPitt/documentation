@@ -298,7 +298,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|No|
 |**Element Node(s)**|mods:physicalDescription/mods:form|
 |**Dublin Core Mapping**|dc.format|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="" target="_blank">MARC Form Category Term List](https://www.loc.gov/standards/valuelist/marccategory.html)</li></li><li><a href="" target="_blank">Term and Code List for RDA Media Types](https://www.loc.gov/standards/valuelist/rdamedia.html)</li></li><li><a href="" target="_blank">Term and Code List for RDA Carrier Types](https://www.loc.gov/standards/valuelist/rdacarrier.html)</li><li>Anglo-American Cataloguing Rules general material designation (Rule 1.1C)</li><li>Others: <a href="http://www.loc.gov/standards/sourcelist/genre-form.html" target="_blank">Genre/Form Code and Term Source Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List</li></li><li><a href="https://www.loc.gov/standards/valuelist/rdamedia.html" target="_blank">Term and Code List for RDA Media Types</li></li><li><a href="https://www.loc.gov/standards/valuelist/rdacarrier.html" target="_blank">Term and Code List for RDA Carrier Types</li><li>Anglo-American Cataloguing Rules general material designation (Rule 1.1C)</li><li>Others: <a href="http://www.loc.gov/standards/sourcelist/genre-form.html" target="_blank">Genre/Form Code and Term Source Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>print</li><li>unmediated</li><li>volume</li><li>art reproduction</li></ul>{:/}|
 
