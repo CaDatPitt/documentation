@@ -31,7 +31,7 @@ Specifically, consider who might be able to contribute the following:
 - Engagement with researchers and knowledge of their relevant needs and interests
 - Curatorial knowledge of your local library/archival collections, including the degree to which collections have been described
 - Technical knowledge of and access to local library/repository system(s), including the ability to search and export records in bulk from systems' interfaces
-- Expertise in collection metadata, including knowledge of local metadata creation and/or cataloging practices
+- Expertise in collection metadata, including knowledge of relevant metadata standards/schemas, local metadata creation, and/or cataloging practices
 - Facility with GitHub, including creating and administering repositories/organizations, writing to and cloning repositories, and downloading/running code.
 - Facility with Python, including scripting with libraries like pandas, NumPy, Beautiful Soup, lxml, and Pymarc.
 - Facility with tabular data (especially CSV format), including loading into and manipulating with common desktop applications
