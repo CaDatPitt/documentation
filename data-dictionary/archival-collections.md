@@ -28,6 +28,7 @@ Archival collections are described at the collection-level and the item-level an
 * [Publisher of Finding Aid](#publisher-of-finding-aid)
 * [Publication Date of Finding Aid](#publication-date-of-finding-aid)
 * [Acquisition Number](#acquisition-number)
+* [Collection Identifier](#collection-identifier)
 * [Title of Collection](#title-of-collection)
 * [Creator of Collection](#creator-of-collection)
 * [Language of Collection](#language-of-collection)
