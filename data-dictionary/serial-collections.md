@@ -78,7 +78,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Element Node(s)**|mods:titleInfo{::nomarkdown}<ul><li>mods:title</li><li>mods:subTitle</li><li>mods:nonSort</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.title|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|{::nomarkdown}<ul><li>Title is formatted as following (less the subTitle and/or nonSort where they do not exist): [title]: [subTitle], [nonSort]</li><li>If value of subTitle is parenthetical, it should be formatted as following (less the nonSort where if it does not exist): [title] [subTitle], [nonSort] </li><li>Excludes any Title elements (i.e., mods:titleInfo) with the following @type attribute values: abbreviated, translated, alternative, uniform.</li></ul>{:/}|
+|**Notes**|{::nomarkdown}<ul><li>Title is formatted as follows (less the subTitle and/or nonSort where they do not exist): [title]: [subTitle], [nonSort]</li><li>If value of subTitle is parenthetical, it should be formatted as follows (less the nonSort where if it does not exist): [title] [subTitle], [nonSort] </li><li>Excludes any Title elements (i.e., mods:titleInfo) with the following @type attribute values: abbreviated, translated, alternative, uniform.</li></ul>{:/}|
 |**Example(s)**|{::nomarkdown}<ul><li>Courier</li><li>Critical Studies in Teaching and Learning (CriSTaL</a></li><li>Tip top weekly: an ideal publication for the American youth</li><li>Shooting Star Review</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
@@ -165,7 +165,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A name of an entity that published, printed, distributed, released, issued, or produced the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:publisher</li><li>mods:name/namePart _with_ mods:role/mods:roleTerm="publisher"</li></ul>{:/}|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:publisher</li><li>mods:name/namePart <em>with</em> mods:role/mods:roleTerm="publisher"</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.publisher|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
 |**Notes**||

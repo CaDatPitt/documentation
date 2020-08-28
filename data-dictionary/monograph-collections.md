@@ -74,7 +74,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Element Node(s)**|mods:titleInfo{::nomarkdown}<ul><li>mods:title</li><li>mods:subTitle</li><li>mods:nonSort</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.title|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|{::nomarkdown}<ul><li>Title is formatted as following (less the subTitle and/or nonSort where they do not exist): [title]: [subTitle], [nonSort]</li><li>Excludes any Title elements (i.e., mods:titleInfo) with the following @type attribute values: abbreviated, translated, alternative, uniform.</li></ul>{:/}|
+|**Notes**|{::nomarkdown}<ul><li>Title is formatted as follows (less the subTitle and/or nonSort where they do not exist): [title]: [subTitle], [nonSort]</li><li>Excludes any Title elements (i.e., mods:titleInfo) with the following @type attribute values: abbreviated, translated, alternative, uniform.</li></ul>{:/}|
 |**Example(s)**|{::nomarkdown}<ul><li>Alice's adventures in Wonderland: Through the looking-glass</li><li></li>peace egg: and, A Christmas mumming play, The </li><li>Der Struwwelpeter</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
