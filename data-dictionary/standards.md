@@ -5,6 +5,8 @@ parent: Data Dictionary
 nav_order: 2
 ---
 
+### [CaD@Pitt Home](http://cadatpitt.github.io)
+
 # Metadata Standards, Controlled Vocabularies & Encoding Schemes
 
 ## Metadata Standards/Schemas

@@ -5,6 +5,8 @@ parent: Data Dictionary
 nav_order: 1
 ---
 
+### [CaD@Pitt Home](http://cadatpitt.github.io)
+
 # Introduction
 
 The CaD@Pitt Data Dictionary defines and describes the **data layers** (datasets) in the [Data Layers Repository](https://github.com/CaDatPitt/data-layers), which are categorized into three [3] types:

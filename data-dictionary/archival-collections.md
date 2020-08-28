@@ -5,6 +5,8 @@ parent: Data Dictionary
 nav_order: 3
 ---
 
+### [CaD@Pitt Home](http://cadatpitt.github.io)
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -468,7 +470,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Description**|A name of an entity responsible for making contributions to the creation or distribution of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleTerm="contributor"|
+|**Element(s)**|{::nomarkdown}<ul><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleTerm="contributor"</li><li>mods:name/mods:namePart[not(@usage="primary")] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.contributor|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
