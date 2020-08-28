@@ -116,7 +116,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |Description|A name of an entity responsible for making the content of the resource.|
 |Required|No|
 |Repeatable|Yes|
-|Element Node(s)|{::nomarkdown}<ul><li>mods:name/mods:namePart <strong>wihtout</strong> mods:role/mods:roleTerm</li><li>mods:name/mods:namePart <strong>with</strong> mods:role/mods:roleTerm</li><ul><li><strong>Restricted values for roleTerm attribute (ignoring trailing punctuation)</strong>: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul></ul>{:/}|
+|Element Node(s)|{::nomarkdown}<ul><li>mods:name/mods:namePart <strong>wihtout</strong> mods:role/mods:roleTerm</li><li>mods:name/mods:namePart <strong>with</strong> mods:role/mods:roleTerm</li><ul><li><strong>Restricted values for roleTerm attribute (ignoring trailing punctuation)</strong>: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul>><li>mods:name/mods:namePart[@usage="primary"] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}</ul>{:/}|
 |Dublin Core Mapping|dc.creator|
 |Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
 |Notes|Multiple values within the <mods:name> element are separated by comma (,).|

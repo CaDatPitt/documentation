@@ -453,7 +453,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Description**|A name of an entity responsible for making the content of the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleTerm="creator"|
+|**Element(s)**|{::nomarkdown}<ul><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleTerm="creator"</li><li>mods:name/mods:namePart[@usage="primary"] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.creator|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
