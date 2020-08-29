@@ -34,14 +34,14 @@ nav_order: 1
     - [Metadata Element Set Chart](data-dictionary/metadata-element-set-chart.md)
 
 05. [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md)
-    - [Requesting Data from CaD@Pitt](05-data-extraction-and-transformation-workflow.md#requesting-data-from-cad@pitt)
-    - [Creating Your Own Base Layer](05-data-extraction-and-transformation-workflow.md#creating-your-own-base-layer)
+    - [Requesting data from CaD@Pitt](05-data-extraction-and-transformation-workflow.md#requesting-data-from-cad@pitt)
+    - [Creating your own base Layer](05-data-extraction-and-transformation-workflow.md#creating-your-own-base-layer)
 
 06. [Best Practices for Creating for Creating Extension Layers](06-best-practices-for-creating-extension-layers.md)
-    - [Introducing Extension Layers](06-best-practices-for-creating-extension-layers.md#introducing-extension-layers)
-    - [Designing Extension Layers](06-best-practices-for-creating-extension-layers.md#designing-extension-layers)
-    - [Creating Extension Layers](06-best-practices-for-creating-extension-layers.md#creating-extension-layers)
-    - [Publishing and Sharing Extension Layers](06-best-practices-for-creating-extension-layers.md#publishing-and-sharing-extension-layers)
+    - [Introducing extension layers](06-best-practices-for-creating-extension-layers.md#introducing-extension-layers)
+    - [Designing extension layers](06-best-practices-for-creating-extension-layers.md#designing-extension-layers)
+    - [Creating extension layers](06-best-practices-for-creating-extension-layers.md#creating-extension-layers)
+    - [Publishing and sharing extension Layers](06-best-practices-for-creating-extension-layers.md#publishing-and-sharing-extension-layers)
 
 07. [Publishing an Extension Layer](07-publishing-an-extension-layer.md)
     - [Preparing your extension layer](07-publishing-an-extension-layer.md#preparing-your-extension-layer)
