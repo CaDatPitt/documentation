@@ -37,9 +37,9 @@ nav_order: 1
 
 <!--05. [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md)
 
-06. [Best Practices for Creating Extension Layers](06-best-practices-for-creating-extension-layers.md)
+06. [Best Practices for Creating Extension Layers](06-best-practices-for-creating-extension-layers.md) -->
 
-07. [Publishing an Extension Layer](07-publishing-an-extension-layer.md)-->
+07. [Publishing an Extension Layer](07-publishing-an-extension-layer.md)
 
 
 <!--# Instructional Modules
