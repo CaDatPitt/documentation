@@ -6,18 +6,18 @@ nav_order: 8
 
 #### [Home](http://cadatpitt.github.io)
 # Publishing an Extension Layer
-An extension data layer is both a dataset and a work of scholarship. Therefore, the goals for publishing an extension layer include 
-1) supporting its use and re-use as data (e.g. accessibility, intelligibility, validation, computational tractability), as well as 
+An extension data layer is both a dataset and a work of scholarship. Therefore, the goals for publishing an extension layer include
+1) supporting its use and re-use as data (e.g. accessibility, intelligibility, validation, computational tractability), as well as
 2) supporting it as a publication within the scholarly communications ecosystem (e.g., discoverability, citability, attribution, provenance)
 
-The CaD@Pitt project does not suggest a single path for publishing extension layers. There are different options available for making data 
-available while still addressing the functions of scholarly communication. This section of the documentation offers general principles and 
-suggestions for publishing extension layers. It also hopes to provide information that will help you evaluate the pros and cons of various 
+The CaD@Pitt project does not suggest a single path for publishing extension layers. There are different options available for making data
+available while still addressing the functions of scholarly communication. This section of the documentation offers general principles and
+suggestions for publishing extension layers. It also hopes to provide information that will help you evaluate the pros and cons of various
 repository options.
 
 ## Preparing your extension layer
-The following steps are generalized, and many of them apply to preparing any dataset for publication. Some of the specifics of these steps 
-may be influenced by the choice of publication venue. For example, many repositories will mandate a certain metadata schema, or define a 
+The following steps are generalized, and many of them apply to preparing any dataset for publication. Some of the specifics of these steps
+may be influenced by the choice of publication venue. For example, many repositories will mandate a certain metadata schema, or define a
 data quality and integrity standard. However, these steps should provide a sense of overall good practice.
 - Remove fields copied from base layer, except linking identifier(s)
 - Review data for completeness / integrity / legibility
@@ -30,32 +30,29 @@ data quality and integrity standard. However, these steps should provide a sense
 
 ## Choosing a venue for publication
 There are many options for publishing data, and many for publishing scholarly outputs. Choosing the most appropriate venue for your extension
-layer will depend on evaluating a number of different factors. If you are making this decision for the first time, we offer some pros and cons 
+layer will depend on evaluating a number of different factors. If you are making this decision for the first time, we offer some pros and cons
 of three different options: GitHub or similar open code repository, an academic/disciplinary data repository, and an institutional repository.
 
-### GitHub or other open code repository
+### **GitHub or other open code repository**
 
-|pros                                                                   |cons                                                        | 
+|pros                                                                   |cons                                                        |
 |-----------------------------------------------------------------------|------------------------------------------------------------|                                       
 |In the workflow and toolchain of developers and experienced data users |  Some technical and cultural barriers to non-technical users |    
 |Support for version control management                                 |  Not optimized for scholarly communications considerations |
 |Highly open user community; platform connects many other users and depositors  | Optimized for code rather than data |  
 
-### Academic/Disciplinary Data repository
+### **Academic/Disciplinary Data repository**
 
-|pros                                                      |cons                                                        | 
+|pros                                                      |cons                                                        |
 |----------------------------------------------------------|------------------------------------------------------------|
 |Optimized for scholarly communication considerations      |May not support versioning or frequent changes to dataset   |  
 |Moderately open user community; datasets can likely be deposited by users with many different affiliations |           |
 
 
-### Institutional Repository
+### **Institutional Repository**
 
-|pros                                                      |cons                                                        | 
+|pros                                                      |cons                                                        |
 |----------------------------------------------------------|------------------------------------------------------------|  
 |Optimized for scholarly communication considerations      |May not be optimized for datasets |
 |Often managed by libraries                                |Restricted depositor community; e.g., may be limited to depositors with institutional affiliation   |
 |Strongly retains institutional brand                      |May not handle versioning or frequent changes to dataset |
-
-
-
