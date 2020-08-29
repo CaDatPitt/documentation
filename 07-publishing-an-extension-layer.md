@@ -30,22 +30,22 @@ data quality and integrity standard. However, these steps should provide a sense
 
 ## Choosing a venue for publication
 There are many options for publishing data, and many for publishing scholarly outputs. Choosing the most appropriate venue for your extension
-layer will depend on evaluating a number of different factors. If you are making this decision for the first time, we offer some pros and cons
-of three different options: GitHub or similar open code repository, an academic/disciplinary data repository, and an institutional repository.
+layer will depend on a number of different factors. If you are making this decision for the first time, we offer some pros and cons
+of three different options: 1) GitHub or similar open code repository; 2) an academic/disciplinary data repository, and 3) your institutional repository (if available).
 
 ### **GitHub or other open code repository**
 
 |pros                                                                   |cons                                                        |
 |-----------------------------------------------------------------------|------------------------------------------------------------|                                       
 |In the workflow and toolchain of developers and experienced data users |  Some technical and cultural barriers to non-technical users |    
-|Support for version control management                                 |  Not optimized for scholarly communications considerations |
-|Highly open user community; platform connects many other users and depositors  | Optimized for code rather than data |  
+|Support for version control management                                 |  Not optimized for scholarly communications  |
+|Highly open user community; platform connects many other users and depositors  | Not optimized for presenting datasets |  
 
 ### **Academic/Disciplinary Data repository**
 
 |pros                                                      |cons                                                        |
 |----------------------------------------------------------|------------------------------------------------------------|
-|Optimized for scholarly communication considerations      |May not support versioning or frequent changes to dataset   |  
+|Optimized for scholarly communication                     |May not support versioning or frequent changes to dataset   |  
 |Moderately open user community; datasets can likely be deposited by users with many different affiliations |           |
 
 
@@ -53,6 +53,6 @@ of three different options: GitHub or similar open code repository, an academic/
 
 |pros                                                      |cons                                                        |
 |----------------------------------------------------------|------------------------------------------------------------|  
-|Optimized for scholarly communication considerations      |May not be optimized for datasets |
-|Often managed by libraries                                |Restricted depositor community; e.g., may be limited to depositors with institutional affiliation   |
-|Strongly retains institutional brand                      |May not handle versioning or frequent changes to dataset |
+|Optimized for scholarly communication                     |May not be optimized for datasets |
+|Often managed by libraries                                |Restricted depositor community; may be limited to depositors with institutional affiliation   |
+|Strong institutional brand                                |May not support versioning or frequent changes to dataset |
