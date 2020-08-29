@@ -5,7 +5,7 @@ parent: Data Dictionary
 nav_order: 3
 ---
 
-### [CaD@Pitt Home](http://cadatpitt.github.io)
+#### [Home](http://cadatpitt.github.io)
 
 <html lang="en">
   <head>

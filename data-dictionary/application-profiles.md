@@ -5,7 +5,7 @@ parent: Data Dictionary
 nav_order: 6
 ---
 
-### [CaD@Pitt Home](http://cadatpitt.github.io)
+#### [Home](http://cadatpitt.github.io)
 
 # Application Profiles
 

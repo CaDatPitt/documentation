@@ -5,7 +5,7 @@ parent: Data Dictionary
 nav_order: 5
 ---
 
-### [CaD@Pitt Home](http://cadatpitt.github.io)
+#### [Home](http://cadatpitt.github.io)
 
 # Monograph Collection Metadata Element Set
 

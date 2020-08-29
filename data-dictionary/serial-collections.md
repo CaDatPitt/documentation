@@ -5,7 +5,7 @@ parent: Data Dictionary
 nav_order: 4
 ---
 
-### [CaD@Pitt Home](http://cadatpitt.github.io)
+#### [Home](http://cadatpitt.github.io)
 
 # Serial Collection Metadata Element Set
 

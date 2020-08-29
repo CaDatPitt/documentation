@@ -21,8 +21,8 @@ nav_order: 1
 
 03. [Using the Data Layers Repository](03-using-the-repository.md)
     - [Directories](03-using-the-repository.html#directories)
-    <!-- - []() -->
-    <!-- - []() -->
+    <!-- - [Downloading Files]() -->
+    <!-- - [Cloning the Repository]() -->
     - [Data Dictionary](03-using-the-repository.html#data-dictionary)
 
 
