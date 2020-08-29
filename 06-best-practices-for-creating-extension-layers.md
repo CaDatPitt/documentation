@@ -39,5 +39,5 @@ _For instructors_: When introducing a researcher to the process of creating an e
     - (Optional) notes
     - (Optional) examples
 
-## Publishing and sharing extension layers
+## Publishing and Sharing Extension Layers
 Robust advice about how to make extension layers available can be found in the [Publishing an Extension Layer](07-publishing-an-extension-layer.md) document.
