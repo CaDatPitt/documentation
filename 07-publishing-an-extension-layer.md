@@ -35,30 +35,27 @@ of three different options: GitHub or similar open code repository, an academic/
 
 ### GitHub or other open code repository
 
-pros                                                                          
-- in the workflow and toolchain of developers and experienced data users        
-- support for version control management                                       
-- highly open user community; platform connects many other users and depositors 
-cons
-- some technical and cultural barriers to non-technical users
-- not optimized for scholarly communications considerations
-- optimized for code rather than data   
+|pros                                                                   |cons                                                        | 
+|-----------------------------------------------------------------------|------------------------------------------------------------|                                       
+|In the workflow and toolchain of developers and experienced data users |  Some technical and cultural barriers to non-technical users |    
+|Support for version control management                                 |  Not optimized for scholarly communications considerations |
+|Highly open user community; platform connects many other users and depositors  | Optimized for code rather than data |  
 
 ### Academic/Disciplinary Data repository
 
-pros                                                                        
-- Optimized for scholarly communication considerations                         
-- Moderately open user community; datasets can likely be deposited by users with many different affiliations 
-cons
--May not support versioning or frequent changes to dataset
+|pros                                                      |cons                                                        | 
+|----------------------------------------------------------|------------------------------------------------------------|
+|Optimized for scholarly communication considerations      |May not support versioning or frequent changes to dataset   |  
+|Moderately open user community; datasets can likely be deposited by users with many different affiliations |           |
+
 
 ### Institutional Repository
 
-|pros                                                                          |cons                                                        | 
-|------------------------------------------------------------------------------|------------------------------------------------------------|  
-|Optimized for scholarly communication considerations                          |May not be optimized for datasets |
-|Often managed by libraries                                                    |Restricted depositor community; e.g., may be limited to depositors with institutional affiliation   |
-|Strongly retains institutional brand |optimized for code rather than data     |May not handle versioning or frequent changes to dataset |
+|pros                                                      |cons                                                        | 
+|----------------------------------------------------------|------------------------------------------------------------|  
+|Optimized for scholarly communication considerations      |May not be optimized for datasets |
+|Often managed by libraries                                |Restricted depositor community; e.g., may be limited to depositors with institutional affiliation   |
+|Strongly retains institutional brand                      |May not handle versioning or frequent changes to dataset |
 
 
 
