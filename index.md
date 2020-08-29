@@ -5,7 +5,7 @@ nav_order: 1
 ---
 
 
-### [CaD@Pitt Home](http://cadatpitt.github.io)
+#### [Home](http://cadatpitt.github.io)
 
 # Documentation Overview
 
