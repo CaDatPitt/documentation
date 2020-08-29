@@ -13,7 +13,7 @@ If the collections data you want to work with is maintained by Pitt's library an
 by a request to the CaD@Pitt team. If you are working with your own collections data, or wish to customize the transformation process, you 
 can also do the transformation yourself.  We describe the steps to run the data extraction and transformation scripts developed by the CaD@Pitt project.
 
-## Requesting Data from CaD@Pitt
+## Requesting data from CaD@Pitt
 1. User submits a Source Data Request. 
 1. CaD team member confirms request with user. 
 1. CaD team member downloads source data from digital repository and/or ILS.
@@ -21,7 +21,7 @@ can also do the transformation yourself.  We describe the steps to run the data 
 1. CaD team member processes source data with extract/transform script(s) to output CSV and YAML files to the "base-layers" directory in the CaD@Pitt GitHub repository
 1. CaD team member notifies requesting user that source data is available, if user will be creating base layers.
 
-## Creating Your Own Base Layer
+## Creating your own base layer
 Obtain a copy of the CaD@Pitt Data Layers Repository
 Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repository. (For instructions, see “Using the Repository: Cloning the Repository.”)
 
