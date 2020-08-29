@@ -8,10 +8,10 @@ nav_order: 6
 
 # Best Practices for Creating Extension Layers
 
-## Introducing Extension Layers
+## Introducing extension layers
 _For instructors_: When introducing a researcher to the process of creating an extension layer, consider following the sequence from the [instructional modules](https://cadatpitt.github.io/modules/). Dividing the process into steps can provide structure for researchers who are not sure how to get started.
 
-## Designing Extension Layers
+## Designing extension layers
 - When developing ideas for extension layers, creating new data elements or enriching existing data may be based on a desire to:
   - Add information in order to answer a research question
   - Enhance functionality (e.g. search, faceting, and filtering) by adding information such as geographic coordinates, genres, item types, etc.
@@ -21,7 +21,7 @@ _For instructors_: When introducing a researcher to the process of creating an e
 - _For instructors_: Consider where instruction might be required or useful. The Collections as Data project can be a powerful opportunity to introduce researchers who are new to data work to core concepts such as spreadsheet design and techniques for creating consistent and useful data.
 - Consider how creators will be attributed at the design stage. Single creators may be attributed in metadata for the extension layer when it is published. If there are multiple creators, consider including an attribution field within the layer itself.
 
-## Creating Extension Layers
+## Creating extension layers
 - Consider which tools might be most appropriate for the creator(s).
   - General audiences, one-off events, and classes which do not have a technology focus might benefit from the use of more lightweight tools such as a clearly-designed spreadsheet presented via Google Sheets or Excel. These spreadsheets will be simple to create and can be easily changed on the fly in response to learners’ needs, allowing for a flexible instruction experience.
   - If you intend to crowdsource data or otherwise ask people to create or contribute to extension layers without going through a tailored orientation, a custom web application or crowdsourcing platform (e.g. [Zooniverse](https://www.zooniverse.org/)) may offer a more controlled environment for data creation and a consistent format for data output. These environments will be more work to set up, but offer the benefit of increased functionality and flexibility.
@@ -39,5 +39,5 @@ _For instructors_: When introducing a researcher to the process of creating an e
     - (Optional) notes
     - (Optional) examples
 
-## Publishing and Sharing Extension Layers
+## Publishing and sharing extension layers
 Robust advice about how to make extension layers available can be found in the [Publishing an Extension Layer](07-publishing-an-extension-layer.md) document.
