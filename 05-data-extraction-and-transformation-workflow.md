@@ -23,7 +23,7 @@ can do the transformation yourself.  We describe the steps to run the data extra
 
 ## Creating your own base layer
 ### **Obtain a copy of the CaD@Pitt Data Layers Repository**
-Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repository. (For instructions, see [Using the Repository: Cloning the Repository](/documentation/03-using-the-repository.html#download-or-clone-the-repository))
+Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repository. For instructions, see [Using the Repository: Cloning the Repository](/documentation/03-using-the-repository.html#download-or-clone-the-repository).
 
 ### **Obtain the source data**
 All source data should be placed within a standardized structure in the repository directories.
