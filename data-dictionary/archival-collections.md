@@ -358,7 +358,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:relatedmaterial|
 |**Dublin Core Mapping**|dc.relation|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|Preferred Citation for related collection, including collection title, date range for collection, Acquition Number, Repository, and Depositor.|
+|**Notes**|Often the Preferred Citation for related collection, including collection title, date range for collection, Acquition Number, Repository, and Depositor.|
 |**Example(s)**|A.E. Forbes Communist Collection, 1921-1972, AIS.2000.07, Archives &amp; Special Collections, University of Pittsburgh Library System|
 
 [Jump to Collection Level](#collection-level)
