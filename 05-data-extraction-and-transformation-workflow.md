@@ -34,7 +34,7 @@ can do the transformation yourself.  We describe the steps to run the data extra
 
 ## Creating your own base layer
 ### **Obtain a copy of the CaD@Pitt Data Layers Repository**
-Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repository. For instructions, see [Using the Repository: Cloning the Repository](/documentation/03-using-the-repository.html#download-or-clone-the-repository).
+Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repository. For instructions, see [Using the Repository: Cloning the Repository](03-using-the-repository.html#download-or-clone-the-repository).
 
 ### **Obtain the source data**
 All source data should be placed within a standardized structure in the repository directories.
@@ -55,9 +55,9 @@ After this is done, you should have a directory structure that looks like this:
 ### **Configure your python environment**
 The CaD@Pitt data extraction and transformation scripts are written in Python, specifically for Python 3. If needed, obtain and install Python 3.x on your computer.
 There are several ways to obtain Python, and you may already have it installed on your computer without realizing. For more detailed information tailored to your
-specific operating system, see the official Python 3 {::nomarkdown}<a href="https://docs.python.org/3/using/index.html" target="_blank">Setup and Usage <font size="-1"><i class="fa fa-external-link"></i></font></a>{:/} documentation.
+specific operating system, see the official Python 3 [Setup and Usage](https://docs.python.org/3/using/index.html) documentation.
 
-Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install needed modules. If you are new (or need a refresher) to installing python modules or using pip and requirements.txt, we recommend consulting the {::nomarkdown}<a href="https://packaging.python.org/tutorials/installing-packages/" target="_blank">Installing Packages <font size="-1"><i class="fa fa-external-link"></i></font></a>{:/} documentation from the Packaging Python User Guide.
+Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install needed modules. If you are new (or need a refresher) to installing python modules or using pip and requirements.txt, we recommend consulting the [Installing Packages](https://packaging.python.org/tutorials/installing-packages/) documentation from the Packaging Python User Guide.
 
 ### **The transformation scripts**
 The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in
