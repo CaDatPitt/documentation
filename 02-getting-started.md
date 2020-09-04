@@ -49,7 +49,7 @@ You may very well have your own project management tools and preferences, but we
 - Project management tool (e.g., Trello, Asana, Monday, Microsoft Project)
 - An access-controlled platform to store and share internal project documentation and data (e.g., Dropbox, Box, Google Drive, another private repository)
 - A public-facing web site or repository (e.g., GitHub) to share data layers and user documentation
-- For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the [CaD@Pitt Data Layers repository](https://github.com/CaDatPitt/data-layers)
+- For those working on transforming data layers using the project's Python scripts, an up-to-date local Python processing environment, and a cloned copy of the [CaD@Pitt Data Layers Repository](https://github.com/CaDatPitt/data-layers)
 
 ### **Evaluate existing collections data**
 With a team in place, the next step is to evaluate your institution's existing collections data and consider what data will be available to you. Drawing from the expertise on your team, you can collaboratively identify:
@@ -107,7 +107,7 @@ It is important to establish how your users will use your collections as data re
   - What are your objectives or learning outcomes?
   - What will be the venue for instruction? Class sessions? Training sessions? An event?
 - Establish partnerships with instructors, if you’re collaborating to implement modules in a class. You may find it useful to develop a preliminary module or set of modules to present to potential instructors as an example; or, you may share previously implemented modules.
-- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). _See the CaD@Pitt [instructional modules]() as a model._
+- Develop lesson plans for your instructional modules, including objectives or learning goals/outcomes, instructional content and methods, activities and assignments, and assessment methods. We suggest creating an itinerary to outline/timeline the sequence of events that make up the lesson(s). _See the CaD@Pitt [instructional modules](https://cadatpitt.github.io/modules/) as a model._
 - Identify and prepare the tools and materials needed to implement the module(s).
 
 As you implement these modules in your various instructional contexts, we suggest documenting and assessing these cases and refining your modules as needed.
