@@ -20,7 +20,7 @@ The CaD@Pitt Data Dictionary defines and describes the **data layers** (datasets
 * Machine-readable cataloging (MARC21): contains descriptive MARC record metadata for items that were catalogued before ingested in Islandora
 * Encoded Archival Description (EAD): contains descriptive EAD based on digital finding aids
 * Dublin Core (DC): contains descriptive DC metadata (simple)
-* MODS: contains descriptive MODS Metadata filled out during ingest (more robust)
+* Metadata Object Description Schema (MODS): contains descriptive MODS Metadata filled out during ingest (more robust)
 * Relationships-External (RELS-EXT): Fedora digital object relationship metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
 
 Despite being encoded in standards/schemes, the data records are often non-standardized and incomplete due to variation in data entry practices and conversions of data from one standard/scheme to another. For example, dates may appear or be missing in one or more fields in the source data and use varying formats/encoding. To avoid excluding date information when it exists for an item by selecting a single field, multiple date elements have been included in the base layers to capture date information when possible; however, users of the dataset may have to normalize dates across fields for computational methods using date information.
