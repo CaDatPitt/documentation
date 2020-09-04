@@ -671,7 +671,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
 |**Example(s)**|pitt:collection.299|
 
-[Jump to Collection Level](#collection-level) \| [Jump to Item Level](#item-level)
+[Jump to Collection Level](#collection-level)  \|  [Jump to Item Level](#item-level)
 
 
 #### HOST

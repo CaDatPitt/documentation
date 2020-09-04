@@ -10,6 +10,8 @@ nav_order: 2
 # Data Standards/Schemas, Controlled Vocabularies & Encoding Schemes
 
 ## Data Standards/Schemas
+* [ANSI/NISO Z39.71-2006 (R2011) Holdings Statements for Bibliographic Items](https://www.niso.org/publications/z3971-2006-r2011)
+* NISO Z39.44 Serial Holdings Standard (superseded by ANSI/NISO Z39.71-2006)
 * [CopyrightMD](https://cdlib.org/groups/rights-management-group-copyrightmd/)
 * [DCMI (Dublin Core Metadata Initiative) Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 * [EAD (Encoded Archival Description)](https://www.loc.gov/ead/)
@@ -21,7 +23,7 @@ nav_order: 2
 
 ## Controlled Vocabularies & Encoding Schemes
 * [Age ratings for computer games (Pan European Game Information (PEGI)](http://www.pegi.info/en/index/id/33/)
-* [Anglo-American Cataloguing Rules general material designation (Rule 1.1C)](https://www.loc.gov/standards/valuelist/rdacarrier.html) 
+* [Anglo-American Cataloguing Rules general material designation (Rule 1.1C)](https://www.loc.gov/standards/valuelist/rdacarrier.html)
 * [Art and Architecture Thesaurus (AAT)](http://www.getty.edu/research/tools/vocabularies/aat/index.html)
 * [Children's Subject Headings (CSH)](https://www.loc.gov/aba/cyac/childsubjhead.html)
 * [Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html)

@@ -124,7 +124,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|No|
 |**Element Node(s)**|mods:titleInfo/partNumber|
 |**Dublin Core Mapping**|dc.title|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.niso.org/publications/z3971-2006-r2011" target="_blank">ANSI/NISO Z39.71-2006 (R2011) Holdings Statements for Bibliographic Items</a></li><li>NISO Z39.44 Serial Holdings Standard (superseded by ANSI/NISO Z39.71-2006</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.niso.org/publications/z3971-2006-r2011" target="_blank">ANSI/NISO Z39.71-2006 (R2011) Holdings Statements for Bibliographic Items</a></li><li>NISO Z39.44 Serial Holdings Standard (superseded by ANSI/NISO Z39.71-2006)</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|vol. 12, no. 8|
 
@@ -137,7 +137,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Description**|A name of an entity associated in some way with the resource.|
 |**Required**|No|
 |**Repeatable**|Yes|
-|**Element Node(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleterm{::nomarkdown}<ul><li>**Exception for possible @roleTerm attribute values**: depositor</li></ul>{:/}|
+|**Element Node(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleterm{::nomarkdown}<ul><li>Exception for possible @roleTerm attribute values: depositor</li></ul>{:/}|
 |**Dublin Core Mapping**|{::nomarkdown}<ul><li>dc.creator</li><li>dc.contributor</li></ul>{:/}|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
@@ -154,7 +154,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:originInfo/mods:place/mods:placeTerm[@type="text]|
 |**Dublin Core Mapping**|dc.publisher|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries]</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Berlin [etc.]</li><li>Minneapolis and St. Paul</li><li>Petersburg, VA</li><li>New Delhi]</li></ul>{:/}|
 
