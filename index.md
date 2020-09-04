@@ -26,7 +26,7 @@ nav_order: 1
 
 04. **[Data Dictionary](data-dictionary/04-data-dictionary.md)**
     - [Introduction](data-dictionary/introduction.html)
-    - [Metadata Standards, Controlled Vocabularies & Encoding Schemes](data-dictionary/standards.md)
+    - [Data Standards, Controlled Vocabularies & Encoding Schemes](data-dictionary/standards.md)
     - [Archival Collection Metadata Element Set](data-dictionary/archival-collections.md)
     - [Serial Collection Metadata Element Set](data-dictionary/serial-collections.md)
     - [Monograph Collection Metadata Element Set](data-dictionary/monograph-collections.md)
@@ -46,30 +46,3 @@ nav_order: 1
 07. **[Publishing an Extension Layer](07-publishing-an-extension-layer.md)**
     - [Preparing your extension layer](07-publishing-an-extension-layer.md#preparing-your-extension-layer)
     - [Choosing a venue for publication](07-publishing-an-extension-layer.md#choosing-a-venue-for-publication)
-
-
-<!--# Instructional Modules
-
-* creating a baselayer
-  * from an existing collection
-  * creating a custom collection
-  * transforming library datasets into CSV
-  * publishing the baselayers
-
-* designing an enrichment layer
-  * design principles for enrichment layer
-  * creating the layer codebook
-  * critiquing the layer
-  * creating the layer form in machine-readable form (JSON, CSV?)
-
-* implementing an enrichment layer with the web application
-  * for instructor
-  * for student
-
-* implementing an enrichment layer without a web application
-  * for instructor
-  * for student
-
-* visualizing an enrichment layer
-  * design principles for visualization
-  * selecting data from layers-->
