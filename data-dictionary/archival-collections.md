@@ -119,7 +119,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|ead:eadheader/ead:filedesc/ead:titlestmt/ead:titleproper/ead:author|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|Finding aid prepared by Lindsay Bedford and Patrick Trembeth with assistance provided by Dr. Richard Oestreicher.|
 
@@ -136,7 +136,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|No|
 |**Element(s)**|ead:profiledesc/ead:creation/ead:date|
 |**Dublin Core Mapping**|dc.date|
-|**Vocabulary/Encoding Scheme(s)**|[ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)|
+|**Vocabulary/Encoding Scheme(s)**|[ISO 8601: Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)|
 |**Notes**|Complete date plus hours, minutes, and time zone: YYYY-MM-DDThh:mm-TZD|
 |**Example(s)**|2017-08-29T07:46-0400|
 
@@ -221,7 +221,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:did/ead:origination|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.html">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/authorities/subjects.html" target="_blank">Library of Congress Subject Headings (LCSH)</a></li><li>Anglo-American Cataloguing Rules (AACR)</a></li></li><li><a href="https://www2.archivists.org/groups/technical-subcommittee-on-describing-archives-a-content-standard-dacs/describing-archives-a-content-standard-dacs-second-" target="_blank">Describing Archives: A Content Standard (DACS)</a></li></li><li><a href="https://www.oclc.org/en/rda/about.html" target="_blank">Resource Description and Access (RDA)</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.html">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="http://id.loc.gov/authorities/subjects.html" target="_blank">Library of Congress Subject Headings (LCSH)</a></li><li><a href="https://www2.archivists.org/groups/technical-subcommittee-on-describing-archives-a-content-standard-dacs/describing-archives-a-content-standard-dacs-second-" target="_blank">Describing Archives: A Content Standard (DACS)</a></li><li><a href="https://www.oclc.org/en/rda/about.html" target="_blank">Resource Description and Access (RDA)</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|Oestreicher, Richard Jules, 1947-|
 
@@ -238,7 +238,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:did/ead:langmaterial/language[@langcode]|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|[ISO 639-2b](https://www.loc.gov/standards/iso639-2/php/code_list.php)|
+|**Vocabulary/Encoding Scheme(s)**|[ISO 639-2b: Codes for the Representation of Names of Languages]https://www.loc.gov/standards/iso639-2/)|
 |**Notes**||
 |**Example(s)**|eng|
 
@@ -340,7 +340,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:controlaccess|
 |**Dublin Core Mapping**|dc.subject|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank">Art & Architecture Thesaurus (AAT)</a></li></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li></li><li><a href="https://www.loc.gov/aba/cyac/childsubjhead.html" target="_blank">Children's Subject Headings (CSH)</a></li></li><li><a href="http://id.loc.gov/authorities/childrensSubjects.html" target="_blank">Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)</a></li></li><li><a href="https://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">Medical Subject Headings (MeSH)</a></li></li><li><a href="" target="_blank">National Agricultural Library](https://agclass.nal.usda.gov/</a></li></li><li><a href="https://rvmweb.bibl.ulaval.ca/eccueil" target="_blank">Répertoire de vedettes-matière (RVM)</a></li></li><li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601 — Date and Time Format</a></li></li><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</a></li></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank">Art & Architecture Thesaurus (AAT)</a></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li><li><a href="https://www.loc.gov/aba/cyac/childsubjhead.html" target="_blank">Children's Subject Headings (CSH)</a></li><li><a href="http://id.loc.gov/authorities/childrensSubjects.html" target="_blank">Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)</a></li><li><a href="https://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">Medical Subject Headings (MeSH)</a></li><li><a href="https://agclass.nal.usda.gov/" target="_blank">National Agricultural Library</a></li><li><a href="https://rvmweb.bibl.ulaval.ca/eccueil" target="_blank">Répertoire de vedettes-matière (RVM)</a></li><li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601: Date and Time Format</a></li><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</a></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Communist Party of the United States of America. -- History -- Sources</li><li>Buttons (Information artifacts</a></li><li>Christian socialism -- United States -- History -- Sources</li><li>Pamphlets</li><li>Politics</li><li>Vietnam War, 1961-1975</li></ul>{:/}|
 
@@ -457,7 +457,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|{::nomarkdown}<ul><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleTerm="creator"</li><li>mods:name/mods:namePart[@usage="primary"] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.creator|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
 |**Example(s)**|Stockton, Frank R., 1834-1902|
 
@@ -472,7 +472,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|{::nomarkdown}<ul><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleTerm="contributor"</li><li>mods:name/mods:namePart[not(@usage="primary")] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.contributor|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a></li></ul>{:/}|
 |**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
 |**Example(s)**|Abbot Renaud de Semur|
 
@@ -502,7 +502,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|No|
 |**Element(s)**|mods:originInfo/mods:dateOther[@type="sort"]|
 |**Dublin Core Mapping**|dc.date|
-|**Vocabulary/Encoding Scheme(s)**|[ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html)|
+|**Vocabulary/Encoding Scheme(s)**|[ISO 8601: Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)|
 |**Notes**|Complete date plus hours and minutes: YYYY-MM-DDThh:mm:ss|
 |**Example(s)**|1872-01-01T00:00:00|
 
@@ -519,7 +519,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|{::nomarkdown}<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li></li><li>[189?]</li><li>February 9</li></li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li><li>[189?]</li><li>February 9</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -532,7 +532,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|mods:language/mods:languageTerm|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2 Language Code List - Codes for the Representation of Names of Languages</a></li></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2: Codes for the Representation of Names of Languages</a></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|eng|
 
@@ -562,7 +562,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|No|
 |**Element(s)**|mods:physicalDescription/mods:form|
 |**Dublin Core Mapping**|dc.format|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcform.html" target="_blank">MARC Form of Item Term List</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcsmd.html<" target="_blank">Specific Material Form Term List</a></li><li>General Material Designation (GMD)</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List</a></li><li><a href="https://www.loc.gov/standards/valuelist/marcform.html" target="_blank">MARC Form of Item Term List</a></li><li><a href="https://www.loc.gov/standards/valuelist/marcsmd.html<" target="_blank">Specific Material Form Term List</a></li><li>General Material Designation (GMD)</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>print</il><li>gelatin silver prints</li></ul>{:/}|
 
@@ -592,7 +592,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|{::nomarkdown}<ul><li>mods:genre</li><li>mods:subject/mods:genre</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.type|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marcgt.html" target="_blank">MARC Genre Term List</a></li></li><li><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank">Art & Architecture Thesaurus (AAT)</a></li></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcmuscomp.html" target="_blank">MARC Form of Musical Composition Code List</a></li></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Library of Congress Genre/Form Terms</a></li></li><li><a href="https://rbms.info/vocabularies/genre/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Genre Terms</a></li></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Thesaurus for graphic materials (TGM II, Genre and physical characteristic terms)</a></li></li><li><a href="https://rbms.info/vocabularies/provenance/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Provenance Evidence Terms</a></li></li><li><a href="http://experimental.worldcat.org/gsafd/" target="_blank">Guidelines on Subject Access to Individual Works of Fiction, Drama, Etc., 2nd edition</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/rdacontent.html" target="_blank">Term and Code List for RDA Content Types</a></li></li><li><a href="http://id.loc.gov/vocabulary/genreFormSchemes/ftamc.html" target="_blank">Form terms for archival and manuscripts control</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marcgt.html" target="_blank">MARC Genre Term List</a></li><li><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank">Art & Architecture Thesaurus (AAT)</a></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li><li><a href="https://www.loc.gov/standards/valuelist/marcmuscomp.html" target="_blank">MARC Form of Musical Composition Code List</a></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Library of Congress Genre/Form Terms</a></li><li><a href="https://rbms.info/vocabularies/genre/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Genre Terms</a></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Thesaurus for graphic materials (TGM II, Genre and physical characteristic terms)</a></li><li><a href="https://rbms.info/vocabularies/provenance/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Provenance Evidence Terms</a></li><li><a href="http://experimental.worldcat.org/gsafd/" target="_blank">Guidelines on Subject Access to Individual Works of Fiction, Drama, Etc., 2nd edition</a></li><li><a href="https://www.loc.gov/standards/valuelist/rdacontent.html" target="_blank">Term and Code List for RDA Content Types</a></li><li><a href="http://id.loc.gov/vocabulary/genreFormSchemes/ftamc.html" target="_blank">Form terms for archival and manuscripts control</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>text</li><li>novel</li><li>Embossed cloth binding (Binding)-1851</li><li>Fiction.</li><li>archival document</li></ul>{:/}|
 
@@ -622,7 +622,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|mods:subject{::nomarkdown}<ul><li>mods:topic</li><li>mods:name</li><li>mods:titleInfo</li><li>mods:occupation</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.subject|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li></li><li><a href="https://www.loc.gov/aba/cyac/childsubjhead.html" target="_blank">Children's Subject Headings (CSH)</a></li></li><li><a href="http://id.loc.gov/authorities/childrensSubjects.html" target="_blank">Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)</a></li></li><li><a href="https://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">Medical Subject Headings (MeSH)</a></li></li><li><a href="https://agclass.nal.usda.gov/" target="_blank">National Agricultural Library</a></li></li><li><a href="https://rvmweb.bibl.ulaval.ca/eccueil" target="_blank">Répertoire de vedettes-matière (RVM)</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li><li><a href="https://www.loc.gov/aba/cyac/childsubjhead.html" target="_blank">Children's Subject Headings (CSH)</a></li><li><a href="http://id.loc.gov/authorities/childrensSubjects.html" target="_blank">Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)</a></li><li><a href="https://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">Medical Subject Headings (MeSH)</a></li><li><a href="https://agclass.nal.usda.gov/" target="_blank">National Agricultural Library</a></li><li><a href="https://rvmweb.bibl.ulaval.ca/eccueil" target="_blank">Répertoire de vedettes-matière (RVM)</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Advertising</li><li>Pittsburgh</li></ul>{:/}|
 
@@ -637,7 +637,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|mods:subject/mods:temporal|
 |**Dublin Core Mapping**|dc.coverage|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601 — Date and Time Format</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601: Date and Time Format</a></li></ul>{:/}|
 |**Notes**|May be a simple or hierarchical geographical name or area code (e.g., city section, city, county, territory, state, region, country, continent, island, area, extraterrestrial area), cartographic data (e.g., coordinates, scale, projection)|
 |**Example(s)**|{::nomarkdown}<ul><li>19th century</li><li>1775-1783</li></ul>{:/}|
 
@@ -652,7 +652,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|mods:subject{::nomarkdown}<ul><li>mods:geographic</li><li>mods:geographicCode</li><li>mods:hierarchicalGeographic</li><ul><li>mods:continent</li><li>mods:country</li><li>mods:region</li><li>mods:state</li><li>mods:territory</li><li>mods:county</li><li>mods:city</li><li>mods:island</li><li>mods:area</li><li>mods:extraterrestrialArea</li><li>mods:citySection</li></ul><li>mods:cartographics</li><ul><li>mods:scale</li><li>mods:projection</li><li>mods:coordinates</li></ul><li>mods:geographicCoordinates</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.coverage|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</a></li></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</a></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Downtown</li><li>n------</li><li>North America</li></ul>{:/}|
 

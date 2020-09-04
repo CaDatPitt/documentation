@@ -120,7 +120,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |Repeatable|Yes|
 |Element Node(s)|{::nomarkdown}<ul><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleTerm</li><ul><li><strong>Restricted values for roleTerm attribute (ignoring trailing punctuation)</strong>: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul><li>mods:name/mods:namePart[@usage="primary"] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}|
 |Dublin Core Mapping|dc.creator|
-|Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
+|Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
 |Notes|Multiple values within the <mods:name> element are separated by comma (,).|
 |Example(s)|{::nomarkdown}<ul><li>Boisrobert, Anouck</li><li>Goodrich, Samuel G. (Samuel Griswold), 1793-1860</li></ul>{:/}|
 
@@ -135,7 +135,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |Repeatable|Yes|
 |Element Node(s)|{::nomarkdown}<ul><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleTerm="contributor"</li><ul><li><strong>Exceptions for possible @roleTerm attribute values</strong>: author, aut, composer, cmp, creator, cre, dubious author, dub, editor, edt, screenwriter, aus</li></ul><li>mods:name/mods:namePart[not(@usage="primary")] <em>without</em> mods:role/mods:roleTerm</li></ul>{:/}|
 |Dublin Core Mapping|dc.contributor|
-|Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://id.loc.gov/authorities/names.htm" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
+|Vocabulary/Encoding Scheme(s)|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.htm" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li><li><a href="http://id.loc.gov/vocabulary/relators.htm" target="_blank">MARC Relators</a> (for roleTerm attribute values)</li></ul>{:/}|
 |Notes||
 |Example(s)|Sinclair, Thomas S., approximately 1805-1881 (lithographer)|<!-- Include the roleTerm value?-->
 
@@ -150,7 +150,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:originInfo/mods:place/mods:placeTerm[@type="text]|
 |**Dublin Core Mapping**|dc.publisher|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>London :</li><li>New York</li><li>Philadelphia, Pa. :</li></ul>{:/}|
 
@@ -165,7 +165,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:publisher</li><li>mods:name/mods:namePart <em>with</em> mods:role/mods:roleterm="publisher"</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.publisher|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Elliott Publishing Company,</li><li>McLoughlin Bros., 30 Beekman</li></ul>{:/}|
 
@@ -182,7 +182,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Dublin Core Mapping**|dc.date|
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 260 - Publication, Distribution, etc.](https://www.loc.gov/marc/bibliographic/bd260.html) and [MARC 21 Format for Bibliographic Data  — 264 - Production, Publication, Distribution, Manufacture, and Copyright Notice (R)](https://www.loc.gov/marc/bibliographic/bd264.html).|
-|**Example(s)**|{::nomarkdown}<ul></li><li>[not before 1852?]</li><li>2014.</li><li>1855, ©1853</li></li><li>[©1924]</li><li>187-?⁾</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul></li><li>[not before 1852?]</li><li>2014.</li><li>1855, ©1853</li><li>[©1924]</li><li>187-?⁾</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -242,7 +242,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Dublin Core Mapping**|dc.title|
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
-|**Example(s)**|{::nomarkdown}<ul><li>2. vydání.</li><li>Fifth edition.</li></li><li>[1st ed.].</li><li>Running Press miniature ed.</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>2. vydání.</li><li>Fifth edition.</li><li>[1st ed.].</li><li>Running Press miniature ed.</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -270,7 +270,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:language/mods:languageTerm|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2 Language Code List - Codes for the Representation of Names of Languages</li></li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">ISO 639-2b: Codes for the Representation of Names of Languages</li><li><a href="http://www.loc.gov/marc/languages/" target="_blank">MARC Code List for Language</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|slo|
 
@@ -300,7 +300,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|No|
 |**Element Node(s)**|mods:physicalDescription/mods:form|
 |**Dublin Core Mapping**|dc.format|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List</li></li><li><a href="https://www.loc.gov/standards/valuelist/rdamedia.html" target="_blank">Term and Code List for RDA Media Types</li></li><li><a href="https://www.loc.gov/standards/valuelist/rdacarrier.html" target="_blank">Term and Code List for RDA Carrier Types</li><li>Anglo-American Cataloguing Rules general material designation (Rule 1.1C)</li><li>Others: <a href="http://www.loc.gov/standards/sourcelist/genre-form.html" target="_blank">Genre/Form Code and Term Source Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marccategory.html" target="_blank">MARC Form Category Term List</li><li><a href="https://www.loc.gov/standards/valuelist/rdamedia.html" target="_blank">Term and Code List for RDA Media Types</li><li><a href="https://www.loc.gov/standards/valuelist/rdacarrier.html" target="_blank">Term and Code List for RDA Carrier Types</a></li><li>Anglo-American Cataloguing Rules general material designation (Rule 1.1C)</li><li>Others: <a href="http://www.loc.gov/standards/sourcelist/genre-form.html" target="_blank">Genre/Form Code and Term Source Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>print</li><li>unmediated</li><li>volume</li><li>art reproduction</li></ul>{:/}|
 
@@ -330,7 +330,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|{::nomarkdown}<ul><li>mods:genre</li><li>mods:subject/mods:genre</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.type|
-|**Vocabulary/Encoding Scheme(s)** *|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marcgt.html" target="_blank">MARC Genre Term List</li></li><li><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank">Art & Architecture Thesaurus (AAT)</a></li></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marcmuscomp.html" target="_blank">MARC Form of Musical Composition Code List</a></li></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Library of Congress Genre/Form Terms</a></li></li><li><a href="https://rbms.info/vocabularies/genre/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Genre Terms</a></li></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Thesaurus for graphic materials (TGM II, Genre and physical characteristic terms)</li></li><li><a href="https://rbms.info/vocabularies/provenance/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Provenance Evidence Terms</a></li></li><li><a href="http://experimental.worldcat.org/gsafd/" target="_blank">Guidelines on Subject Access to Individual Works of Fiction, Drama, Etc., 2nd edition</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/rdacontent.html" target="_blank">Term and Code List for RDA Content Types</a></li></li><li><a href="http://id.loc.gov/vocabulary/genreFormSchemes/ftamc.html" target="_blank">Form terms for archival and manuscripts control</a></li></ul>{:/}&nbsp;***Note:** This is a working list.|
+|**Vocabulary/Encoding Scheme(s)** *|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/standards/valuelist/marcgt.html" target="_blank">MARC Genre Term List</li><li><a href="https://www.getty.edu/research/tools/vocabularies/aat/" target="_blank">Art & Architecture Thesaurus (AAT)</a></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</a></li><li><a href="https://www.loc.gov/standards/valuelist/marcmuscomp.html" target="_blank">MARC Form of Musical Composition Code List</a></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Library of Congress Genre/Form Terms</a></li><li><a href="https://rbms.info/vocabularies/genre/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Genre Terms</a></li><li><a href="https://www.loc.gov/rr/print/tgm2/" target="_blank">Thesaurus for graphic materials (TGM II, Genre and physical characteristic terms)</li><li><a href="https://rbms.info/vocabularies/provenance/alphabetical_list.htm" target="_blank">RBMS Controlled Vocabularies: Provenance Evidence Terms</a></li><li><a href="http://experimental.worldcat.org/gsafd/" target="_blank">Guidelines on Subject Access to Individual Works of Fiction, Drama, Etc., 2nd edition</a></li><li><a href="https://www.loc.gov/standards/valuelist/rdacontent.html" target="_blank">Term and Code List for RDA Content Types</a></li><li><a href="http://id.loc.gov/vocabulary/genreFormSchemes/ftamc.html" target="_blank">Form terms for archival and manuscripts control</a></li></ul>{:/}&nbsp;***Note:** This is a working list.|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Specimens.</li><li>Poetry.</li><li>text</li><li>Juvenile literature</li><li>Printed wrappers (Binding)</li></ul>{:/}|
 
@@ -360,7 +360,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:subject{::nomarkdown}<ul><li>mods:topic</li><li>mods:name</li><li>mods:titleInfo</li><li>mods:occupation</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.subject|
-|**Vocabulary/Encoding Scheme(s)** *|{::nomarkdown}<ul></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</li></li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</li></li><li><a href="https://www.loc.gov/aba/cyac/childsubjhead.html" target="_blank">Children's Subject Headings (CSH)</li></li><li><a href="http://id.loc.gov/authorities/childrensSubjects.html" target="_blank">Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)</li></li><li><a href="https://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">Medical Subject Headings (MeSH)</li></li><li><a href="https://agclass.nal.usda.gov/" target="_blank">National Agricultural Library</li></li><li><a href="https://rvmweb.bibl.ulaval.ca/eccueil" target="_blank">Répertoire de vedettes-matière (RVM)</a></li></ul>{:/}&nbsp;***Note:** This is a working list.|
+|**Vocabulary/Encoding Scheme(s)** *|{::nomarkdown}<ul></li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</li><li><a href="https://www.oclc.org/research/themes/data-science/fast/download.html" target="_blank">Faceted Application of Subject Terminology (FAST)</li><li><a href="https://www.loc.gov/aba/cyac/childsubjhead.html" target="_blank">Children's Subject Headings (CSH)</li><li><a href="http://id.loc.gov/authorities/childrensSubjects.html" target="_blank">Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)</li><li><a href="https://www.nlm.nih.gov/mesh/meshhome.html" target="_blank">Medical Subject Headings (MeSH)</li><li><a href="https://agclass.nal.usda.gov/" target="_blank">National Agricultural Library</li><li><a href="https://rvmweb.bibl.ulaval.ca/eccueil" target="_blank">Répertoire de vedettes-matière (RVM)</a></li></ul>{:/}&nbsp;***Note:** This is a working list.|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>Apprentices</li><li>Chapbooks, English</li></ul>{:/}|
 
@@ -375,7 +375,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:subject/mods:temporal|
 |**Dublin Core Mapping**|dc.coverage|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li></li><li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601 — Date and Time Format</a></li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601: Date and Time Format</a></li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>1775-1783</li><li>French occupation, 1798-1801</li></ul>{:/}|
 
@@ -389,7 +389,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Required**|No|
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:subject{::nomarkdown}<ul><li>mods:geographic</li><li>mods:geographicCode</li><li>mods:hierarchicalGeographic</li><ul><li>mods:continent</li><li>mods:country</li><li>mods:region</li><li>mods:state</li><li>mods:territory</li><li>mods:county</li><li>mods:city</li><li>mods:island</li><li>mods:area</li><li>mods:extraterrestrialArea</li><li>mods:citySection</li></ul><li>mods:cartographics</li><ul><li>mods:scale</li><li>mods:projection</li><li>mods:coordinates</li></ul><li>mods:geographicCoordinates</li></ul>{:/}|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</li></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</li></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li><a href="https://www.loc.gov/marc/geoareas/" target="_blank">MARC Code List for Geographic Areas</a></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**|May be a simple or hierarchical geographical name or area code (e.g., city section, city, county, territory, state, region, country, continent, island, area, extraterrestrial area), cartographic data (e.g., coordinates, scale, projection)|
 |**Example(s)**|{::nomarkdown}<ul><li>London, England, Great Britain</li><li>Mississippi</li><li>Saintes-Maries (France)</li><li>n-mx---</li><li>Great Plains</li><li>West (U.S.)</li></ul>{:/}|
 
@@ -404,7 +404,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Repeatable**|Yes|
 |**Element Node(s)**|mods:targetAudience|
 |**Dublin Core Mapping**|n/a|
-|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/bd521.html" target="_blank">MARC 21 Format for Bibliographic Data  — 521 - Target Audience Note</a></li></li><li><a href="https://www.loc.gov/standards/valuelist/marctarget.html" target="_blank">MARC Target Audience Term List</li></li><li><a href="https://medietilsynet.no/barn-og-medier/aldersgrenser/" target="_blank">Medietilsynets aldersmerking for film (Medietilsynet)</a></li></li><li><a href="https://bibliotekutvikling.no/ressurser/kunnskapsorganisering/verktoykasse-for-kunnskapsorganisering/vokabularer/" target="_blank">Målgrupper (National Library of Norway)</a></li></li><li><a href="http://www.pegi.info/en/index/id/33/" target="_blank">Age ratings for computer games (Pan European Game Information (PEGI)</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/bd521.html" target="_blank">MARC 21 Format for Bibliographic Data  — 521 - Target Audience Note</a></li><li><a href="https://www.loc.gov/standards/valuelist/marctarget.html" target="_blank">MARC Target Audience Term List</li><li><a href="https://medietilsynet.no/barn-og-medier/aldersgrenser/" target="_blank">Medietilsynets aldersmerking for film (Medietilsynet)</a></li><li><a href="https://bibliotekutvikling.no/ressurser/kunnskapsorganisering/verktoykasse-for-kunnskapsorganisering/vokabularer/" target="_blank">Målgrupper (National Library of Norway)</a></li><li><a href="http://www.pegi.info/en/index/id/33/" target="_blank">Age ratings for computer games (Pan European Game Information (PEGI)</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|juvenile|
 
@@ -450,7 +450,7 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Element Node(s)**|{::nomarkdown}<ul><li>mods:identifier[@type="oclc"]</li><li>mods:identifier[@type="local"] when value contains "(OCoLC)"</li></ul>{:/}|
 |**Dublin Core Mapping**|dc.identifier|
 |**Vocabulary/Encoding Scheme(s)**|[OCLC Control Number](https://www.oclc.org/ )|
-|**Notes**|{::nomarkdown}<ul><li>A numeric or alph-numeric string.</li><li>For more information, see ["OCLC control number expansion in 2013."](https://www.oclc.org/developer/news/2012/oclc-control-number-expansion-in-2013.en.html).</ul>{:/}|
+|**Notes**|{::nomarkdown}<ul><li>A numeric or alph-numeric string.</li><li>For more information, see <a href="https://www.oclc.org/developer/news/2012/oclc-control-number-expansion-in-2013.en.html" target="_blank">"OCLC control number expansion in 2013"</a>.</ul>{:/}|
 |**Example(s)**|{::nomarkdown}<ul><li>ocn819860760</li><li>819860760</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
