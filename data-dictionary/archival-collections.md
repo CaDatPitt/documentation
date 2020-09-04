@@ -238,7 +238,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:did/ead:langmaterial/language[@langcode]|
 |**Dublin Core Mapping**|dc.language|
-|**Vocabulary/Encoding Scheme(s)**|[ISO 639-2b: Codes for the Representation of Names of Languages]https://www.loc.gov/standards/iso639-2/)|
+|**Vocabulary/Encoding Scheme(s)**|[ISO 639-2b: Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/)|
 |**Notes**||
 |**Example(s)**|eng|
 
@@ -671,7 +671,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
 |**Example(s)**|pitt:collection.299|
 
-[Jump to Collection Level](#collection-level) | [Jump to Item Level](#item-level)
+[Jump to Collection Level](#collection-level) \| [Jump to Item Level](#item-level)
 
 
 #### HOST
