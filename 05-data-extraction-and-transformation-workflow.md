@@ -57,7 +57,7 @@ The CaD@Pitt data extraction and transformation scripts are written in Python, s
 There are several ways to obtain Python, and you may already have it installed on your computer without realizing. For more detailed information tailored to your
 specific operating system, see the official Python 3 [Setup and Usage](https://docs.python.org/3/using/index.html) documentation.
 
-Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install needed modules. If you are new (or need a refresher) to installing python modules or using pip and requirements.txt, we recommend consulting the [Installing Packages](https://packaging.python.org/tutorials/installing-packages/) documentation from the Packaging Python User Guide.
+Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install needed modules. If you are new (or need a refresher) to installing python modules or using pip and `requirements.txt`, we recommend consulting the [Installing Packages](https://packaging.python.org/tutorials/installing-packages/) documentation from the Packaging Python User Guide.
 
 ### **The transformation scripts**
 The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in
@@ -69,10 +69,9 @@ When the setup processes described above are complete, you should be ready to ru
 
 `python extract_base_layer.py [source collection name] [collection type] [collection sub-type]`
 
-where collection type is one of `archival`, `serial`, `monograph`, and collection sub-type is one of `digital` or `print`.
+where collection type is one of `archival`, `monograph`, `serial`, and collection sub-type is one of `catalog` (used only with `monograph` and `serial` collection types), `digital`, `physical` (used only with `archival` collection type).
 
-Specifying the collection type and sub-type will allow the script to look for the appropriate kind of source data in its expected locations, and run the
-transformations appropriate to those types of data.
+Specifying the collection type and sub-type will allow the script to look for the appropriate kind of source data in its expected locations, and run the transformations appropriate to those types of data.
 
 ### **Output**
 Output from the transformation process is written to the `base-layers/*collection-name*` directory. The collection subdirectory will be created if it does not
