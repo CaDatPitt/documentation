@@ -43,7 +43,7 @@ Within the collection subdirectory, create additional subdirectories as appropri
 - `ead` — for Encoded Archival Description records, in XML, one file per collection
 - `marcxml` — for MARC records, in MARCXML format, one file per record
 - `mods` — for MODS records, in XML, one file per record
-- `ocr`— for Optical Character Recognition output associated with collection items
+- `ocr` — for Optical Character Recognition output associated with collection items
 
 After this is done, you should have a directory structure that looks like this:
 `data-layers/source-data/american-left-ephemera/mods`
