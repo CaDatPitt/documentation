@@ -62,4 +62,4 @@ This project facilitates scholars’ engagement with and enrichment of library c
 - **Implement a layer**: Implement an extension layer by entering data into a spreadsheet;
 - **Visualize a layer**: Visualize collections data using a visualization tool.
 
-These modules have been designed as a sequence but may be used for individual lessons and otherwise modified to suit varying contexts.
+These modules have been designed as a sequence but may be used for individual lessons and otherwise modified to suit varying contexts. More information about the modules and the modules themselves can be found on our [Instructional Modules](https://cadatpitt.github.io/modules/) page.

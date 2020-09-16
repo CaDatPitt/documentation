@@ -30,7 +30,6 @@ Archival collections are described at the collection-level and the item-level an
 * [Publisher of Finding Aid](#publisher-of-finding-aid)
 * [Publication Date of Finding Aid](#publication-date-of-finding-aid)
 * [Acquisition Number](#acquisition-number)
-<!--* [Collection Identifier](#collection-identifier)-->
 * [Title of Collection](#title-of-collection)
 * [Creator of Collection](#creator-of-collection)
 * [Language of Collection](#language-of-collection)
@@ -44,6 +43,7 @@ Archival collections are described at the collection-level and the item-level an
 * [Repository](#repository)
 * [Preferred Citation](#preferred-citation)
 * [Conditions Governing Use](#conditions-governing-use)
+* [Collection Identifier](#collection-identifier)
 
 ### Item Level
 * [Identifier](#identifier)
@@ -62,12 +62,12 @@ Archival collections are described at the collection-level and the item-level an
 * [Subject](#subject)
 * [Temporal Coverage](#temporal-coverage)
 * [Geographic Coverage](#geographic-coverage)
-<!--* [Collection Identifier](#collection-identifier)-->
 * [Host](#host)
 * [Series of Collection](#series-of-collection)
 * [Container](#container)
 * [Owner](#owner)
 * [Depositor](#depositor)
+* [Collection Identifier](#collection-identifier)
 
 &nbsp;
 
@@ -91,8 +91,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### TITLE OF FINDING AID
 
 |CSV Element|finding_aid_title|
@@ -107,8 +105,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|Guide to the American Left Ephemera Collection, 1875-2015|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### CREATOR OF FINDING AID
 
@@ -125,8 +121,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### CREATION DATE OF FINDING AID
 
 |CSV Element|finding_aid_creation_date|
@@ -141,8 +135,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|2017-08-29T07:46-0400|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### PUBLISHER OF FINDING AID
 
@@ -159,8 +151,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### PUBLICATION DATE OF FINDING AID
 
 |CSV Element|finding_aid_publication_date|
@@ -175,8 +165,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|July 2012|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### ACQUISITION NUMBER
 
@@ -193,8 +181,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### TITLE OF COLLECTION
 
 |CSV Element|collection_title|
@@ -210,8 +196,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### CREATOR OF COLLECTION
 
 |CSV Element|creator_of_collection|
@@ -225,9 +209,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Notes**||
 |**Example(s)**|Oestreicher, Richard Jules, 1947-|
 
-[Jump to Collection Level](#collection-level)
-
-&nbsp;
+[Jump to Collection Level](#collection-level);
 
 #### LANGUAGE OF COLLECTION
 
@@ -244,8 +226,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### EXTENT OF COLLECTION
 
 |CSV Element|collection_extent|
@@ -260,8 +240,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>22.75 linear feet</li><li>(37 boxes)</a></li></ul>{:/}|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### TEMPORAL COVERAGE OF COLLECTION
 
@@ -278,8 +256,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### SCOPE AND CONTENT OF COLLECTION
 
 |CSV Element|collection_scope_and_content|
@@ -294,8 +270,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|The collection includes items from the 1870s to the present including periodicals, photographs, letters, pamphlets, books, posters, flyers, labels, pins and other objects, but it emphasizes ephemeral items (e.g., items made for one time or brief usage and then likely to be discarded). While the majority of these items were produced by the Socialist Party USA (SPUSA), Communist Party USA (CPUSA), Students for a Democratic Society (SDS), or organizations linked to them, the collection also includes material from a wide variety of other organizations and movements as well as from unaffiliated activists and radical intellectuals. <br><br>Dr. Richard Oestreicher wrote all of the scope and content notes within the collection as well as writing the History section.|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### BIOGRAPHY OR HISTORY
 
@@ -312,8 +286,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### COLLECTION ABSTRACT
 
 |CSV Element|collection_abstract|
@@ -328,8 +300,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|Dr. Richard Oestreicher, Associate Professor of History at the University of Pittsburgh, amassed the American Left Ephemera Collection over a 35-year period to document the history of the American Left from the 1870s to the present. Digital reproductions of the collection are available online.|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### COLLECTION SUBJECT HEADINGS
 
@@ -346,8 +316,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### RELATED MATERIAL
 
 |CSV Element|related_material|
@@ -362,8 +330,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|A.E. Forbes Communist Collection, 1921-1972, AIS.2000.07, Archives &amp; Special Collections, University of Pittsburgh Library System|
 
 [Jump to Collection Level](#collection-level)
-
-&nbsp;
 
 #### REPOSITORY
 
@@ -380,8 +346,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### PREFERRED CITATION
 
 |CSV Element|preferred_citation|
@@ -397,8 +361,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level)
 
-&nbsp;
-
 #### CONDITIONS GOVERNING USE
 
 |CSV Element|conditions_governing_use|
@@ -413,6 +375,21 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|The University of Pittsburgh holds the property rights to the material in this collection, but the copyright may still be held by the original creator/author. Researchers are therefore advised to follow the regulations set forth in the U.S. Copyright Code when publishing, quoting, or reproducing material from this collection without the consent of the creator/author or that go beyond what is allowed by fair use.|
 
 [Jump to Collection Level](#collection-level)
+
+#### COLLECTION IDENTIFIER
+
+|CSV Element|collection_id|
+|---|---|
+|**Description**|A digital collection to which the resource belongs.|
+|**Required**|Yes|
+|**Repeatable**|Yes|
+|**Element(s)**|rdf:Description/fedora:isMemberOfCollection[@rdf:resource]|
+|**Dublin Core Mapping**|dc.relation|
+|**Vocabulary/Encoding Scheme(s)**||
+|**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
+|**Example(s)**|pitt:collection.299|
+
+[Jump to Collection Level](#collection-level) &nbsp;\|&nbsp; [Jump to Item Level](#item-level)
 
 &nbsp;
 
@@ -658,22 +635,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-#### COLLECTION IDENTIFIER
-
-|CSV Element|collection_id|
-|---|---|
-|**Description**|A digital collection to which the resource belongs.|
-|**Required**|Yes|
-|**Repeatable**|Yes|
-|**Element(s)**|rdf:Description/fedora:isMemberOfCollection[@rdf:resource]|
-|**Dublin Core Mapping**|dc.relation|
-|**Vocabulary/Encoding Scheme(s)**||
-|**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
-|**Example(s)**|pitt:collection.299|
-
-[Jump to Collection Level](#collection-level) &nbsp;\|&nbsp; [Jump to Item Level](#item-level)
-
-
 #### HOST
 
 |CSV Element|host|
@@ -704,7 +665,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|IV. Press Office, 1981-2005; 1. Press Releases 1981-2005|
 
 [Jump to Item Level](#item-level)
-
 
 #### CONTAINER
 

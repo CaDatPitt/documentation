@@ -45,8 +45,8 @@ Serial collections may contain items from the catalog and/or the digital reposit
 * [LCCN](#lccn)
 * [OCLCCN](#oclccn)
 * [URL](#url)
-* [Collection Identifier](#collection-identifier) (digital only)
 * [Depositor](#depositor) (digital only)
+* [Collection Identifier](#collection-identifier) (digital only)
 
 &nbsp;
 
@@ -563,21 +563,6 @@ Descriptions below may apply only to the catalog version or the digital version 
 
 [Jump to Item Level](#item-level)
 
-#### COLLECTION IDENTIFIER
-
-|CSV Element|collection_id|
-|---|---|
-|**Description**|A digital collection to which the resource belongs.|
-|**Required**|Yes|
-|**Repeatable**|Yes|
-|**Element Node(s)**|rdf:Description/fedora:isMemberOfCollection[@rdf:resource]|
-|**Dublin Core Mapping**|dc.relation|
-|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
-|**Example(s)**|pitt:collection.299|
-
-[Jump to Item Level](#item-level)
-
 #### DEPOSITOR
 
 |CSV Element|depositor|
@@ -590,5 +575,20 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
 |**Example(s)**|University of Pittsburgh|
+
+[Jump to Item Level](#item-level)
+
+#### COLLECTION IDENTIFIER
+
+|CSV Element|collection_id|
+|---|---|
+|**Description**|A digital collection to which the resource belongs.|
+|**Required**|Yes|
+|**Repeatable**|Yes|
+|**Element Node(s)**|rdf:Description/fedora:isMemberOfCollection[@rdf:resource]|
+|**Dublin Core Mapping**|dc.relation|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
+|**Example(s)**|pitt:collection.299|
 
 [Jump to Item Level](#item-level)
