@@ -37,6 +37,7 @@ Monograph collections may contain items from the catalog and/or the digital repo
 * [Temporal Coverage](#temporal-coverage)
 * [Geographic Coverage](#geographic-coverage)
 * [Target Audience](#target-audience)
+* [Record Identifier](#record-identifier)
 * [ISBN](#isbn)
 * [LCCN](#lccn)
 * [OCLCCN](#oclccn)
@@ -407,6 +408,21 @@ Descriptions below may apply only to the catalog version or the digital version 
 |**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/bd521.html" target="_blank">MARC 21 Format for Bibliographic Data  — 521 - Target Audience Note</a></li><li><a href="https://www.loc.gov/standards/valuelist/marctarget.html" target="_blank">MARC Target Audience Term List</li><li><a href="https://medietilsynet.no/barn-og-medier/aldersgrenser/" target="_blank">Medietilsynets aldersmerking for film (Medietilsynet)</a></li><li><a href="https://bibliotekutvikling.no/ressurser/kunnskapsorganisering/verktoykasse-for-kunnskapsorganisering/vokabularer/" target="_blank">Målgrupper (National Library of Norway)</a></li><li><a href="http://www.pegi.info/en/index/id/33/" target="_blank">Age ratings for computer games (Pan European Game Information (PEGI)</a></li><li>Free text. No limitations.</li></ul>{:/}|
 |**Notes**||
 |**Example(s)**|juvenile|
+
+[Jump to Item Level](#item-level)
+
+#### Record Identifier
+
+|CSV Element|record_id|
+|---|---|
+|**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional catalog system.|
+|**Required**|Yes|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:recordInfo/mods:recordIdentifier|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|Must be a unique string in the catalog system.|
+|**Notes**|Numeric code.|
+|**Example(s)**|{::nomarkdown}<ul><li>995806413406236</li><li>580641</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 

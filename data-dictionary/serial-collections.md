@@ -41,6 +41,7 @@ Serial collections may contain items from the catalog and/or the digital reposit
 * [Copyright Status](#copyright-status) (digital only)
 * [Copyright Holder](#copyright-holder) (digital only)
 * [Copyright Note](#copyright-note) (digital only)
+* [Record Identifier](#record-identifier)
 * [ISSN](#issn)
 * [LCCN](#lccn)
 * [OCLCCN](#oclccn)
@@ -489,19 +490,20 @@ Descriptions below may apply only to the catalog version or the digital version 
 
 [Jump to Item Level](#item-level)
 
-<!--#### RECORD IDENTIFIER
+#### Record Identifier
+
 |CSV Element|record_id|
 |---|---|
 |**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional catalog system.|
-|**Required**|No|
+|**Required**|Yes|
 |**Repeatable**|No|
-|**Element Node(s)**|mods:recordInfo/mods:recordIdentifier **(digital only)**|
+|**Element Node(s)**|mods:recordInfo/mods:recordIdentifier|
 |**Dublin Core Mapping**|dc.identifier|
-|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|A numeric string.|
-|**Example(s)**|{::nomarkdown}<ul><li>861413</li><li>9978119533406236</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|Must be a unique string in the catalog system.|
+|**Notes**|Numeric code.|
+|**Example(s)**|{::nomarkdown}<ul><li>9939005533406236</li><li>3900553</li></ul>{:/}|
 
-[Jump to Item Level](#item-level)-->
+[Jump to Item Level](#item-level)
 
 #### ISSN
 
