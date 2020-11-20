@@ -39,7 +39,7 @@ nav_order: 2
 * [Library of Congress Genre/Form Terms](https://www.loc.gov/rr/print/tgm2/)
 * [Library of Congress Subject Headings (LCSH)](http://id.loc.gov/authorities/subjects.html)
 * [Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC)](Library of Congress Subject Headings Supplemental Vocabularies: Children’s Headings (LCSHAC))
-* [MARC Code List for Countries](https://www.loc.gov/marc/geoareas/)
+* [MARC Code List for Countries](https://www.loc.gov/marc/countries/)
 * [MARC Code List for Geographic Areas](https://www.loc.gov/marc/geoareas/)
 * [MARC Code List for Language](http://www.loc.gov/marc/languages/)
 * [MARC Form Category Term List](https://www.loc.gov/standards/valuelist/marccategory.html)
