@@ -61,7 +61,7 @@ nav_order: 2
 * [ISO 8601: Date and Time Format](https://www.iso.org/iso-8601-date-and-time-format.html)
 * [MARC Code List for Countries](https://www.loc.gov/marc/countries/)
 * [MARC Code List for Geographic Areas](https://www.loc.gov/marc/geoareas/)
-* [MARC Code List for Language](http://www.loc.gov/marc/languages/)
+* [MARC Code List for Languages](http://www.loc.gov/marc/languages/)
 * [MARC Form of Musical Composition Code List](https://www.loc.gov/standards/valuelist/marcmuscomp.html)
 * [MARC Relators](http://id.loc.gov/vocabulary/relators.htm)
 * [Term and Code List for RDA Carrier Types](https://www.loc.gov/standards/valuelist/rdacarrier.html)
