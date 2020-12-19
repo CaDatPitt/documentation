@@ -26,7 +26,6 @@ _Source data_ are metadata records exported from either the library’s catalog 
 
 #### **Other Available Datastreams (available upon request)**
 * DC (Dublin Core): descriptive DC XML metadata (simple)
-<!--* **FITS (File Information Tool Set)**: identifies, validates, and extracts technical metadata for various file formats. It wraps several third-party open source tools, normalizes and consolidates their output, and reports any errors-->
 * FULL_TEXT: text of a PDF, pulled from the PDF format's text (as opposed to being pulled via OCR)
 * HOCR (HTML Optical Character Recognition): formatted OCR text (formatting information embedded HTML or XHTML) used to more accurately display OCR output
 * JP2: web-viewable JPEG2000 image created from TIFF files
@@ -63,7 +62,7 @@ The sections for the metadata element sets (i.e., [Archival Collections Metadata
 
 |Collection Type|Data Source|Metadata Standards/Schemas|Base Layer(s)|
 |---|---|---|---|
-|archival|digital repository|EAD, FITS, MODS, RELS-EXT|collection-level and item-level|
+|archival|digital repository|EAD, MODS, RELS-EXT|collection-level and item-level|
 |serial|catalog;<br>digital repository<br>mixed|MARC, MODS;<br>EAD, MODS, RELS-EXT;<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
 |monograph|catalog;<br>digital repository<br>mixed|MARC, MODS;<br>EAD, MODS, RELS-EXT;<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
 |mixed|catalog;<br>digital repository<br>mixed|MARC, MODS;<br>EAD, MODS, RELS-EXT;<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
