@@ -61,7 +61,7 @@ When the setup processes described above are complete, you should be ready to ru
 
 `python extract_base_layer.py [location] [collection_type] [collection_subtype]`
 
-where `location` is the directory containing the source data for your collection; `collection_type` is one of 'archival', 'monograph', 'serial', 'mixed'; and `collection_subtype` is one of 'catalog' (used only with monograph and serial collection types), 'digital', 'physical' (used only with archival collection type), 'mixed'. Specifying the collection type and sub-type will allow the script to look for the appropriate kind of source data in its expected locations, and run the transformations appropriate to those types of data.
+The `location` value is the name of a folder in the 'source-data' directory that contains the source data for your collection. The `collection_type` and `collection_subtype` values, listed in the chart below, specify which metadata element set and which type(s) of source data should be used to create the base layers (for more information, see the [CaD@Pitt Data Dictionary Introduction](data-dictionary/introduction.md). 
 
 |collection types|collection sub-types|
 |---|---|

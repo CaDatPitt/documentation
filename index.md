@@ -25,7 +25,7 @@ nav_order: 1
     - [Data Dictionary](03-using-the-repository.md#data-dictionary)
 
 04. **[Data Dictionary](data-dictionary/04-data-dictionary.md)**
-    - [Introduction](data-dictionary/introduction.html)
+    - [Introduction](data-dictionary/introduction.md)
     - [Data Standards, Controlled Vocabularies & Encoding Schemes](data-dictionary/standards.md)
     - [Archival Collection Metadata Element Set](data-dictionary/archival-collections.md)
     - [Serial Collection Metadata Element Set](data-dictionary/serial-collections.md)

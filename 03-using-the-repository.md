@@ -18,6 +18,9 @@ This repository comprises the following directories:
 
 The “base-layers,” “extension-layers” and “source-data” directories each contain subdirectories, organized by collection. Subdirectories under “source-data” contain third-level directories, organized by metadata schema. Subdirectories under “extension-layers” contain third-level  directories organized by project.
 
+## Data Dictionary
+The [CaD@Pitt Data Dictionary](data-dictionary/04-data-dictionary.md) defines and describes the data layers in this repository, including the project’s related controlled vocabularies and encoding schemes, metadata element sets, and application profiles.
+
 ## Download or Clone the Repository
 Because the Data Layers Repository is published on GitHub, you have different options for accessing its content. Determining which method will likely depend on how you plan to use the data and scripts.
 
@@ -35,5 +38,5 @@ If you plan to develop your own custom version of the Data Layers framework, rat
 
 To clone the repository requires having git or GitHub Desktop installed on your local computer. That configuration is beyond the scope of this documentation, but there is plenty of guidance [elsewhere](https://docs.github.com/en/github/getting-started-with-github/set-up-git). Once this is configured, you will look for the green "Code" button on the Data Layers Repository, and then choose "Clone" via SSH or GitHub Desktop.
 
-## Data Dictionary
-The [CaD@Pitt Data Dictionary](data-dictionary/04-data-dictionary.md) defines and describes the data layers in this repository, including the project’s related controlled vocabularies and encoding schemes, metadata element sets, and application profiles.
+## Creating Base Layers
+If you would like to extract data from source data (XML files) and transform them into base layers (CSV files), see the [Data Extraction and Transformation Workflow](05-data-extraction-and-transformation-workflow.md) documentation for instructions.
