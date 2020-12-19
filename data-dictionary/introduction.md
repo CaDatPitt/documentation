@@ -66,9 +66,9 @@ The sections for the metadata element sets (i.e., [Archival Collections Metadata
 |Collection Type|Data Source|Metadata Standards/Schemas|Base Layer(s)|
 |---|---|---|---|
 |archival|digital repository|EAD, FITS, MODS, RELS-EXT|collection-level and item-level|
-|serial|catalog;<br>digital repository<br>mixed|MARC; MODS<br>EAD, MODS, RELS-EXT|collection-level and/or item-level|
-|monograph|catalog;<br>digital repository<br>mixed|MARC; MODS<br>EAD, MODS, RELS-EXT<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
-|mixed|catalog;<br>digital repository<br>mixed|MARC ;MODS<br>EAD, MODS, RELS-EXT<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
+|serial|catalog;<br>digital repository<br>mixed|MARC, MODS;<br>EAD, MODS, RELS-EXT;<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
+|monograph|catalog;<br>digital repository<br>mixed|MARC, MODS;<br>EAD, MODS, RELS-EXT;<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
+|mixed|catalog;<br>digital repository<br>mixed|MARC, MODS;<br>EAD, MODS, RELS-EXT;<br>EAD, MARC, MODS, RELS-EX|collection-level and/or item-level|
 
 Collections in the digital repository have base layers for two [2] levels of description (i.e., collection-level and item-level). Collections in the catalog have only one level of description (i.e., item-level). Serial and monograph collections may contain items from the catalog and/or the digital repository. For this reason, there are catalog versions and digital repository (hence, "digital") versions of the metadata element sets. The digital versions include elements in addition to those in the catalog versions. If a researcher's collection contains items from both sources, they may decide to use either the catalog or digital version of the metadata element set, or to use the "mixed" version, which includes all elements from both the catalog and digital versions. If there is at least one finding aid associated with (items in) the collection, serial and monograph collections may also have a collection-level base layer because they are a part of an archival collection.
 
