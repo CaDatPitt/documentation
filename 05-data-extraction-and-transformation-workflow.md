@@ -61,14 +61,14 @@ When the setup processes described above are complete, you should be ready to ru
 
 `python extract_base_layer.py [location] [collection_type] [collection_subtype]`
 
-where `location` is the directory containing the source data for your collection; `collection_type` is one of 'archival', 'monograph', 'serial', 'mixed'; and `collection_subtype` is one of 'catalog' (used only with monograph and serial collection types), 'digital', 'physical' (used only with archival collection type), 'mixed'. Specifying the collection type and sub-type will allow the script to look for the appropriate kind of source data in its expected locations, and run the transformations appropriate to those types of data. 
+where `location` is the directory containing the source data for your collection; `collection_type` is one of 'archival', 'monograph', 'serial', 'mixed'; and `collection_subtype` is one of 'catalog' (used only with monograph and serial collection types), 'digital', 'physical' (used only with archival collection type), 'mixed'. Specifying the collection type and sub-type will allow the script to look for the appropriate kind of source data in its expected locations, and run the transformations appropriate to those types of data.
 
 |collection types|collection sub-types|
 |---|---|
-|`archival`|{::nomarkdown}<ul><li>`digital`</li><li>`physical`</li></ul>{:/}|
-|`monograph`|{::nomarkdown}<ul><li>`catalog`</li><li>`digital`</li><li>`mixed`</li></ul>{:/}|
-|`serial`|{::nomarkdown}<ul><li>`catalog`</li><li>`digital`</li><li>`mixed`</li></ul>{:/}|
-|`mixed`|{::nomarkdown}<ul><li>`catalog`</li><li>`digital`</li><li>`mixed`</li></ul>{:/}|
+|**archival**|{::nomarkdown}<ul><li>digital</li><li>physical</li></ul>{:/}|
+|**monograph**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
+|**serial**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
+|**mixed**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
 
 For example, your command should look something like this:
 
