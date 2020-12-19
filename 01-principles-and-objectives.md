@@ -39,11 +39,11 @@ Serials and ephemera are foregrounded in this project because, historically, the
 ## Data Layers
 
 Our project takes a “data layers” approach, which diverges from monolithic data paradigms (i.e.,  singular, non-interpretive, and exhaustive). Instead, it presents an interface comprising data from multiple sources that vary in encoding scheme, granularity of description, and completeness/richness. This approach liberates data creation and curation from the expectation of perfection or singularity of authority, and it allows data to be enriched, augmented and interpreted incrementally over time through a layering process. It also provides a practical and low-barrier entry point for scholars to create datasets, or data layers, based on their research priorities and to share those layers. Our project model specifies three types of data layers:
-- **source data**: snapshots of library collections metadata files in their original source format (e.g., MARC 21, EAD, DC, MODS, RELS-EXT, RELS-INT, FITS);
+- **source data**: snapshots of library collections metadata files in their original source format (e.g., EAD, MARC21, MODS, RELS-EXT);
 - **base layers**: curated datasets (CSV files) derived and simplified from the source data layers, defined and described by the data dictionary and application profiles;
 - **extension layers**: scholar-created datasets that enrich/augment library collections data (i.e., source data and base layers), with accompanying documentation.
 
-**Source data** are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data use either MARC 21 (for catalog records) or XML standards/schemas for encoding resource metadata (e.g., EAD, Dublin Core, MODS, RELS-EXT, RELS-INT, FITS).
+**Source data** are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data in the CaD@Pitt mostly includes XML standards/schemas for encoding resource metadata (e.g., EAD, MODS, RELS-EXT) or MARC 21 (for catalog records).
 
 While the source data files are the most complete version of library metadata, they may not be amenable to many computational use cases due to their complex, hierarchical data structure and metadata quality issues. Despite being encoded in standards/schemes, the data records are often non-standardized and incomplete due to variation in data entry practices and conversions of data from one standard/scheme to another. Further, the source data may not be particularly accessible to users who are not familiar with hierarchical data structures or (specialized) encoding standards.
 

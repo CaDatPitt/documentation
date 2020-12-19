@@ -10,7 +10,7 @@ nav_order: 5
 # Monograph Collection Metadata Element Set
 
 ## Metadata Element List
-Monograph collections may contain items from the catalog and/or the digital repository. For this reason, there is a catalog version and a digital repository (hence, "digital") version of the metadata element set. The digital version includes elements in addition to those in the catalog version, which are indicated in the metadata element list as "digital only." By default, the metadata element list for monograph collections includes only item-level description in a single base layer CSV, but monograph collections with items from the digital repository may also use the collection-level base layer from the metadata element list for archival collections.
+Monograph collections may contain items from the catalog and/or the digital repository. For this reason, there are catalog, digital repository (hence, "digital"), and mixed versions of the metadata element set. The digital version includes elements in addition to those in the catalog version, which are indicated in the metadata element list as "digital only." The mixed version includes elements from both the catalog and digital versions. By default, the metadata element list for monograph collections includes only item-level description in a single base layer CSV, but monograph collections with items from the digital repository may also use the collection-level base layer from the [archival collection metadata element list](data-dictionary/archival-collections.md).
 
 ### Item Level
 * [Identifier](#identifier)
