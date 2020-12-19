@@ -54,14 +54,14 @@ The CaD@Pitt data extraction and transformation scripts are written in Python, s
 Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install needed modules. If you are new (or need a refresher) to installing python modules or using pip and `requirements.txt`, we recommend consulting the [Installing Packages](https://packaging.python.org/tutorials/installing-packages/) documentation from the Packaging Python User Guide.
 
 ### **The transformation scripts**
-The transformation scripts can be found in the transformation-scripts directory. The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in `data_layers_config.py`. That configuration information includes data structures that map fields in the source XML documents to output fields in the tabular base layer data.
+The transformation scripts can be found in the transformation-scripts directory. The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in `data_layers_config.py` and `encoding_schemes.py`. That configuration information includes data structures that map fields in the source XML documents to output fields in the tabular base layer data.
 
 ### **Running the script**
 When the setup processes described above are complete, you should be ready to run the script on some collections data. First, open the Command Prompt/Terminal and navigate to the "transformation-scripts" directory. Then, run the following command, replacing the bracketed text with the correct information:
 
 `python extract_base_layer.py [location] [collection_type] [collection_subtype]`
 
-The `location` value is the name of a folder in the 'source-data' directory that contains the source data for your collection. The `collection_type` and `collection_subtype` values, listed in the chart below, specify which metadata element set and which type(s) of source data should be used to create the base layers (for more information, see the [CaD@Pitt Data Dictionary Introduction](data-dictionary/introduction.md). 
+The `location` value is the name of a folder in the 'source-data' directory that contains the source data for your collection. The `collection_type` and `collection_subtype` values, listed in the chart below, specify which metadata element set and which type(s) of source data should be used to create the base layers (for more information, see the [CaD@Pitt Data Dictionary Introduction](data-dictionary/introduction.md).
 
 |collection types|collection sub-types|
 |---|---|
