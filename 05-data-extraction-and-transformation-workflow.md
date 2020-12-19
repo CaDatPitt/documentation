@@ -35,7 +35,7 @@ Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repositor
 
 If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under "transformation-scripts") to the run the script. All files should be placed within a standardized structure in the repository directories, as shown below:
 
-{::nomarkdown}
+```
  [data-layers](https://github.com/CaDatPitt/data-layers)
   |__ [base-layers](https://github.com/CaDatPitt/data-layers/tree/master/base-layers)
   |__ [source-data](https://github.com/CaDatPitt/data-layers/tree/master/source-data)
@@ -51,7 +51,7 @@ If you would rather not download or clone the entire repository, you can downloa
       |__ encoding_schemes.py
       |__ extract_base_layer.py
       |__ requirements.txt
-{:/}
+```
 
 Within the 'source-data' directory, create a subdirectory for each separate collection. The best practice is to create the name as all lowercase, with no spaces (you can use dashes or underscores instead of spaces).
 
