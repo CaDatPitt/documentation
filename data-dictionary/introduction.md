@@ -19,14 +19,12 @@ The CaD@Pitt Data Dictionary defines and describes the _data layers_ (datasets) 
 ### **Source data**
 _Source data_ are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data may be binary MARC21 (ISO 2709 implementation), MODS XML converted from MARC21, or data from one of the following Islandora (metadata) datastreams listed below:
 
-#### **Prioritized Datastreams**
-Always included, when available; used to create base layers
+#### **Prioritized Datastreams (always included, when available)**
 * **EAD (Encoded Archival Description)**: descriptive EAD XML metadata based on digital finding aids
 * **MODS (Metadata Object Description Schema)**: descriptive MODS XML metadata filled out during ingest (more robust)
 * **RELS-EXT (Relationships-External)**: Fedora digital object relationship XML metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
 
-#### **Other Available Datastreams**
-Available upon request
+#### **Other Available Datastreams (available upon request)**
 * **DC (Dublin Core)**: descriptive DC XML metadata (simple)
 <!--* **FITS (File Information Tool Set)**: identifies, validates, and extracts technical metadata for various file formats. It wraps several third-party open source tools, normalizes and consolidates their output, and reports any errors-->
 * **FULL_TEXT**: text of a PDF, pulled from the PDF format's text (as opposed to being pulled via OCR)
