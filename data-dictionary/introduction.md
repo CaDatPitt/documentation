@@ -20,30 +20,30 @@ The CaD@Pitt Data Dictionary defines and describes the _data layers_ (datasets) 
 _Source data_ are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data may be binary MARC21 (ISO 2709 implementation), MODS XML converted from MARC21, or data from one of the following Islandora (metadata) datastreams listed below:
 
 #### **Prioritized Datastreams (always included, when available)**
-* **EAD (Encoded Archival Description)**: descriptive EAD XML metadata based on digital finding aids
-* **MODS (Metadata Object Description Schema)**: descriptive MODS XML metadata filled out during ingest (more robust)
-* **RELS-EXT (Relationships-External)**: Fedora digital object relationship XML metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
+* EAD (Encoded Archival Description): descriptive EAD XML metadata based on digital finding aids
+* MODS (Metadata Object Description Schema): descriptive MODS XML metadata filled out during ingest (more robust)
+* RELS-EXT (Relationships-External): Fedora digital object relationship XML metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
 
 #### **Other Available Datastreams (available upon request)**
-* **DC (Dublin Core)**: descriptive DC XML metadata (simple)
+* DC (Dublin Core): descriptive DC XML metadata (simple)
 <!--* **FITS (File Information Tool Set)**: identifies, validates, and extracts technical metadata for various file formats. It wraps several third-party open source tools, normalizes and consolidates their output, and reports any errors-->
-* **FULL_TEXT**: text of a PDF, pulled from the PDF format's text (as opposed to being pulled via OCR)
-* **HOCR (HTML Optical Character Recognition)**: formatted OCR text (formatting information embedded HTML or XHTML) used to more accurately display OCR output
-* **JP2**: web-viewable JPEG2000 image created from TIFF files
-* **JPG**: plain JPG derivative created from TIFF files
-* **MARC (Machine-readable cataloging)**: descriptive binary MARC record metadata for items that were catalogued before ingested in Islandora
-* **MKV**: Matroska video derivative
-* **MP4**: MPEG-4 video derivative
-* **OCR (Optical Character Recognition)**: OCR text files
-* **OBJ (Object)**: default datastream for the actual original binary ingested with an object, usually stored in TIFF format
-* **OGG**: OGG Vorbis video derivative (audio only)
-* **PDF**: PDF derivative created either during ingest of a page, or stitched together into an entire book, newspaper, or other paged content
-* **PREVIEW**: binary preview of a PDF used for viewing
-* **PROXY_MP3**: derivative web-suitable file for download and display
-* **RELS-INT (Relationships-Internal)**: Fedora digital object relationship XML metadata that contains interior relationship information defining a page's relationship to other pages and the book (or other paged content) as a whole
-* **TN (Thumbnail)**: thumbnail image used to represent the object in lists
-* **TECH-MD (Technical Metadata)**: technical metadata FITS (File Information Tool Set) XML record filled out during ingest, including media type, file name and size, creating software program name, image dimensions, color model, and orientation
-* **TRANSCRIPT**: text file (saved in WebVTT format) containing supplementary information about a video, including subtitles, captions, chapters, and other metadata.
+* FULL_TEXT: text of a PDF, pulled from the PDF format's text (as opposed to being pulled via OCR)
+* HOCR (HTML Optical Character Recognition): formatted OCR text (formatting information embedded HTML or XHTML) used to more accurately display OCR output
+* JP2: web-viewable JPEG2000 image created from TIFF files
+* JPG: plain JPG derivative created from TIFF files
+* MARC (Machine-readable cataloging): descriptive binary MARC record metadata for items that were catalogued before ingested in Islandora
+* MKV: Matroska video derivative
+* MP4: MPEG-4 video derivative
+* OCR (Optical Character Recognition): OCR text files
+* OBJ (Object): default datastream for the actual original binary ingested with an object, usually stored in TIFF format
+* OGG: OGG Vorbis video derivative (audio only)
+* PDF: PDF derivative created either during ingest of a page, or stitched together into an entire book, newspaper, or other paged content
+* PREVIEW: binary preview of a PDF used for viewing
+* PROXY_MP3: derivative web-suitable file for download and display
+* RELS-INT (Relationships-Internal): Fedora digital object relationship XML metadata that contains interior relationship information defining a page's relationship to other pages and the book (or other paged content) as a whole
+* TN (Thumbnail): thumbnail image used to represent the object in lists
+* TECH-MD (Technical Metadata): technical metadata FITS (File Information Tool Set) XML record filled out during ingest, including media type, file name and size, creating software program name, image dimensions, color model, and orientation
+* TRANSCRIPT: text file (saved in WebVTT format) containing supplementary information about a video, including subtitles, captions, chapters, and other metadata.
 
 Despite being encoded in standards/schemes, the data records are often non-standardized and incomplete due to variation in data entry practices and conversions of data from one standard/scheme to another. For example, dates may appear or be missing in one or more fields in the source data and use varying formats/encoding. To avoid excluding date information when it exists for an item by selecting a single field, multiple date elements have been included in the base layers to capture date information when possible; however, users of the dataset may have to normalize dates across fields for computational methods using date information.
 
