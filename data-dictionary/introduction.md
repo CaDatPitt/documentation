@@ -16,7 +16,7 @@ The CaD@Pitt Data Dictionary defines and describes the _data layers_ (datasets) 
 
 ## Overview of the Data Layers
 
-## **Source data**
+### **Source data**
 _Source data_ are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data may be binary MARC21 (ISO 2709 implementation), MODS XML (converted from MARC21), or one of the following Islandora metadata datastreams (XML standards/schemas for encoding resource metadata):
 * **Machine-readable cataloging (MARC21)**: contains descriptive MARC record metadata for items that were catalogued before ingested in Islandora
 * **Encoded Archival Description (EAD)**: contains descriptive EAD based on digital finding aids
