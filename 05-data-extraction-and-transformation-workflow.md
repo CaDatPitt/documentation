@@ -57,13 +57,13 @@ Once Python is installed, you will also need to ensure that some supporting Pyth
 The transformation scripts can be found in the transformation-scripts directory. The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in `data_layers_config.py`. That configuration information includes data structures that map fields in the source XML documents to output fields in the tabular base layer data.
 
 ### **Running the script**
-When the setup processes described above are complete, you should be ready to run the script on some collections data. The command to run the script is
+When the setup processes described above are complete, you should be ready to run the script on some collections data. First, open your terminal and navigate to the "transformation-scripts" directory. Then, run the following command, replacing the bracketed text with the correct information:
 
 `python extract_base_layer.py [source collection name] [collection type] [collection sub-type]`
 
-where collection type is one of `archival`, `monograph`, `serial`, and collection sub-type is one of `catalog` (used only with `monograph` and `serial` collection types), `digital`, `physical` (used only with `archival` collection type).
+Collection type is one of `archival`, `monograph`, `serial`, `mixed`, and collection sub-type is one of `catalog` (used only with `monograph` and `serial` collection types), `digital`, `physical` (used only with `archival` collection type), `mixed`.
 
 Specifying the collection type and sub-type will allow the script to look for the appropriate kind of source data in its expected locations, and run the transformations appropriate to those types of data.
 
 ### **Output**
-Output from the transformation process is written to the `base-layers/*collection-name*` directory. The collection subdirectory will be created if it does not already exist. Within that location, the process creates two output files, one each for data at the item and collection level. Both files are encoded as UTF-8 comma-separated value (CSV) files. They are named `item-base-layer.csv` and `collection-base-layer.csv`. If the source data contains no collection-level information (as from an EAD file), the collection base layer file will be empty.
+Output from the transformation process is written to the `base-layers/[collection-name]` directory. The collection subdirectory will be created if it does not already exist. Within that location, the process creates two output files, one each for data at the item and collection level. Both files are encoded as UTF-8 comma-separated value (CSV) files. They are named `item-base-layer.csv` and `collection-base-layer.csv`. If the source data contains no collection-level information (as from an EAD file), the collection base layer file will be empty.
