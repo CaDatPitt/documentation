@@ -20,13 +20,13 @@ The CaD@Pitt Data Dictionary defines and describes the _data layers_ (datasets) 
 _Source data_ are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data may be binary MARC21 (ISO 2709 implementation), MODS XML converted from MARC21, or data from one of the following Islandora (metadata) datastreams listed below:
 
 #### **Prioritized Datastreams**
-_Always included in collections data, when available; used to create base layers_
+Always included, when available; used to create base layers
 * **EAD (Encoded Archival Description)**: descriptive EAD XML metadata based on digital finding aids
 * **MODS (Metadata Object Description Schema)**: descriptive MODS XML metadata filled out during ingest (more robust)
 * **RELS-EXT (Relationships-External)**: Fedora digital object relationship XML metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
 
 #### **Other Available Datastreams**
-_Available upon request_
+Available upon request
 * **DC (Dublin Core)**: descriptive DC XML metadata (simple)
 <!--* **FITS (File Information Tool Set)**: identifies, validates, and extracts technical metadata for various file formats. It wraps several third-party open source tools, normalizes and consolidates their output, and reports any errors-->
 * **FULL_TEXT**: text of a PDF, pulled from the PDF format's text (as opposed to being pulled via OCR)
@@ -50,7 +50,7 @@ _Available upon request_
 Despite being encoded in standards/schemes, the data records are often non-standardized and incomplete due to variation in data entry practices and conversions of data from one standard/scheme to another. For example, dates may appear or be missing in one or more fields in the source data and use varying formats/encoding. To avoid excluding date information when it exists for an item by selecting a single field, multiple date elements have been included in the base layers to capture date information when possible; however, users of the dataset may have to normalize dates across fields for computational methods using date information.
 
 ### **Base layers**
-_Base layers_ are derived from the source data and have a flattened (i.e., tabular, two-dimensional) data model and simplified metadata elements sets for increased readability. The data in the base layers have also been pared down from that in the source data to avoid representing an overwhelming amount of information and to include data points that we expect to be most useful for scholars in general. However, metadata elements that have been excluded in the base layer may be incorporated in an extended version of the base layer by request; in other words, scholars may customize the base layer to include one or more additional elements from the source data.
+_Base layers_ are derived from source data (EAD, MODS, RELS-EXT) and have a flattened (i.e., tabular, two-dimensional) data model and simplified metadata elements sets for increased readability. The data in the base layers have also been pared down from that in the source data to avoid representing an overwhelming amount of information and to include data points that we expect to be most useful for scholars in general. However, metadata elements that have been excluded in the base layer may be incorporated in an extended version of the base layer by request; in other words, scholars may customize the base layer to include one or more additional elements from the source data.
 
 ### **Extension layers**
 Unlike the other, library-generated data layers, _extension layers_ are (co-)created by researchers as a site for explicitly interpretive and scholarly data. While they make use of the source data/base layers, they are not constrained by conventions of library-based descriptive frameworks. They may improve the quality of the metadata in the source data/base layers, introduce new elements/data points, or not only (or at all) take the form of spreadsheet files; for example, an extension layer might include data visualizations.
