@@ -36,9 +36,9 @@ Download or clone (optionally, after forking) the CaD@Pitt Data Layers Repositor
 If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under "transformation-scripts") to the run the script. All files should be placed within a standardized structure in the repository directories, as shown below:
 
 ```
- [data-layers](https://github.com/CaDatPitt/data-layers)
-  |__ [base-layers](https://github.com/CaDatPitt/data-layers/tree/master/base-layers)
-  |__ [source-data](https://github.com/CaDatPitt/data-layers/tree/master/source-data)
+ data-layers
+  |__ base-layers
+  |__ source-data
   |   |__ [collection-directory]
   |       |__ ead
   |       |   |__ [*.xml files]
@@ -46,12 +46,14 @@ If you would rather not download or clone the entire repository, you can downloa
   |       |   |__ [*.xml files]
   |       |__ rels-ext
   |           |__ [*.xml or .*rdf files]
-  |__ [transformation-scripts](https://github.com/CaDatPitt/data-layers/tree/master/transformation-scripts)
+  |__ transformation-scripts
       |__ data_layers_config.py
       |__ encoding_schemes.py
       |__ extract_base_layer.py
       |__ requirements.txt
 ```
+
+If your directory tree is not structured as above or you have not downloaded all of the listed Python files, the script will not run successfully. 
 
 Within the 'source-data' directory, create a subdirectory for each separate collection. The best practice is to create the name as all lowercase, with no spaces (you can use dashes or underscores instead of spaces).
 
@@ -62,12 +64,14 @@ Within the collection directory, create additional subdirectories as appropriate
 There are other types of metadata records available, such as Dublin Core, but the script only supports EAD, MODS, and RELS-EXT. For more information about all the available types of (meta)data, see the [Source Data](data-dictionary/introduction.md#source-data) section of the CaD@Pitt Data Dictionary Introduction.
 
 After this is done, you should have a directory structure that looks like this:
+
 `data-layers/source-data/american-left-ephemera/mods`
 
 ### **Configure your python environment**
 The CaD@Pitt data extraction and transformation scripts are written in Python, specifically for Python 3. If needed, obtain and install Python 3.x on your computer. There are several ways to obtain Python, and you may already have it installed on your computer without realizing. For more detailed information tailored to your specific operating system, see the official Python 3 [Setup and Usage](https://docs.python.org/3/using/index.html) documentation.
 
 Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install the necessary packages and libraries. If you are new (or need a refresher) to installing Python modules or using pip, we recommend consulting the [Installing Packages](https://packaging.python.org/tutorials/installing-packages/) documentation from the Packaging Python User Guide. As a quick reference, you can install required modules by running the following command in the Command Prompt/Terminal:
+
 `pip install -r requirements.txt`.
 
 ### **The transformation scripts**
