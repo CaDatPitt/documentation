@@ -9,20 +9,20 @@ nav_order: 1
 
 # Introduction
 
-The CaD@Pitt Data Dictionary defines and describes the **data layers** (datasets) in the [Data Layers Repository](https://github.com/CaDatPitt/data-layers), which are categorized into three [3] types:
+The CaD@Pitt Data Dictionary defines and describes the _data layers_ (datasets) in the [Data Layers Repository](https://github.com/CaDatPitt/data-layers), which are categorized into three [3] types:
 * **[source data](https://github.com/CaDatPitt/data-layers/tree/master/source-data)**: snapshots of library collections metadata files in their original source format (e.g., MARC21, EAD, DC, MODS, RELS-EXT) stored in either the Library’s digital repository (Islandora) or catalog system (Alma);
 * **[base layers](https://github.com/CaDatPitt/data-layers/tree/master/base-layers)**: curated datasets (CSV files) derived and simplified from the source data layers, as defined and described by this data dictionary and the application profiles;
 * **[extension layers](https://github.com/CaDatPitt/data-layers/tree/master/extension-layers)**: scholar-created datasets or outputs that enrich/augment library collections data (i.e., source data and base layers), with accompanying documentation.
 
 ## Overview of the Data Layers
 
-**Source data**
+## **Source data**
 _Source data_ are metadata records exported from either the library’s catalog system (Alma) or the library’s digital repository system (Islandora). Source data may be binary MARC21 (ISO 2709 implementation), MODS XML (converted from MARC21), or one of the following Islandora metadata datastreams (XML standards/schemas for encoding resource metadata):
-* Machine-readable cataloging (MARC21): contains descriptive MARC record metadata for items that were catalogued before ingested in Islandora
-* Encoded Archival Description (EAD): contains descriptive EAD based on digital finding aids
-* Dublin Core (DC): contains descriptive DC metadata (simple)
-* Metadata Object Description Schema (MODS): contains descriptive MODS Metadata filled out during ingest (more robust)
-* Relationships-External (RELS-EXT): Fedora digital object relationship metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
+* **Machine-readable cataloging (MARC21)**: contains descriptive MARC record metadata for items that were catalogued before ingested in Islandora
+* **Encoded Archival Description (EAD)**: contains descriptive EAD based on digital finding aids
+* **Dublin Core (DC)**: contains descriptive DC metadata (simple)
+* **Metadata Object Description Schema (MODS)**: contains descriptive MODS Metadata filled out during ingest (more robust)
+* **Relationships-External (RELS-EXT)**: Fedora digital object relationship metadata that contains exterior relationship information defining the relationship of a digital object to other objects in the repository system
 
 Despite being encoded in standards/schemes, the data records are often non-standardized and incomplete due to variation in data entry practices and conversions of data from one standard/scheme to another. For example, dates may appear or be missing in one or more fields in the source data and use varying formats/encoding. To avoid excluding date information when it exists for an item by selecting a single field, multiple date elements have been included in the base layers to capture date information when possible; however, users of the dataset may have to normalize dates across fields for computational methods using date information.
 
