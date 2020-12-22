@@ -61,6 +61,7 @@ Within the collection directory, create additional subdirectories as appropriate
 - "ead" — for EAD (Encoded Archival Description) records, in XML, one file per collection (only available for archival items in the ULS Digital Collection, or similar)
 - "mods" — for MODS (Metadata Object Description Schema) records, in XML, one file per record
 - "rels-ext" — for RDF (Resource Description Framework) records, in XML or RDF, one file per record (only available for archival items in the ULS Digital Collection, or similar)
+
 There are other types of metadata records available, such as Dublin Core, but the script only supports EAD, MODS, and RELS-EXT. For more information about all the available types of (meta)data, see the [Source Data](data-dictionary/introduction.md#source-data) section of the CaD@Pitt Data Dictionary Introduction.
 
 After this is done, you should have a directory structure that looks like this: "data-layers/source-data/american-left-ephemera/mods".
