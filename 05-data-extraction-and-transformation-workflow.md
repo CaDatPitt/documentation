@@ -58,13 +58,14 @@ If your directory tree is not structured as above or you have not downloaded all
 Within the 'source-data' directory, create a subdirectory for each separate collection. The best practice is to create the name as all lowercase, with no spaces (you can use dashes or underscores instead of spaces).
 
 Within the collection directory, create additional subdirectories as appropriate to your content data:
-- "ead" — for EAD (Encoded Archival Description) records, in XML, one file per collection (only available for archival items in the ULS Digital Collection, or similar)
-- "mods" — for MODS (Metadata Object Description Schema) records, in XML, one file per record
-- "rels-ext" — for RDF (Resource Description Framework) records, in XML or RDF, one file per record (only available for archival items in the ULS Digital Collection, or similar)
+- **ead** — for EAD (Encoded Archival Description) records, in XML, one file per collection (only available for archival items in the ULS Digital Collection, or similar)
+- **mods** — for MODS (Metadata Object Description Schema) records, in XML, one file per record
+- **rels-ext** — for RDF (Resource Description Framework) records, in XML or RDF, one file per record (only available for archival items in the ULS Digital Collection, or similar)
 
 There are other types of metadata records available, such as Dublin Core, but the script only supports EAD, MODS, and RELS-EXT. For more information about all the available types of (meta)data, see the [Source Data](data-dictionary/introduction.md#source-data) section of the CaD@Pitt Data Dictionary Introduction.
 
-After this is done, you should have a directory structure that looks like this: "data-layers/source-data/american-left-ephemera/mods".
+After this is done, you should have a directory structure that looks like this:
+data-layers/source-data/american-left-ephemera/mods
 
 ### **Configure your python environment**
 The CaD@Pitt data extraction and transformation scripts are written in Python, specifically for Python 3. If needed, obtain and install Python 3.x on your computer. There are several ways to obtain Python, and you may already have it installed on your computer without realizing. For more detailed information tailored to your specific operating system, see the official Python 3 [Setup and Usage](https://docs.python.org/3/using/index.html) documentation.
