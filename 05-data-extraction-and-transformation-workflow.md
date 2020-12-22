@@ -72,7 +72,7 @@ The CaD@Pitt data extraction and transformation scripts are written in Python, s
 
 Once Python is installed, you will also need to ensure that some supporting Python modules used by the CaD@Pitt scripts are installed. Use `requirements.txt` to install the necessary packages and libraries. If you are new (or need a refresher) to installing Python modules or using pip, we recommend consulting the [Installing Packages](https://packaging.python.org/tutorials/installing-packages/) documentation from the Packaging Python User Guide. As a quick reference, you can install required modules by running the following command in the Command Prompt/Terminal:
 
-`pip install -r requirements.txt`.
+`pip install -r requirements.txt`
 
 ### **The transformation scripts**
 The transformation scripts can be found in the transformation-scripts directory. The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in `data_layers_config.py` and `encoding_schemes.py`. That configuration information includes data structures that map fields in the source XML documents to output fields in the tabular base layer data.
