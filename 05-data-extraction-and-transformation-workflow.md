@@ -4,12 +4,12 @@ title: Data Extraction and Transformation Workflow
 nav_order: 5
 ---
 
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
 
     <!-- Font Awesome Icons css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 
   </head>
 </html>
@@ -17,23 +17,23 @@ nav_order: 5
 #### [Home](http://cadatpitt.github.io)
 # Data Extraction and Transformation Workflow
 
-Creating base layers has two steps: obtaining the source data in the necessary formats, and then running a data extraction and transformation process to create the base layer.
+Creating base layers has two steps: obtaining the source data in the necessary formats, and then running a data extraction and transformation program to create the base layer.
 
-If the collections data you want to work with is maintained by Pitt's library and archives, this process can be done completely or in part by a request to the CaD@Pitt team. If you are working with your own collections data, or wish to customize the transformation process, you can do the transformation yourself. We describe the steps to run the data extraction and transformation scripts developed by the CaD@Pitt project below.
+If the collections data you want to work with is maintained by Pitt's library and archives, this process can be done completely or in part by a request to the CaD@Pitt team. If you are working with your own collections data, or wish to customize the transformation process, you can do the transformation yourself. We describe the steps to run the data extraction and transformation program developed by the CaD@Pitt project below.
 
 ## Requesting data from CaD@Pitt
-1. User submits a {::nomarkdown}<a href="https://forms.gle/BgF3vsBHpXCCdNve7" target="_blank">Source Data Request <font size="-1"><i class="fa fa-external-link"></i></font></a>{:/}.
+1. User submits a {::nomarkdown}<a href='https://forms.gle/BgF3vsBHpXCCdNve7' target='_blank'>Source Data Request <font size='-1'><i class='fa fa-external-link'></i></font></a>{:/}.
 2. CaD team member confirms request with user.
 3. CaD team member downloads source data from ULS's digital repository and/or catalog.
 4. CaD team member uploads source data to a “source-data” directory in the CaD@Pitt Data Layers Repository.
-5. If requested by user, CaD team member processes source data with extraction/transformation script to output CSV files to the "base-layers" directory in the CaD@Pitt Data Layers Repository.
+5. If requested by user, CaD team member processes source data with extraction/transformation script to output CSV files to the 'base-layers' directory in the CaD@Pitt Data Layers Repository.
 6. CaD team member notifies requesting user that source data (and base layers) are available.
 
 ## Creating your own base layer
 ### **Obtain a copy of the CaD@Pitt Data Layers Repository**
 Download or clone (optionally, after forking) the [CaD@Pitt Data Layers Repository](https://github.com/CaDatPitt/data-layers). For instructions, see [Using the Repository: Download or Clone the Repository](03-using-the-repository.html#download-or-clone-the-repository).
 
-If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under "transformation-scripts") to the run the script. All files should be placed within a standardized structure in the repository directories, as shown below:
+If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under 'transformation-scripts') to the run the program. All files should be placed within a standardized structure in the repository directories, as shown below:
 
 ```
  data-layers
@@ -53,7 +53,7 @@ If you would rather not download or clone the entire repository, you can downloa
       |__ requirements.txt
 ```
 
-If your directory tree is not structured as above or you have not downloaded all of the listed Python files, the script will not run successfully.
+If your directory tree is not structured as above or you have not downloaded all of the listed Python files, the program will not run successfully.
 
 Within the 'source-data' directory, create a subdirectory for each separate collection. The best practice is to create the name as all lowercase, with no spaces (you can use dashes or underscores instead of spaces).
 
@@ -77,12 +77,12 @@ Once Python is installed, you will also need to ensure that some supporting Pyth
 ### **The transformation scripts**
 The transformation scripts can be found in the transformation-scripts directory. The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in `data_layers_config.py` and `encoding_schemes.py`. That configuration information includes data structures that map fields in the source XML documents to output fields in the tabular base layer data.
 
-### **Running the script**
-When the setup processes described above are complete, you should be ready to run the script on some collections data. In the Command Prompt/Terminal, navigate to the "transformation-scripts" directory and run the following command, replacing the bracketed text with the correct information:
+### **Running the program**
+When the setup processes described above are complete, you should be ready to run the program on some collections data. In the Command Prompt/Terminal, navigate to the 'transformation-scripts' directory and run the following command, replacing the bracketed text with the correct information:
 
-`python extract_base_layer.py [location] [collection_type] [collection_subtype]`
+`python extract_base_layer.py [location] [collection_type] [collection_subtype] [--decode]`
 
-The `location` value is the name of a directory in the 'source-data' directory that contains the source data for your collection. The `collection_type` and `collection_subtype` values, listed in the table below, specify which [metadata element set](data-dictionary/introduction.md#metadata-element-sets) (archival, serial, monograph, mixed) and which type(s) of source data should be used to create the base layers.
+The `location` argument is the name of a directory in the 'source-data' directory that contains the source data for your collection. The `collection_type` and `collection_subtype` arguments specify which [metadata element set](data-dictionary/introduction.md#metadata-element-sets) (archival, serial, monograph, mixed) and which type(s) of source data should be used to create the base layers. The valid options for these arguments are listed in the following table:
 
 |collection types|collection sub-types|
 |---|---|
@@ -91,13 +91,15 @@ The `location` value is the name of a directory in the 'source-data' directory t
 |**serial**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
 |**mixed**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
 
+The program includes a feature that decodes encoded values in the 'collection_language', 'language', and 'geographic_coverage' columns, using the dictionary in 'encoding_schemes.py'. To enable this feature, use the `--decode` argument. By default, this feature is disabled.
+
 For example, your command should look something like this:
 
-`python extract_base_layer.py american-left-ephemera archival digital`
+`python extract_base_layer.py american-left-ephemera archival digital --decode`
 
-If you need help or a handy reference to run the script, you can call up the help menu by running the following command:
+If you need help or a handy reference to run the program, you can call up the help menu by running the following command:
 
 `python extract_base_layer.py --help` or `python extract_base_layer.py -h`
 
 ### **Output**
-Output from the transformation process is written to the "base-layers/[collection-name]" directory. The collection subdirectory will be created if it does not already exist. Within that location, the process creates two output files, one each for data at the item and collection level. Both files are encoded as UTF-8 comma-separated value (CSV) files. They collection-level output file will include the name of collection subdirectory in the "source-data" directory followed by the suffix "_collection-base-layer.csv", such as "american-left-ephemera_collection-base-layer.csv". The name of the item-level file will include the collection subdirectory, and the suffix will depend on the specified collection type and subtype, such as "american-left-ephemera_item-base-layer_archival-digital.csv". If the source data contains no collection-level metadata (i.e., an EAD file), the collection base layer file will be empty. <!--This information can be added manually.-->
+Output from the transformation process is written to the 'base-layers/[collection-name]' directory. The collection subdirectory will be created if it does not already exist. Within that location, the process creates two output files, one each for data at the item and collection level. Both files are encoded as UTF-8 comma-separated value (CSV) files. They collection-level output file will include the name of collection subdirectory in the 'source-data' directory followed by the suffix '_collection-base-layer.csv', such as 'american-left-ephemera_collection-base-layer.csv'. The name of the item-level file will include the collection subdirectory, and the suffix will depend on the specified collection type and subtype, such as 'american-left-ephemera_item-base-layer_archival-digital.csv'. If the source data contains no collection-level metadata (i.e., an EAD file), the collection base layer file will be empty. <!--This information can be added manually.-->
