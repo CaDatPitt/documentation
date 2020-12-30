@@ -21,8 +21,8 @@ The “base-layers,” “extension-layers” and “source-data” directories 
 ## Data Dictionary
 The [CaD@Pitt Data Dictionary](data-dictionary/04-data-dictionary.md) defines and describes the data layers in this repository, including the project’s related controlled vocabularies and encoding schemes, metadata element sets, and application profiles.
 
-## Download or Clone the Repository
-Because the Data Layers Repository is published on GitHub, you have different options for accessing its content. Determining which method will likely depend on how you plan to use the data and scripts.
+## Getting Content from the Repository
+Because the Data Layers Repository is published on GitHub, you have different options for accessing its content. You may download the repository contents or clone the entire repository. Determining which method will likely depend on how you plan to use the data and scripts.
 
 ### **Download the Repository Contents**
 If you are most interested in working with the base layers and/or extension layers that are published in the repository, *downloading* the repository is the easiest way to do so. From the [Data Layers Repository](https://github.com/CaDatPitt/data-layers) main page, look for the green button, just above the file list, labeled "Code." Click on this button and then look for the link that reads "Download Zip." This option will give you a bundled Zip file that will decompress into an exact copy of the directories and files in the GitHub repository. You'll find base layers in the "base-layers" directory, extension layers in the "extension-layers" directory, and so on.
