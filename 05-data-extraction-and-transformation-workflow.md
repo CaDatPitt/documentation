@@ -25,7 +25,7 @@ If the collections data you want to work with is maintained by Pitt's library an
 1. User submits a {::nomarkdown}<a href='https://forms.gle/BgF3vsBHpXCCdNve7' target='_blank'>Source Data Request <font size='-1'><i class='fa fa-external-link'></i></font></a>{:/}.
 2. CaD team member confirms request with user.
 3. CaD team member downloads source data from ULS's digital repository and/or catalog.
-4. CaD team member uploads source data to a “source-data” directory in the CaD@Pitt Data Layers Repository.
+4. CaD team member uploads source data to a `source-data` directory in the CaD@Pitt Data Layers Repository.
 5. If requested by user, CaD team member processes source data with extraction/transformation script to output CSV files to the `base-layers` directory in the CaD@Pitt Data Layers Repository.
 6. CaD team member notifies requesting user that source data (and base layers) are available.
 
@@ -65,7 +65,7 @@ Within the collection directory, create additional subdirectories as appropriate
 There are other types of metadata records available, such as Dublin Core, but the script only supports EAD, MODS, and RELS-EXT. For more information about all the available types of (meta)data, see the [Source Data](data-dictionary/introduction.md#source-data) section of the CaD@Pitt Data Dictionary Introduction.
 
 After this is done, you should have a directory structure that looks like this:  
-data-layers/source-data/american-left-ephemera/mods
+`data-layers/source-data/american-left-ephemera/mods`
 
 ### **Configure your python environment**
 The CaD@Pitt data extraction and transformation scripts are written in Python, specifically for Python 3. If needed, obtain and install Python 3.x on your computer. There are several ways to obtain Python, and you may already have it installed on your computer without realizing. For more detailed information tailored to your specific operating system, see the official Python 3 [Setup and Usage](https://docs.python.org/3/using/index.html) documentation.
