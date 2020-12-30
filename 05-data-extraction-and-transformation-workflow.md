@@ -26,41 +26,41 @@ If the collections data you want to work with is maintained by Pitt's library an
 2. CaD team member confirms request with user.
 3. CaD team member downloads source data from ULS's digital repository and/or catalog.
 4. CaD team member uploads source data to a “source-data” directory in the CaD@Pitt Data Layers Repository.
-5. If requested by user, CaD team member processes source data with extraction/transformation script to output CSV files to the 'base-layers' directory in the CaD@Pitt Data Layers Repository.
+5. If requested by user, CaD team member processes source data with extraction/transformation script to output CSV files to the `base-layers` directory in the CaD@Pitt Data Layers Repository.
 6. CaD team member notifies requesting user that source data (and base layers) are available.
 
 ## Creating your own base layer
 ### **Obtain a copy of the CaD@Pitt Data Layers Repository**
 Download or clone (optionally, after forking) the [CaD@Pitt Data Layers Repository](https://github.com/CaDatPitt/data-layers). For instructions, see [Using the Repository: Getting Content from the Repository](03-using-the-repository.html#getting-content-from-the-repository).
 
-If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under 'transformation-scripts') to the run the program. All files should be placed within a standardized structure in the repository directories, as shown below:
+If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under `transformation-scripts`) to the run the program. All files should be placed within a standardized structure in the repository directories, as shown below:
 
 ```
  data-layers
-  |__ base-layers
-  |__ source-data
-  |   |__ [collection-directory]
-  |       |__ ead
-  |       |   |__ [*.xml files]
-  |       |__ mods
-  |       |   |__ [*.xml files]
-  |       |__ rels-ext
-  |           |__ [*.xml or .*rdf files]
-  |__ transformation-scripts
-      |__ data_layers_config.py
-      |__ encoding_schemes.py
-      |__ extract_base_layer.py
-      |__ requirements.txt
+  ├── base-layers
+  ├── source-data
+  |   └── *collection-directory*
+  |       ├── ead
+  |       |   └── *.xml
+  |       ├── mods
+  |       |   └── *.xml
+  |       └── rels-ext
+  |           └── *.xml or .*rdf
+  └── transformation-scripts
+      ├── data_layers_config.py
+      ├── encoding_schemes.py
+      ├── extract_base_layer.py
+      └── requirements.txt
 ```
 
 If your directory tree is not structured as above or you have not downloaded all of the listed Python files, the program will not run successfully.
 
-Within the 'source-data' directory, create a subdirectory for each separate collection. The best practice is to create the name as all lowercase, with no spaces (you can use dashes or underscores instead of spaces).
+Within the `source-data` directory, create a subdirectory for each separate collection. The best practice is to create the name as all lowercase, with no spaces (you can use dashes or underscores instead of spaces).
 
 Within the collection directory, create additional subdirectories as appropriate to your content data:
-- **ead** — for EAD (Encoded Archival Description) records, in XML, one file per collection (only available for archival items in the ULS Digital Collection, or similar)
-- **mods** — for MODS (Metadata Object Description Schema) records, in XML, one file per record
-- **rels-ext** — for RDF (Resource Description Framework) records, in XML or RDF, one file per record (only available for archival items in the ULS Digital Collection, or similar)
+- `ead` — for EAD (Encoded Archival Description) records, in XML, one file per collection (only available for archival items in the ULS Digital Collection, or similar)
+- `mods` — for MODS (Metadata Object Description Schema) records, in XML, one file per record
+- `rels-ext` — for RDF (Resource Description Framework) records, in XML or RDF, one file per record (only available for archival items in the ULS Digital Collection, or similar)
 
 There are other types of metadata records available, such as Dublin Core, but the script only supports EAD, MODS, and RELS-EXT. For more information about all the available types of (meta)data, see the [Source Data](data-dictionary/introduction.md#source-data) section of the CaD@Pitt Data Dictionary Introduction.
 
@@ -78,11 +78,11 @@ Once Python is installed, you will also need to ensure that some supporting Pyth
 The transformation scripts can be found in the transformation-scripts directory. The main script for running the data extraction and transformation is `extract_base_layer.py`. This script also draws on configuration information stored in `data_layers_config.py` and `encoding_schemes.py`. That configuration information includes data structures that map fields in the source XML documents to output fields in the tabular base layer data.
 
 ### **Running the program**
-When the setup processes described above are complete, you should be ready to run the program on some collections data. In the Command Prompt/Terminal, navigate to the 'transformation-scripts' directory and run the following command, replacing the bracketed text with the correct information:
+When the setup processes described above are complete, you should be ready to run the program on some collections data. In the Command Prompt/Terminal, navigate to the `transformation-scripts` directory and run the following command, replacing the bracketed text with the correct information:
 
 `python extract_base_layer.py [location] [collection_type] [collection_subtype] [--decode]`
 
-The `location` argument is the name of a directory in the 'source-data' directory that contains the source data for your collection. The `collection_type` and `collection_subtype` arguments specify which [metadata element set](data-dictionary/introduction.md#metadata-element-sets) (archival, serial, monograph, mixed) and which type(s) of source data should be used to create the base layers. The valid options for these arguments are listed in the following table:
+The `location` argument is the name of a directory in the `source-data` directory that contains the source data for your collection. The `collection_type` and `collection_subtype` arguments specify which [metadata element set](data-dictionary/introduction.md#metadata-element-sets) (archival, serial, monograph, mixed) and which type(s) of source data should be used to create the base layers. The valid options for these arguments are listed in the following table:
 
 |collection types|collection sub-types|
 |---|---|
@@ -91,7 +91,7 @@ The `location` argument is the name of a directory in the 'source-data' director
 |**serial**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
 |**mixed**|{::nomarkdown}<ul><li>catalog</li><li>digital</li><li>mixed</li></ul>{:/}|
 
-The program includes a feature that decodes encoded values in the 'collection_language', 'language', and 'geographic_coverage' columns, using the dictionary in 'encoding_schemes.py'. To enable this feature, use the `--decode` argument. By default, this feature is disabled.
+The program includes a feature that decodes encoded values in the 'collection_language', 'language', and 'geographic_coverage' columns, using the dictionary in `encoding_schemes.py`. To enable this feature, use the `--decode` argument. By default, this feature is disabled.
 
 For example, your command should look something like this:
 
@@ -102,4 +102,4 @@ If you need help or a handy reference to run the program, you can call up the he
 `python extract_base_layer.py --help` or `python extract_base_layer.py -h`
 
 ### **Output**
-Output from the transformation process is written to the 'base-layers/[collection-name]' directory. The collection subdirectory will be created if it does not already exist. Within that location, the process creates two output files, one each for data at the item and collection level. Both files are encoded as UTF-8 comma-separated value (CSV) files. They collection-level output file will include the name of collection subdirectory in the 'source-data' directory followed by the suffix '_collection-base-layer.csv', such as 'american-left-ephemera_collection-base-layer.csv'. The name of the item-level file will include the collection subdirectory, and the suffix will depend on the specified collection type and subtype, such as 'american-left-ephemera_item-base-layer_archival-digital.csv'. If the source data contains no collection-level metadata (i.e., an EAD file), the collection base layer file will be empty. <!--This information can be added manually.-->
+Output from the transformation process is written to the `base-layers/*collection-name*` directory. The collection subdirectory will be created if it does not already exist. Within that location, the process creates two output files, one each for data at the item and collection level. Both files are encoded as UTF-8 comma-separated value (CSV) files. The collection-level output file will include the name of collection subdirectory in the `source-data` directory followed by the suffix `_collection-base-layer.csv`, such as `american-left-ephemera_collection-base-layer.csv`. The name of the item-level file will include the collection subdirectory, and the suffix will depend on the specified collection type and subtype, such as `american-left-ephemera_item-base-layer_archival-digital.csv`. If the source data contains no collection-level metadata (i.e., an EAD file), the collection base layer file will be empty. <!--This information can be added manually.-->
