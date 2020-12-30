@@ -31,7 +31,7 @@ If the collections data you want to work with is maintained by Pitt's library an
 
 ## Creating your own base layer
 ### **Obtain a copy of the CaD@Pitt Data Layers Repository**
-Download or clone (optionally, after forking) the [CaD@Pitt Data Layers Repository](https://github.com/CaDatPitt/data-layers). For instructions, see [Using the Repository: Download or Clone the Repository](03-using-the-repository.html#download-or-clone-the-repository).
+Download or clone (optionally, after forking) the [CaD@Pitt Data Layers Repository](https://github.com/CaDatPitt/data-layers). For instructions, see [Using the Repository: Getting Content from the Repository](03-using-the-repository.html#getting-content-from-the-repository).
 
 If you would rather not download or clone the entire repository, you can download the necessary source data and Python files (listed in the directory tree under 'transformation-scripts') to the run the program. All files should be placed within a standardized structure in the repository directories, as shown below:
 
