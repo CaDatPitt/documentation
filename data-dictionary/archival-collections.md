@@ -215,7 +215,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 |CSV Element|collection_language|
 |---|---|
-|**Description**|A language in which the materials in the collection is expressed.|
+|**Description**|A language in which the materials in the collection are expressed.|
 |**Required**|Yes|
 |**Repeatable**|Yes|
 |**Element(s)**|ead:archdesc[@level="collection"]/ead:did/ead:langmaterial/language[@langcode]|
