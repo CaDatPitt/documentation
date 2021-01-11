@@ -209,7 +209,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Notes**||
 |**Example(s)**|Oestreicher, Richard Jules, 1947-|
 
-[Jump to Collection Level](#collection-level);
+[Jump to Collection Level](#collection-level)
 
 #### LANGUAGE OF COLLECTION
 
