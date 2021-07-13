@@ -22,7 +22,7 @@ Creating base layers has two steps: obtaining the source data in the necessary f
 If the collections data you want to work with is maintained by Pitt's library and archives, this process can be done completely or in part by a request to the CaD@Pitt team. If you are working with your own collections data, or wish to customize the transformation process, you can do the transformation yourself. We describe the steps to run the data extraction and transformation program developed by the CaD@Pitt project below.
 
 ## Requesting data from CaD@Pitt
-1. User submits a {::nomarkdown}<a href='https://forms.gle/BgF3vsBHpXCCdNve7' target='_blank'>Source Data Request <font size='-1'><i class='fa fa-external-link'></i></font></a>{:/}.
+1. User submits a {::nomarkdown}<a href='https://forms.gle/BgF3vsBHpXCCdNve7' target='_blank'>Data Request <font size='-1'><i class='fa fa-external-link'></i></font></a>{:/}.
 2. CaD team member confirms request with user.
 3. CaD team member downloads source data from ULS's digital repository and/or catalog.
 4. CaD team member uploads source data to a `source-data` directory in the CaD@Pitt Data Layers Repository.
