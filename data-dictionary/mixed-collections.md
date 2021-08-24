@@ -2,7 +2,7 @@
 layout: default
 title: Archival Collection Metadata Element Set
 parent: Data Dictionary
-nav_order: 3
+nav_order: 6
 ---
 
 #### [Home](http://cadatpitt.github.io)
@@ -17,10 +17,10 @@ nav_order: 3
   </head>
 </html>
 
-# Archival Collection Metadata Element Set
+# Mixed Collection Metadata Element Set
 
 ## Metadata Element List
-Archival collections are described at the collection-level and the item-level and, thus, have two [2] base layer CSVs, one for each level of description.
+Mixed collections are described at the collection-level and the item-level and, thus, have two [2] base layer CSVs, one for each level of description.
 
 ### Collection Level
 * [Finding Aid Identifier](#finding-aid-identifier)
@@ -48,11 +48,25 @@ Archival collections are described at the collection-level and the item-level an
 ### Item Level
 * [Identifier](#identifier)
 * [Title](#title)
+* [Uniform Title](#uniform-title)
+* [Alternative Title](#alternative-title)
+* [Enumeration and Chronology](#enumeration-and-chronology) (digital only)
 * [Creator](#creator)
 * [Contributor](#contributor)
-* [Creation Date](#creation-date)
+* [Associated Name](#associated-name)
+* [Publication Place](#publication-place)
+* [Publisher](#publisher)
+* [Publication Date](#publication-date)
 * [Sort Date](#sort-date)
+* [Start Date](#start-date)
+* [End Date](#end-date)
+* [Encoded Date](#encoded-date)
+* [Creation Date](#creation-date)
 * [Display Date](#display-date)
+* [Copyright Date](#copyright-date)
+* [Edition](#edition)
+* [Issuance](#issuance)
+* [Frequency](#frequency)
 * [Language](#language)
 * [Type of Resource](#type-of-resource)
 * [Format](#format)
@@ -62,6 +76,18 @@ Archival collections are described at the collection-level and the item-level an
 * [Subject](#subject)
 * [Temporal Coverage](#temporal-coverage)
 * [Geographic Coverage](#geographic-coverage)
+* [Target Audience](#target-audience)
+* [Preceded By](#preceded-by)
+* [Succeeded By](#succeeded-by)
+* [Copyright Status](#copyright-status) (digital only)
+* [Copyright Holder](#copyright-holder) (digital only)
+* [Copyright Note](#copyright-note) (digital only)
+* [Record Identifier](#record-identifier)
+* [ISBN](#isbn)
+* [ISSN](#issn)
+* [LCCN](#lccn)
+* [OCLCCN](#oclccn)
+* [URL](#url)
 * [Host](#host)
 * [Series of Collection](#series-of-collection)
 * [Container](#container)
@@ -391,21 +417,6 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Collection Level](#collection-level) &nbsp;\|&nbsp; [Jump to Item Level](#item-level)
 
-#### COLLECTION IDENTIFIER
-
-|CSV Element|collection_id|
-|---|---|
-|**Description**|A digital collection to which the resource belongs.|
-|**Required**|Yes|
-|**Repeatable**|Yes|
-|**Element Node(s)**|rdf:Description/fedora:isMemberOfCollection[@rdf:resource]|
-|**Dublin Core Mapping**|dc.relation|
-|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
-|**Notes**|Alpha-numeric string with special characters, i.e. a colon (:) and a period (.), formatted as follows: pitt:collection_nnn|
-|**Example(s)**|pitt:collection.299|
-
-[Jump to Item Level](#item-level)
-
 &nbsp;
 
 ### Item Level
@@ -440,6 +451,52 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
+#### UNIFORM TITLE
+
+|CSV Element|uniform title|
+|---|---|
+|**Description**|A distinctive title assigned to a work which has no title or has appeared under more than one title; also used to provide identification for a work when the title by which it is known differs from the title proper of a particular issue or when different publications have identical titles.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:titleInfo[@type="uniform"]/mods:title|
+|**Dublin Core Mapping**|dc.title|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>Courier (Pittsburgh, Pa. : City edition</a></li><li>Shooting star review</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### ALTERNATIVE TITLE
+
+|CSV Element|alternative title|
+|---|---|
+|**Description**|An alternative form or variant of the title.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:titleInfo[@type="alternative"]/mods:title|
+|**Dublin Core Mapping**|dc.title|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>CriSTaL</li><li>Shooting star</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### ENUMERATION AND CHRONOLOGY
+
+|CSV Element|enumeration_chronology|
+|---|---|
+|**Description**|A numeric and/or alphabetic designation used to identify the resource and its sequential and/or chronological relationship to a serial, of which it is a part, as a whole.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:titleInfo/partNumber|
+|**Dublin Core Mapping**|dc.title|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.niso.org/publications/z3971-2006-r2011" target="_blank">ANSI/NISO Z39.71-2006 (R2011) Holdings Statements for Bibliographic Items</a></li><li>NISO Z39.44 Serial Holdings Standard (superseded by ANSI/NISO Z39.71-2006)</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Notes**||
+|**Example(s)**|vol. 12, no. 8|
+
+[Jump to Item Level](#item-level)
+
+
 #### CREATOR
 
 |CSV Element|creator|
@@ -470,18 +527,63 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
-#### CREATION DATE
+#### ASSOCIATED NAME
 
-|CSV Element|creation_date|
+|CSV Element|associated_name|
 |---|---|
-|**Description**|A date associated with the creation of the resource.|
+|**Description**|A name of an entity associated in some way with the resource.|
 |**Required**|No|
-|**Repeatable**|No|
-|**Element(s)**|mods:originInfo/mods:dateCreated|
-|**Dublin Core Mapping**|dc.date|
-|**Vocabulary/Encoding Scheme(s)**||
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:name/mods:namePart _with_ mods:role/mods:roleterm{::nomarkdown}<ul><li>Exception for possible @roleTerm attribute values: depositor</li></ul>{:/}|
+|**Dublin Core Mapping**|{::nomarkdown}<ul><li>dc.creator</li><li>dc.contributor</li></ul>{:/}|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No limitations.</li><li><a href="https://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
+|**Notes**|Multiple values within the <mods:name> element are separated by comma (,).|
+|**Example(s)**|{::nomarkdown}<ul><li>International Union of Mine, Mill, and Smelter Workers</li><li>Meinhof, Carl, 1857-1944</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### PUBLICATION PLACE
+
+|CSV Element|publication_place|
+|---|---|
+|**Description**|Name of a place associated with the publication or issuance of the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:originInfo/mods:place/mods:placeTerm[@type="text]|
+|**Dublin Core Mapping**|dc.publisher|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/countries/countries_code.html" target="_blank">MARC Code List for Countries</a></li><li><a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 — Country Codes</a></li></ul>{:/}|
 |**Notes**||
-|**Example(s)**|{::nomarkdown}<ul><li>1872</li><li>1972-2010</li><li>1940/1950</li><li>184u/uuuu</li><li>1962-01-29</li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>Berlin [etc.]</li><li>Minneapolis and St. Paul</li><li>Petersburg, VA</li><li>New Delhi]</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### PUBLISHER
+
+|CSV Element|publisher|
+|---|---|
+|**Description**|A name of an entity that published, printed, distributed, released, issued, or produced the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:publisher</li><li>mods:name/namePart <em>with</em> mods:role/mods:roleTerm="publisher"</li></ul>{:/}|
+|**Dublin Core Mapping**|dc.publisher|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul><li>Free text. No Limitations.</li><li><a href="http://id.loc.gov/authorities/names.html" target="_blank">Library of Congress Name Authority File (LCNAF)</a></li></ul>{:/}|
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>Afro-Hispanic Institute</li><li>Sandra Gould Ford</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### PUBLICATION DATE
+
+|CSV Element|publication_date|
+|---|---|
+|**Description**|A date associated with the publication or issuance of the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued</li><li>mods:originInfo/mods:dateOther[@type="sort"] <strong>(digital only)</strong></li></ul>{:/}|
+|**Dublin Core Mapping**|dc.date|
+|**Vocabulary/Encoding Scheme(s)**|
+|**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 260 - Publication, Distribution, etc.](https://www.loc.gov/marc/bibliographic/bd260.html).|
+|**Example(s)**|{::nomarkdown}<ul><li>1994]-</li><li>2011-</li><li>1940-02-01T00:00:00 <strong>(digital only)</strong></li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -500,6 +602,66 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
+#### START DATE
+
+|CSV Element|start_date|
+|---|---|
+|**Description**|A date associated with the beginning of publication of the resource or the serial of which it is a part.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued[@point="start"]</li><li>mods:originInfo/mods:dateCreated[@point="start"] <strong>(digital only)</strong></li></ul>{:/}|
+|**Dublin Core Mapping**|dc.date|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 008 - All Materials (NR)](https://www.loc.gov/marc/bibliographic/bd008a.html).|
+|**Example(s)**|{::nomarkdown}<ul><li>19uu</li><li>1965</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### END DATE
+
+|CSV Element|end_date|
+|---|---|
+|**Description**|A date associated with the end of publication of the resource or the continuing resource (e.g., serial) of which it is a part.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:originInfo/mods:dateIssued[@point="end"]</li><li>mods:originInfo/mods:dateCreated[@point="end"]</li></ul>{:/}|
+|**Dublin Core Mapping**|dc.date|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>1992</li><li>9999</li><li>uuuu</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### ENCODED DATE
+
+|CSV Element|encoded_date|
+|---|---|
+|**Description**|A date associated with the creation of the resource and encoded for sorting or other purposes that necessitate normalization.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:originInfo/mods:dateIssued[@encoding="marc"]{::nomarkdown}<ul><li><em>with</em> @encoding="start"</li><li><em>with</em> @encoding="end"</ul>{:/}|
+|**Dublin Core Mapping**|dc.date|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Notes**|{::nomarkdown}<ul><li>Dates in this field may fall under the following cases:</li><ul><li>Before Common Era (B.C.E.) date</li><li>publication or copyright date</li><li>reprint/reissue date or original date</li><li>modification or creation date</li><li>incorrect date</li><li>date span when resources are valid</li><li>date span recorded in addition to appearing elsewhere</li><li>date range of publication of a multipart item</li><li>date range with earliest and latest possible dates for a questionable date</li></ul><li>Start and end date values are combined and separated by a forward slash (/).</li><li>For more information, see <a href="https://www.loc.gov/marc/bibliographic/bd008a.html" target="_blank">MARC 21 Format for Bibliographic Data  — 008 - All Materials (NR)</a> and <a href="https://www.loc.gov/marc/bibliographic/bd046.html" target="_blank">MARC 21 Format for Bibliographic Data  — 046 - Special Coded Dates.</a></li></ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul></li><li>[191-?]</li><li>1910/1919</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### CREATION DATE
+
+|CSV Element|creation_date|
+|---|---|
+|**Description**|A date associated with the creation of the resource.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element(s)**|mods:originInfo/mods:dateCreated|
+|**Dublin Core Mapping**|dc.date|
+|**Vocabulary/Encoding Scheme(s)**||
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>1872</li><li>1972-2010</li><li>1940/1950</li><li>184u/uuuu</li><li>1962-01-29</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
 #### DISPLAY DATE
 
 |CSV Element|display_date|
@@ -512,6 +674,66 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
 |**Notes**||
 |**Example(s)**|{::nomarkdown}<ul><li>November 23, 2004</li><li>1977</li><li>ca. 1950-1960</li><li>Undated</li><li>Post-marked October 31, 1888</li><li>Likely during 80's</li><li>[189?]</li><li>February 9</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### COPYRIGHT DATE
+
+|CSV Element|copyright_date|
+|---|---|
+|**Description**|A date associated with the creation and copyrighting of the resource; to be used to determine copyright status.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:originInfo/mods:copyrightDate|
+|**Dublin Core Mapping**|dc.date|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/" target="_blank">MARC 21 Format for Bibliographic Data</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Notes**|For more information, see [MARC 21 Format for Bibliographic Data  — 008 - All Materials (NR)](https://www.loc.gov/marc/bibliographic/bd008a.html).|
+|**Example(s)**|1940|
+
+[Jump to Item Level](#item-level)
+
+#### EDITION
+
+|CSV Element|edition|
+|---|---|
+|**Description**|An identification of the version of the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:originInfo/mods:edition|
+|**Dublin Core Mapping**|dc.title|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>2. vydání.</li><li>Fifth edition.</li><li>[1st ed.].</li><li>Running Press miniature ed.</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### ISSUANCE
+
+|CSV Element|issuance|
+|---|---|
+|**Description**|A term that designates how the resource is issued (e.g., monographic, serial, continuing).|
+|**Required**|Yes|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:originInfo/mods:issuance|
+|**Dublin Core Mapping**|n/a|
+|**Vocabulary/Encoding Scheme(s)**|**Restricted schema data values for issuance subelement**: serial, monographic, multipart monograph, single unit, integrating resource|
+|**Notes**|For more information, see [MARC Mapping to MODS for the \<originInfo\>](https://www.loc.gov/standards/mods/mods-mapping.html#publication).|
+|**Example(s)**|monographic|
+
+[Jump to Item Level](#item-level)
+
+#### FREQUENCY
+
+|CSV Element|frequency|
+|---|---|
+|**Description**|A statement of publication frequency or pattern of the resource or the serial of which it is a part.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:originInfo/mods:frequency|
+|**Dublin Core Mapping**|n/a|
+|**Vocabulary/Encoding Scheme(s)**|[MARC 21 Frequency of Issue Term List](https://www.loc.gov/standards/valuelist/marcfrequency.html)|
+|**Notes**||
+|**Example(s)**|{::nomarkdown}<ul><li>Weekly</li><li>Unknown</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
 
@@ -650,6 +872,186 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 
 [Jump to Item Level](#item-level)
 
+#### TARGET AUDIENCE
+
+|CSV Element|target_audience|
+|---|---|
+|**Description**|A description of the intellectual level, motivation/interest level, subject interest, or special characteristics of the audience for which the resource is intended.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:targetAudience|
+|**Dublin Core Mapping**|n/a|
+|**Vocabulary/Encoding Scheme(s)**|{::nomarkdown}<ul></li><li><a href="https://www.loc.gov/marc/bibliographic/bd521.html" target="_blank">MARC 21 Format for Bibliographic Data  — 521 - Target Audience Note</a></li><li><a href="https://www.loc.gov/standards/valuelist/marctarget.html" target="_blank">MARC Target Audience Term List</li><li><a href="https://medietilsynet.no/barn-og-medier/aldersgrenser/" target="_blank">Medietilsynets aldersmerking for film (Medietilsynet)</a></li><li><a href="https://bibliotekutvikling.no/ressurser/kunnskapsorganisering/verktoykasse-for-kunnskapsorganisering/vokabularer/" target="_blank">Målgrupper (National Library of Norway)</a></li><li><a href="http://www.pegi.info/en/index/id/33/" target="_blank">Age ratings for computer games (Pan European Game Information (PEGI)</a></li><li>Free text. No limitations.</li></ul>{:/}|
+|**Notes**||
+|**Example(s)**|juvenile|
+
+[Jump to Item Level](#item-level)
+
+#### PREECEDED BY
+
+|CSV Element|preceeded_by|
+|---|---|
+|**Description**|A predecessor to the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:relatedItem[@type="preceding"]|
+|**Dublin Core Mapping**|dc.relation|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|Semi-weekly Louisianian|
+
+[Jump to Item Level](#item-level)
+
+#### SUCCEDED BY
+
+|CSV Element|succeeded_by|
+|---|---|
+|**Description**|A successor to the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:relatedItem[@type="succeeding"]|
+|**Dublin Core Mapping**|dc.relation|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|Beeton's boy's annual|
+
+[Jump to Item Level](#item-level)
+
+#### COPYRIGHT STATUS
+
+|CSV Element|copyright_status|
+|---|---|
+|**Description**|An indication of the copyright status for the resource.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:accessCondition/copyrightMD:copyright[@copyright.status]|
+|**Dublin Core Mapping**|dc.rights|
+|**Vocabulary/Encoding Scheme(s)**|**Restricted scheme data values for typeOfResource element**:&nbsp;{::nomarkdown}<ul><li>copyrighted — Under copyright.</li><li>pd — Public domain: No further information.</li><li>pd_usfed — Public domain: US Federal document.</li><li>pd_holder — Public domain: Item dedicated to the public domain by the rights holder.</li><li>pd_expired — Public domain: Item in the public domain because of expiration of copyright based on U.S. law.</li><li>unknown — Copyright status of the resource is unknown.</li></ul>{:/}|
+|**Notes**||
+|**Example(s)**|copyrighted|
+
+[Jump to Item Level](#item-level)
+
+#### COPYRIGHT HOLDER
+
+|CSV Element|copyright_holder|
+|---|---|
+|**Description**|A name of either an entity responsible for creating the resource or an entity identified as a copyright holder for the resource.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:accessCondition/copyrightMD:copyright/copyrightMD:name|
+|**Dublin Core Mapping**|dc.rights|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|Sandra Gould Ford|
+
+[Jump to Item Level](#item-level)
+
+#### COPYRIGHT NOTE
+
+|CSV Element|copyright_note|
+|---|---|
+|**Description**|A general note relating to one of the following aspects of the resource: its creator(s), its publication, its rights holder(s), or services available pertaining to it.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:accessCondition/copyrightMD:copyright/copyrightMD:note|
+|**Dublin Core Mapping**|dc.rights|
+|**Vocabulary/Encoding Scheme(s)**|Free text. No limitations.|
+|**Notes**||
+|**Example(s)**|Permission granted by owner/publisher|
+
+[Jump to Item Level](#item-level)
+
+#### Record Identifier
+
+|CSV Element|record_id|
+|---|---|
+|**Description**|A unique identifier that serves as an unambiguous reference to the resource in the institutional catalog system.|
+|**Required**|Yes|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:recordInfo/mods:recordIdentifier|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|Must be a unique string in the catalog system.|
+|**Notes**|Numeric code.|
+|**Example(s)**|{::nomarkdown}<ul><li>9939005533406236</li><li>3900553</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### ISBN
+
+|CSV Element|isbn|
+|---|---|
+|**Description**|International Standard Book Number: A numeric commercial book identifier that is intended to be a unique and unambiguous reference to the resource to distinguish it from other books worldwide.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:identifier[@type="isbn"]|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|[ISBN Standard](https://www.isbn.org/about_ISBN_standard)|
+|**Notes**|A 10- or 13-digita numeric code, sometimes followed by a parenthetical indication of the edition of the book (e.g., hardback, paperback, audiobook, e-book).|
+|**Example(s)**|9781250012579 (hardback)|
+
+[Jump to Item Level](#item-level)
+
+#### ISSN
+
+|CSV Element|issn|
+|---|---|
+|**Description**|International Standard Serial Number: A persistent and unique identifier that serves as an unambiguous reference to the resource to distinguish it from other continuing resources worldwide.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:identifier[@type="issn"]|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|[International Standard Serial Number (ISSN)](https://www.issn.org/)|
+|**Notes**|An 8-digit numeric code, divided by a hyphen into two four-digit numbers.|
+|**Example(s)**|0744-7647|
+
+[Jump to Item Level](#item-level)
+
+#### LCCN
+
+|CSV Element|lccn|
+|---|---|
+|**Description**|Library of Congress Control Number: A persistent and unique identifier that serves as an unambiguous reference to the resource to distinguish it from other resources worldwide.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|mods:identifier[@type="lccn"]|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|[LC (Library of Congress) control numbering system](http://www.loc.gov/marc/lccn_structure.html)|
+|**Notes**|A numeric code.|
+|**Example(s)**|04014482|
+
+[Jump to Item Level](#item-level)
+
+#### OCLCCN
+
+|CSV Element|oclccn|
+|---|---|
+|**Description**|Online Computer Library Center Control Number: A persistent and unique identifier that serves as an unambiguous reference to the resource to distinguish it from other resources in the WorldCat and other bibliographic contexts.|
+|**Required**|No|
+|**Repeatable**|No|
+|**Element Node(s)**|{::nomarkdown}<ul><li>mods:identifier[@type="oclc"]</li><li>mods:identifier[@type="local"] when value contains "(OCoLC)"</li></ul>{:/}|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|[OCLC Control Number](https://www.oclc.org/ )|
+|**Notes**|{::nomarkdown}<ul><li>A numeric or alph-numeric string.</li><li>For more information, see <a href="https://www.oclc.org/developer/news/2012/oclc-control-number-expansion-in-2013.en.html" target="_blank">"OCLC control number expansion in 2013"</a>.</ul>{:/}|
+|**Example(s)**|{::nomarkdown}<ul><li>04184089</li><li>(OCoLC)760926034</li></ul>{:/}|
+
+[Jump to Item Level](#item-level)
+
+#### URL
+
+|CSV Element|url|
+|---|---|
+|**Description**|A Uniform Resource Location (URL) of the resource; an electronic location from which the resource is available.|
+|**Required**|No|
+|**Repeatable**|Yes|
+|**Element Node(s)**|mods:location/mods:url|
+|**Dublin Core Mapping**|dc.identifier|
+|**Vocabulary/Encoding Scheme(s)**|[Uniform Resource Location (URL)](https://www.w3.org/Addressing/URL/url-spec.html)|
+|**Notes**|URL links to proprietary resources include an EZProxy URL to enable access to library e-resources from off campus.|
+|**Example(s)**|http://pitt.idm.oclc.org/login?url=http://www.jstor.org/journals/10624783.html|
+
+[Jump to Item Level](#item-level)
+
 #### HOST
 
 |CSV Element|host|
@@ -726,6 +1128,7 @@ Multiple element values are separated by a triple pipe (`|||`) unless stated oth
 |**Example(s)**|{::nomarkdown}<ul><li>University of Pittsburgh</li><li>African American Chamber of Commerce of Western Pennsylvania</li><li>Rodef Shalom Congregation</li></ul>{:/}|
 
 [Jump to Item Level](#item-level)
+
 
 #### COLLECTION IDENTIFIER
 

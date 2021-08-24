@@ -2,7 +2,7 @@
 layout: default
 title: Metadata Element Set Chart
 parent: Data Dictionary
-nav_order: 7
+nav_order: 8
 ---
 
 #### [Home](http://cadatpitt.github.io)

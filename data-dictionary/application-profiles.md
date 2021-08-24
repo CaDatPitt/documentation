@@ -2,7 +2,7 @@
 layout: default
 title: Application Profiles
 parent: Data Dictionary
-nav_order: 6
+nav_order: 7
 ---
 
 #### [Home](http://cadatpitt.github.io)
