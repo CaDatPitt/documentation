@@ -59,7 +59,7 @@ Mixed collections include a combination of archival, serial, and/or monographic 
 * [Copyright Status](#copyright-status) (digital only)
 * [Copyright Holder](#copyright-holder) (digital only)
 * [Copyright Note](#copyright-note) (digital only)
-* [Record Identifier](#record-identifier)
+* [Record Identifier](#record-identifier) (digital only)
 * [ISBN](#isbn)
 * [ISSN](#issn)
 * [LCCN](#lccn)

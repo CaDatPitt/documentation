@@ -37,7 +37,7 @@ Monograph collections may contain items from the catalog and/or the digital repo
 * [Temporal Coverage](#temporal-coverage)
 * [Geographic Coverage](#geographic-coverage)
 * [Target Audience](#target-audience)
-* [Record Identifier](#record-identifier)
+* [Record Identifier](#record-identifier) (digital only)
 * [ISBN](#isbn)
 * [LCCN](#lccn)
 * [OCLCCN](#oclccn)

@@ -41,7 +41,7 @@ Serial collections may contain items from the catalog and/or the digital reposit
 * [Copyright Status](#copyright-status) (digital only)
 * [Copyright Holder](#copyright-holder) (digital only)
 * [Copyright Note](#copyright-note) (digital only)
-* [Record Identifier](#record-identifier)
+* [Record Identifier](#record-identifier) (digital only)
 * [ISSN](#issn)
 * [LCCN](#lccn)
 * [OCLCCN](#oclccn)
